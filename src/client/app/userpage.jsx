@@ -59,6 +59,8 @@ class UserPage extends React.Component {
   }
 
   songsFilter(search_term, level_field){
+    console.log(search_term === "")
+    console.log(level_field === "")
     var diffs = ["b_disabled", "n_disabled", "h_disabled", "a_disabled"]
     var filter_songs = this.state.version_songs.map(function(obj){
       var version_songs = obj.filter(function(song){
@@ -206,18 +208,19 @@ class UserPage extends React.Component {
     var current_song_requests = (this.state.requests.length === 0 ? "" : this.state.requests.reduce(function(str1, str2){
       return str1 + ", " + str2
     }))
+    var x = 0;
     var orig_song_list = (this.state.search_term === '' && this.state.level_field === '') ? this.state.version_songs : this.state.filtered_songs;
+    console.log((this.state.search_term === '' && this.state.level_field === ''))
     console.log(orig_song_list)
     var orig_songs_rendered = orig_song_list.map(function(obj){
-      var version_songs = obj["songs"]
-      var version = obj["version"]
-      if(version_songs.length > 0){
+      var version_songs = obj
+      if(obj.length > 0){
+        var version = obj[0]["version"]
         var version_songs_rendered = version_songs.map(function(song){
           return(
             <OrigSongList song={song} key={"original_"+song["id"]+"_"+version} />
           )
         })
-        console.log(version_songs_rendered)
         return(
           <tbody>
             <tr className="d-flex">
@@ -227,7 +230,13 @@ class UserPage extends React.Component {
           </tbody>
         )
       }
-      else return null
+      else return(
+        <tbody>
+          <tr className="d-flex">
+            <th scope="col" className="col-12">{version} HA</th>
+          </tr>
+        </tbody>
+      )
     })
 
     var str_diffs = ["Beginner", "Normal", "Hyper", "Another"];
@@ -302,7 +311,6 @@ class OrigSongList extends React.Component{
   }
 
   render(){
-    console.log(this.props.song)
     var button_style = {
       float: "right"
     }
