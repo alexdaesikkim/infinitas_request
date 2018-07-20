@@ -36,7 +36,6 @@ song_dict = {}
 #REMINDER: leggendarias are separate difficulty due to reasons
 #also, remove (HCN ver.) before creating key
 
-#reminder to self for DDR: BSP, two of them exist. differentiate beginner
 
 print ("Grabbing data...")
 
@@ -64,9 +63,9 @@ diff_options = {
 
 song_count = 0
 
-def get_song(difficulty, version, title, artist, genre, bpm, default):
+def get_song(difficulty, title, artist, genre, bpm, default):
     global song_count
-    key = title + " " + artist + " " + version + " " + bpm
+    key = title + " " + artist + " " + bpm
     if key not in song_dict:
         data = {
             "title": title,
@@ -74,29 +73,48 @@ def get_song(difficulty, version, title, artist, genre, bpm, default):
             "genre": genre,
             "bpm": bpm,
             "difficulty": difficulty,
-            "version": version,
             "default": default,
             "id": 0
         }
         song_dict[key] = True
-        songs.append(data)
         song_count = song_count + 1
+        return data
+    else:
+        return "already exists"
 
 leggendaria = "LEGGENDARIA"
 leggendaria_mark = "†"
 hcn = "(HCN Ver.)"
 
 def parse_raw(rows):
+    count = 0
+    version_id = 0
+    version_songs = []
+    version = ""
     for row in rows:
         cols = row.find_all('td')
         if len(cols) == 1:
             if(re.match("beatmania", cols[0].text)):
+                #if(version != ""):
+                    #songs[version]["count"] = count
+                    #count = 0
+                if(version != ""):
+                    d = {
+                        "version": version,
+                        "version_id": version_id,
+                        "count": len(version_songs),
+                        "songs": version_songs
+                    }
+                    songs.append(d)
+                    version_id += 1
                 version = cols[0].text
                 if(version.endswith(" ▲ ▼ △")):
                     version = version[:-6]
                 if(version.endswith(" ▲ △") or version.endswith(" ▼ △")):
                     version = version[:-4]
+                version_songs = []
         if len(cols) == 12:
+            count += 1
             #basic
             #if it ends in leggendaria, there's only another difficulty
             #if it ends with hcn just nope
@@ -111,15 +129,25 @@ def parse_raw(rows):
                 "3": get_level(cols[4])
             }
             default = True
+            print(version)
             if(cols[0].text != ''):
                 default = False
             if title.endswith(leggendaria_mark) or title.endswith(leggendaria):
                 print("when did this leak into the game LOL")
             elif not title.endswith(hcn):
                 if title.startswith('[N]'):
-                    get_song(difficulty, version, "Evans", artist, genre, bpm, default)
+                    data = get_song(difficulty, "Evans", artist, genre, bpm, default)
+                    version_songs.append(data)
                 else:
-                    get_song(difficulty, version, title, artist, genre, bpm, default)
+                    data = get_song(difficulty, title, artist, genre, bpm, default)
+                    version_songs.append(data)
+    d = {
+        "version": version,
+        "version_id": version_id,
+        "count": len(version_songs),
+        "songs": version_songs
+    }
+    songs.append(d)
     return
 
 parse_raw(infinitas_rows)
@@ -136,25 +164,33 @@ if os.path.isfile("src/client/app/infinitas.json"):
     with open('src/client/app/infinitas.json') as file:
         data = json.load(file)
         data_songs = data["songs"]
-        count = data["songcount"]
     print("success")
-    x = 0
-    c = count
-    for y in range(song_count):
-        if x >= count or (data_songs[x]["title"] != songs[y]["title"]):
-            songs[y]["id"] = c
-            c += 1
-        else:
-            songs[y]["id"] = data_songs[x]["id"]
-            x += 1
-        print(str(x) + " " + str(y))
+    # have to count both
+    # huge chance new list might have more versions
+    old_index = 0
+    for new_index in range(len(songs)):
+        if(data_songs[old_index]["version"] != songs[new_index]["version"]):
+            for n in range(len(songs[new_index]["songs"])):
+                songs[new_index]["songs"][n]["id"] = n
+            new_index += 1
+        elif(data_songs[old_index]["count"] != songs[new_index]["count"]):
+            new_id = data_songs[old_index]["count"]
+            o = 0
+            for n in range(songs[new_index]["count"]):
+                if(o >= data_songs[old_index]["count"] or data_songs[old_index]["songs"][o]["title"] != songs[new_index]["songs"][n]["title"]):
+                    songs[new_index]["songs"][n]["id"] = new_i
+                    new_id += 1
+                else:
+                    songs[new_index]["songs"][n]["id"] = data_songs[old_index]["songs"][o]["id"]
+                    o += 1
+            old_index += 1
 else:
-    for x in range(song_count):
-        songs[x]["id"] = x
+    for version in range(len(songs)):
+        for index in range(songs[version]["count"]):
+            songs[version]["songs"][index]["id"] = index
 
 final_data = {
     "id": "beatmaniaiidxINFINITAS",
-    "songcount": song_count,
     "songs": songs
 }
 

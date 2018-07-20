@@ -1,6 +1,6 @@
 import React from 'react';
 import {render} from 'react-dom';
-import song_list from './sinobuz.json';
+import song_list from './infinitas.json';
 import socketIOClient from 'socket.io-client';
 const socket = socketIOClient();
 
@@ -8,9 +8,9 @@ class UserPage extends React.Component {
   constructor(props){
     super(props);
     var raw_songs = []
-    song_list.map(function(obj){
-      var version = Object.keys(obj)[0];
-      var version_songs = obj[version];
+    song_list["songs"].map(function(obj){
+      var version = obj["version"];
+      var version_songs = obj["songs"];
       version_songs.map(function(song){
         var object = song;
         object["b_queue"] = false;
@@ -26,10 +26,9 @@ class UserPage extends React.Component {
         return song
       })
     })
-    var songs = song_list
-    var version_lengths = song_list.map(function(obj){
-      var version = Object.keys(obj)[0];
-      return obj[version].length;
+    var songs = song_list["songs"]
+    var version_lengths = song_list["songs"].map(function(obj){
+      return obj["count"]
     })
     //remember: filtered songs is SEARCH filter
     //with queue_id, need to update filtered songs AND regular list as well
@@ -109,8 +108,9 @@ class UserPage extends React.Component {
 
   updated_list(queue){
     var updated_list = this.state.version_songs.map(function(obj){
-      var version = Object.keys(obj)[0]
-      var version_songs = obj[version].map(function(song){
+      var version = obj["version"]
+      console.log(version)
+      var version_songs = obj["songs"].map(function(song){
         var object = song;
         var beginner = "b"+song.id.toString()
         var normal = "n"+song.id.toString()
@@ -122,7 +122,7 @@ class UserPage extends React.Component {
         object.a_queue = (queue.includes(another) ? true : false);
         return object;
       })
-      var version_obj = obj;
+      var version_obj = obj["songs"];
       version_obj[version] = version_songs;
       return version_obj
     })

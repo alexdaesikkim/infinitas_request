@@ -19,6 +19,6 @@ with open('sinobuz_temp.json') as file:
         data.append(obj)
 print ("Finished reading")
 
-with open('sinobuz.json', 'w') as file:
+with open('infinitas.json', 'w') as file:
     json.dump(data, file, indent=2, sort_keys=True)
 print ("Finished writing")

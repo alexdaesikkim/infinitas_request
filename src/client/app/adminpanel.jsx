@@ -1,6 +1,6 @@
 import React from 'react';
 import {render} from 'react-dom';
-import song_list from './sinobuz.json';
+import song_list from './infinitas.json';
 import socketIOClient from 'socket.io-client';
 const socket = socketIOClient();
 
