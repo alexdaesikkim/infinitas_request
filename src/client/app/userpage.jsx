@@ -61,8 +61,7 @@ class UserPage extends React.Component {
   songsFilter(search_term, level_field){
     var diffs = ["b_disabled", "n_disabled", "h_disabled", "a_disabled"]
     var filter_songs = this.state.version_songs.map(function(obj){
-      var version = Object.keys(obj)[0]
-      var version_songs = obj[version].filter(function(song){
+      var version_songs = obj.filter(function(song){
         var object = song;
         if(!(object.title.toLowerCase().includes(search_term))){
           return false;
@@ -77,7 +76,7 @@ class UserPage extends React.Component {
       })
       if(version_songs.length > 0){
         var return_obj = {}
-        return_obj[version] = version_songs
+        return_obj = version_songs
         return return_obj
       }
       else return null;
@@ -109,7 +108,6 @@ class UserPage extends React.Component {
   updated_list(queue){
     var updated_list = this.state.version_songs.map(function(obj){
       var version = obj["version"]
-      console.log(version)
       var version_songs = obj["songs"].map(function(song){
         var object = song;
         var beginner = "b"+song.id.toString()
@@ -177,8 +175,7 @@ class UserPage extends React.Component {
       var diff_constraints = data.diff_constraints;
       var level_constraints = data.level_constraints;
       var updated_list = this.state.version_songs.map(function(obj){
-        var version = Object.keys(obj)[0]
-        var version_songs = obj[version].map(function(song){
+        var version_songs = obj.map(function(song){
           var object = song;
           var beginner = "b"+song.id.toString()
           var normal = "n"+song.id.toString()
@@ -190,8 +187,7 @@ class UserPage extends React.Component {
           object.a_disabled = (diff_constraints[3] || level_constraints[object.difficulty[3]-1]);
           return object;
         })
-        var version_obj = obj;
-        version_obj[version] = version_songs;
+        var version_obj = version_songs;
         return version_obj
       })
       this.setState({
