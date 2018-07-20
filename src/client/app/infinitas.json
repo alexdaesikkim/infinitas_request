@@ -1,0 +1,5691 @@
+{
+  "id": "beatmaniaiidxINFINITAS",
+  "songcount": 379,
+  "songs": [
+    {
+      "artist": "SLAKE",
+      "bpm": "102",
+      "default": true,
+      "difficulty": {
+        "0": -1,
+        "1": 1,
+        "2": 1,
+        "3": -1
+      },
+      "genre": "BIG BEAT",
+      "id": 0,
+      "title": "GAMBOL",
+      "version": "beatmania IIDX"
+    },
+    {
+      "artist": "TAKA",
+      "bpm": "\u203b",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 6,
+        "3": 7
+      },
+      "genre": "DIGI-ROCK",
+      "id": 1,
+      "title": "GRADIUSIC CYBER",
+      "version": "beatmania IIDX"
+    },
+    {
+      "artist": "tiger YAMATO",
+      "bpm": "157",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 5,
+        "3": 6
+      },
+      "genre": "RAVE",
+      "id": 2,
+      "title": "R3",
+      "version": "beatmania IIDX"
+    },
+    {
+      "artist": "SLAKE",
+      "bpm": "135",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 3,
+        "2": 4,
+        "3": 5
+      },
+      "genre": "TECHNO",
+      "id": 3,
+      "title": "22DUNK",
+      "version": "beatmania IIDX"
+    },
+    {
+      "artist": "dj nagureo",
+      "bpm": "101",
+      "default": true,
+      "difficulty": {
+        "0": -1,
+        "1": 1,
+        "2": 6,
+        "3": 10
+      },
+      "genre": "PIANO AMBIENT",
+      "id": 4,
+      "title": "5.1.1.",
+      "version": "beatmania IIDX"
+    },
+    {
+      "artist": "NAOKI",
+      "bpm": "150",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 3,
+        "2": 4,
+        "3": 4
+      },
+      "genre": "EURO GROOVE",
+      "id": 5,
+      "title": "BRILLIANT 2U",
+      "version": "beatmania IIDX substream"
+    },
+    {
+      "artist": "L.E.D.LIGHT",
+      "bpm": "150",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 3,
+        "2": 6,
+        "3": 9
+      },
+      "genre": "TRANCE",
+      "id": 6,
+      "title": "GENOM SCREAMS",
+      "version": "beatmania IIDX substream"
+    },
+    {
+      "artist": "N.M.R.",
+      "bpm": "132",
+      "default": true,
+      "difficulty": {
+        "0": -1,
+        "1": 1,
+        "2": 3,
+        "3": -1
+      },
+      "genre": "DANCE POP",
+      "id": 7,
+      "title": "KEEP ON MOVIN'",
+      "version": "beatmania IIDX substream"
+    },
+    {
+      "artist": "190",
+      "bpm": "190",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 6,
+        "3": 8
+      },
+      "genre": "JUNGLE",
+      "id": 8,
+      "title": "PARANOIA MAX\u301cDIRTY MIX\u301c",
+      "version": "beatmania IIDX substream"
+    },
+    {
+      "artist": "L.E.D.LIGHT",
+      "bpm": "145",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 7,
+        "3": 8
+      },
+      "genre": "TRANCE",
+      "id": 9,
+      "title": "THE EARTH LIGHT",
+      "version": "beatmania IIDX substream"
+    },
+    {
+      "artist": "good-cool",
+      "bpm": "140",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 2,
+        "2": 3,
+        "3": -1
+      },
+      "genre": "DISCO",
+      "id": 10,
+      "title": "Dancin' Into The Night",
+      "version": "beatmania IIDX 2nd style"
+    },
+    {
+      "artist": "good-cool",
+      "bpm": "125",
+      "default": true,
+      "difficulty": {
+        "0": -1,
+        "1": 2,
+        "2": 3,
+        "3": 3
+      },
+      "genre": "ITALO HOUSE",
+      "id": 11,
+      "title": "I Was The One",
+      "version": "beatmania IIDX 2nd style"
+    },
+    {
+      "artist": "dj TAKA feat. UZI-LAY",
+      "bpm": "127",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 3,
+        "2": 6,
+        "3": -1
+      },
+      "genre": "JAZZ FUNK",
+      "id": 12,
+      "title": "PUT YOUR FAITH IN ME(for beatmania II)",
+      "version": "beatmania IIDX 2nd style"
+    },
+    {
+      "artist": "dj TAKA feat. DE-SIRE",
+      "bpm": "168",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 3,
+        "2": 4,
+        "3": 4
+      },
+      "genre": "JUNGLE",
+      "id": 13,
+      "title": "SP-TRIP MACHINE(for beatmania II)",
+      "version": "beatmania IIDX 2nd style"
+    },
+    {
+      "artist": "dj TAKA",
+      "bpm": "123-135",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 6,
+        "3": 7
+      },
+      "genre": "CHILL OUT",
+      "id": 14,
+      "title": ".59",
+      "version": "beatmania IIDX 2nd style"
+    },
+    {
+      "artist": "TaQ",
+      "bpm": "90-180",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 8,
+        "3": 9
+      },
+      "genre": "DRUM'N'BASS",
+      "id": 15,
+      "title": "era (nostalmix)",
+      "version": "beatmania IIDX 3rd style"
+    },
+    {
+      "artist": "dj TAKA",
+      "bpm": "150",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 6,
+        "3": 7
+      },
+      "genre": "DIGI-ROCK",
+      "id": 16,
+      "title": "LEADING CYBER",
+      "version": "beatmania IIDX 3rd style"
+    },
+    {
+      "artist": "tigerYAMATO with ultrabeatbox",
+      "bpm": "180",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 8,
+        "3": 11
+      },
+      "genre": "RAVE",
+      "id": 17,
+      "title": "R5",
+      "version": "beatmania IIDX 3rd style"
+    },
+    {
+      "artist": "dj TAKA",
+      "bpm": "145",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 5,
+        "3": 7
+      },
+      "genre": "TRANCE",
+      "id": 18,
+      "title": "REINCARNATION",
+      "version": "beatmania IIDX 3rd style"
+    },
+    {
+      "artist": "dj TAKA",
+      "bpm": "84",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 1,
+        "2": 2,
+        "3": -1
+      },
+      "genre": "AMBIENT",
+      "id": 19,
+      "title": "Tangerine Stream",
+      "version": "beatmania IIDX 3rd style"
+    },
+    {
+      "artist": "Lion Musashi",
+      "bpm": "150",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 7,
+        "2": 10,
+        "3": -1
+      },
+      "genre": "WORLD HOUSE",
+      "id": 20,
+      "title": "THE SAFARI",
+      "version": "beatmania IIDX 3rd style"
+    },
+    {
+      "artist": "dj TAKA",
+      "bpm": "60-144",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 8,
+        "3": 10
+      },
+      "genre": "EPIC TRANCE",
+      "id": 21,
+      "title": "ABSOLUTE",
+      "version": "beatmania IIDX 4th style"
+    },
+    {
+      "artist": "good-cool feat. JP Miles",
+      "bpm": "108-216",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 7,
+        "2": 9,
+        "3": 11
+      },
+      "genre": "HIP HOP",
+      "id": 22,
+      "title": "CHECKING YOU OUT",
+      "version": "beatmania IIDX 4th style"
+    },
+    {
+      "artist": "dj TAKA",
+      "bpm": "70-93",
+      "default": true,
+      "difficulty": {
+        "0": -1,
+        "1": 2,
+        "2": 5,
+        "3": -1
+      },
+      "genre": "AMBIENT",
+      "id": 23,
+      "title": "FLOWERS for ALBION",
+      "version": "beatmania IIDX 4th style"
+    },
+    {
+      "artist": "NM feat. Sunny",
+      "bpm": "132",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 3,
+        "2": 4,
+        "3": 6
+      },
+      "genre": "DANCE POP",
+      "id": 24,
+      "title": "HIGHER",
+      "version": "beatmania IIDX 4th style"
+    },
+    {
+      "artist": "dj nagureo",
+      "bpm": "130",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 6,
+        "3": 10
+      },
+      "genre": "TECHNO",
+      "id": 25,
+      "title": "KAMIKAZE",
+      "version": "beatmania IIDX 4th style"
+    },
+    {
+      "artist": "DETROIAN",
+      "bpm": "141",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 3,
+        "2": 8,
+        "3": 9
+      },
+      "genre": "MINIMAL",
+      "id": 26,
+      "title": "minimalian",
+      "version": "beatmania IIDX 4th style"
+    },
+    {
+      "artist": "Ryu\u2606",
+      "bpm": "182",
+      "default": false,
+      "difficulty": {
+        "0": 2,
+        "1": 5,
+        "2": 8,
+        "3": 9
+      },
+      "genre": "HAPPY HARDCORE",
+      "id": 27,
+      "title": "starmine",
+      "version": "beatmania IIDX 4th style"
+    },
+    {
+      "artist": "dj TAKA",
+      "bpm": "142",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 7,
+        "3": 8
+      },
+      "genre": "INTELLIGENCE",
+      "id": 28,
+      "title": "Abyss",
+      "version": "beatmania IIDX 5th style"
+    },
+    {
+      "artist": "ric",
+      "bpm": "142",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 6,
+        "3": 7
+      },
+      "genre": "TRANCE",
+      "id": 29,
+      "title": "in my eyes",
+      "version": "beatmania IIDX 5th style"
+    },
+    {
+      "artist": "L.E.D. feat. Sana",
+      "bpm": "147",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 7,
+        "3": 8
+      },
+      "genre": "EPIC TRANCE",
+      "id": 30,
+      "title": "THE SHINING POLARIS",
+      "version": "beatmania IIDX 5th style"
+    },
+    {
+      "artist": "TAKA",
+      "bpm": "150",
+      "default": false,
+      "difficulty": {
+        "0": 2,
+        "1": 5,
+        "2": 10,
+        "3": 12
+      },
+      "genre": "PROGRESSIVE",
+      "id": 31,
+      "title": "V",
+      "version": "beatmania IIDX 5th style"
+    },
+    {
+      "artist": "dj TAKA",
+      "bpm": "138",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 7,
+        "3": 8
+      },
+      "genre": "HOUSE",
+      "id": 32,
+      "title": "Blueberry Stream",
+      "version": "beatmania IIDX 6th style"
+    },
+    {
+      "artist": "dj TAKA",
+      "bpm": "150",
+      "default": false,
+      "difficulty": {
+        "0": 3,
+        "1": 6,
+        "2": 9,
+        "3": 12
+      },
+      "genre": "TRANCE",
+      "id": 33,
+      "title": "Colors (radio edit)",
+      "version": "beatmania IIDX 6th style"
+    },
+    {
+      "artist": "Mr.T",
+      "bpm": "140",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 7,
+        "3": 8
+      },
+      "genre": "TRANCE",
+      "id": 34,
+      "title": "fly through the night",
+      "version": "beatmania IIDX 6th style"
+    },
+    {
+      "artist": "dj TAKA",
+      "bpm": "156",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 9,
+        "3": 9
+      },
+      "genre": "TRANCE",
+      "id": 35,
+      "title": "Frozen Ray (original mix)",
+      "version": "beatmania IIDX 6th style"
+    },
+    {
+      "artist": "LEGO STUDIO",
+      "bpm": "160-176",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 9,
+        "3": 11
+      },
+      "genre": "LOUNGE POP",
+      "id": 36,
+      "title": "Linus",
+      "version": "beatmania IIDX 6th style"
+    },
+    {
+      "artist": "D.J.SETUP",
+      "bpm": "164",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 9,
+        "3": 11
+      },
+      "genre": "TECHNO",
+      "id": 37,
+      "title": "NEMESIS",
+      "version": "beatmania IIDX 6th style"
+    },
+    {
+      "artist": "sampling masters MEGA",
+      "bpm": "122",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 8,
+        "3": 9
+      },
+      "genre": "NOISY",
+      "id": 38,
+      "title": "route 80s",
+      "version": "beatmania IIDX 6th style"
+    },
+    {
+      "artist": "vivi",
+      "bpm": "128",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 6,
+        "3": 7
+      },
+      "genre": "SOUL",
+      "id": 39,
+      "title": "\u3053\u3063\u3061\u3092\u5411\u3044\u3066\u3088",
+      "version": "beatmania IIDX 6th style"
+    },
+    {
+      "artist": "L.E.D.",
+      "bpm": "155",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 7,
+        "3": -1
+      },
+      "genre": "NU-NRG",
+      "id": 40,
+      "title": "\u96fb\u4eba\u30a4\u30a7\u30fc\u30ac\u30fc\u306e\u30c6\u30fc\u30de(Theme of DENJIN J)",
+      "version": "beatmania IIDX 6th style"
+    },
+    {
+      "artist": "D.J.Amuro",
+      "bpm": "93-191",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 10,
+        "3": 12
+      },
+      "genre": "RENAISSANCE",
+      "id": 41,
+      "title": "A",
+      "version": "beatmania IIDX 7th style"
+    },
+    {
+      "artist": "Shawn The Horny Master",
+      "bpm": "125",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 8,
+        "3": 9
+      },
+      "genre": "ALTERNATIVE HOUSE",
+      "id": 42,
+      "title": "AVE DE RAPINA",
+      "version": "beatmania IIDX 7th style"
+    },
+    {
+      "artist": "Noria",
+      "bpm": "40-83",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 3,
+        "2": 5,
+        "3": 6
+      },
+      "genre": "HIP HOP&SOUL",
+      "id": 43,
+      "title": "Glorious Days",
+      "version": "beatmania IIDX 7th style"
+    },
+    {
+      "artist": "Sana",
+      "bpm": "130",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 6,
+        "3": 7
+      },
+      "genre": "AMBIENT POP",
+      "id": 44,
+      "title": "Let the Snow Paint Me",
+      "version": "beatmania IIDX 7th style"
+    },
+    {
+      "artist": "AKIRA YAMAOKA",
+      "bpm": "167",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 7,
+        "3": 9
+      },
+      "genre": "NEW WAVE",
+      "id": 45,
+      "title": "Love Me Do",
+      "version": "beatmania IIDX 7th style"
+    },
+    {
+      "artist": "\u03a9",
+      "bpm": "12-300",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 8,
+        "2": 10,
+        "3": -1
+      },
+      "genre": "HARDCORE TECHNO",
+      "id": 46,
+      "title": "MAX 300",
+      "version": "beatmania IIDX 7th style"
+    },
+    {
+      "artist": "Orange Lounge",
+      "bpm": "170",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 5,
+        "3": 7
+      },
+      "genre": "YEYE",
+      "id": 47,
+      "title": "\u25bcMarmalade Reverie",
+      "version": "beatmania IIDX 7th style"
+    },
+    {
+      "artist": "D.JW",
+      "bpm": "128",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 9,
+        "3": 11
+      },
+      "genre": "HOUSE",
+      "id": 48,
+      "title": "Spica",
+      "version": "beatmania IIDX 7th style"
+    },
+    {
+      "artist": "dj TAKA with NAOKI",
+      "bpm": "83-148",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 10,
+        "3": 10
+      },
+      "genre": "ORCHESTRAL",
+      "id": 49,
+      "title": "\u9769\u547d",
+      "version": "beatmania IIDX 7th style"
+    },
+    {
+      "artist": "Mr.T",
+      "bpm": "40-148",
+      "default": true,
+      "difficulty": {
+        "0": -1,
+        "1": 3,
+        "2": 5,
+        "3": 7
+      },
+      "genre": "INSTRUMENTAL",
+      "id": 50,
+      "title": "airflow",
+      "version": "beatmania IIDX 8th style"
+    },
+    {
+      "artist": "RAM",
+      "bpm": "180",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 8,
+        "3": 9
+      },
+      "genre": "DRUM'N'BASS",
+      "id": 51,
+      "title": "ALL RIGHT",
+      "version": "beatmania IIDX 8th style"
+    },
+    {
+      "artist": "AKIRA YAMAOKA",
+      "bpm": "148",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 5,
+        "3": 8
+      },
+      "genre": "\u30c6\u30af\u30ce\u6b4c\u8b21",
+      "id": 52,
+      "title": "bit mania",
+      "version": "beatmania IIDX 8th style"
+    },
+    {
+      "artist": "Orange Lounge",
+      "bpm": "180",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 6,
+        "3": 8
+      },
+      "genre": "HARD CHANSON",
+      "id": 53,
+      "title": "LOVE IS ORANGE",
+      "version": "beatmania IIDX 8th style"
+    },
+    {
+      "artist": "Lion MUSASHI",
+      "bpm": "135",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 8,
+        "3": 9
+      },
+      "genre": "HOUSE",
+      "id": 54,
+      "title": "thunder",
+      "version": "beatmania IIDX 8th style"
+    },
+    {
+      "artist": "ASLETICS",
+      "bpm": "93",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 8,
+        "3": 10
+      },
+      "genre": "HIP HOP",
+      "id": 55,
+      "title": "WAR GAME",
+      "version": "beatmania IIDX 8th style"
+    },
+    {
+      "artist": "MTO",
+      "bpm": "122",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 3,
+        "2": 5,
+        "3": 5
+      },
+      "genre": "POPS",
+      "id": 56,
+      "title": "World Wide Love",
+      "version": "beatmania IIDX 8th style"
+    },
+    {
+      "artist": "Mr.T",
+      "bpm": "158",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 9,
+        "3": 11
+      },
+      "genre": "ELECTROSHOCK",
+      "id": 57,
+      "title": "xenon",
+      "version": "beatmania IIDX 8th style"
+    },
+    {
+      "artist": "Reven-G",
+      "bpm": "13-320",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 7,
+        "2": 10,
+        "3": 12
+      },
+      "genre": "SPIRITUAL",
+      "id": 58,
+      "title": "\u685c",
+      "version": "beatmania IIDX 8th style"
+    },
+    {
+      "artist": "NAOKI",
+      "bpm": "150",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 7,
+        "3": 9
+      },
+      "genre": "ULTRA ROCK BEAT",
+      "id": 59,
+      "title": "\u25bcBe Rock U (1998 burst style)",
+      "version": "beatmania IIDX 9th style"
+    },
+    {
+      "artist": "SPARKER",
+      "bpm": "150",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 3,
+        "2": 8,
+        "3": 9
+      },
+      "genre": "ROCOCO TEK",
+      "id": 60,
+      "title": "BRIGHTNESS DARKNESS",
+      "version": "beatmania IIDX 9th style"
+    },
+    {
+      "artist": "\u5c11\u5e74\u30e9\u30b8\u30aa",
+      "bpm": "130-160",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 10,
+        "3": 12
+      },
+      "genre": "POST ROCK",
+      "id": 61,
+      "title": "moon_child",
+      "version": "beatmania IIDX 9th style"
+    },
+    {
+      "artist": "dj TAKA",
+      "bpm": "150",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 9,
+        "3": 10
+      },
+      "genre": "PSYCHEDELIC",
+      "id": 62,
+      "title": "Quickening",
+      "version": "beatmania IIDX 9th style"
+    },
+    {
+      "artist": "sampling masters MEGA",
+      "bpm": "200",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 9,
+        "3": 10
+      },
+      "genre": "GABBA",
+      "id": 63,
+      "title": "rottel-the-Mercury",
+      "version": "beatmania IIDX 9th style"
+    },
+    {
+      "artist": "RAM",
+      "bpm": "180",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 7,
+        "3": 10
+      },
+      "genre": "DRUM'N'BASS",
+      "id": 64,
+      "title": "SNOW",
+      "version": "beatmania IIDX 9th style"
+    },
+    {
+      "artist": "AKIRA YAMAOKA",
+      "bpm": "146",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 3,
+        "2": 5,
+        "3": 7
+      },
+      "genre": "\u30dc\u30c7\u30fc",
+      "id": 65,
+      "title": "\u30e9\u30a4\u30aa\u30f3\u597d\u304d",
+      "version": "beatmania IIDX 9th style"
+    },
+    {
+      "artist": "EeL",
+      "bpm": "136",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 6,
+        "3": 9
+      },
+      "genre": "DREAM TECHNO",
+      "id": 66,
+      "title": "ASTRAL VOYAGE",
+      "version": "beatmania IIDX 10th style"
+    },
+    {
+      "artist": "Sota Fujimori",
+      "bpm": "144",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 7,
+        "3": 10
+      },
+      "genre": "2STEP POP TRANCE",
+      "id": 67,
+      "title": "Back Into The Light",
+      "version": "beatmania IIDX 10th style"
+    },
+    {
+      "artist": "Mr.T",
+      "bpm": "72",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 2,
+        "2": 4,
+        "3": 5
+      },
+      "genre": "PIANO BALLADE",
+      "id": 68,
+      "title": "desolation",
+      "version": "beatmania IIDX 10th style"
+    },
+    {
+      "artist": "T\u0401\u042fRA",
+      "bpm": "170",
+      "default": false,
+      "difficulty": {
+        "0": 2,
+        "1": 5,
+        "2": 6,
+        "3": 7
+      },
+      "genre": "HYPER J-POP FOUR",
+      "id": 69,
+      "title": "DoLL",
+      "version": "beatmania IIDX 10th style"
+    },
+    {
+      "artist": "L.E.D.",
+      "bpm": "148",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 9,
+        "3": 10
+      },
+      "genre": "GOA TRANCE",
+      "id": 70,
+      "title": "GHOST REVIVAL",
+      "version": "beatmania IIDX 10th style"
+    },
+    {
+      "artist": "Mr.T",
+      "bpm": "160-220",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 8,
+        "3": 10
+      },
+      "genre": "GAME MUSIC",
+      "id": 71,
+      "title": "GRADIUS -FULL SPEED-",
+      "version": "beatmania IIDX 10th style"
+    },
+    {
+      "artist": "kors k",
+      "bpm": "140",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 9,
+        "3": 11
+      },
+      "genre": "TRANCE",
+      "id": 72,
+      "title": "Love Is Eternity",
+      "version": "beatmania IIDX 10th style"
+    },
+    {
+      "artist": "Ryu\u2606",
+      "bpm": "170",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 10,
+        "3": 10
+      },
+      "genre": "ARTCORE",
+      "id": 73,
+      "title": "Narcissus At Oasis",
+      "version": "beatmania IIDX 10th style"
+    },
+    {
+      "artist": "TAKA respect for J.S.B.",
+      "bpm": "172",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 8,
+        "2": 10,
+        "3": 11
+      },
+      "genre": "PROGRESSIVE BAROQUE",
+      "id": 74,
+      "title": "No.13",
+      "version": "beatmania IIDX 10th style"
+    },
+    {
+      "artist": "dj TAKA feat.Tomomi",
+      "bpm": "148",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 8,
+        "3": 9
+      },
+      "genre": "TRANCE",
+      "id": 75,
+      "title": "pandora",
+      "version": "beatmania IIDX 10th style"
+    },
+    {
+      "artist": "Ryu\u2606",
+      "bpm": "177",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 7,
+        "2": 10,
+        "3": 11
+      },
+      "genre": "HAPPY HARDCORE",
+      "id": 76,
+      "title": "rainbow rainbow",
+      "version": "beatmania IIDX 10th style"
+    },
+    {
+      "artist": "Sota feat. Cyborg Akemi",
+      "bpm": "144",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 9,
+        "3": 10
+      },
+      "genre": "TRANCE",
+      "id": 77,
+      "title": "Rise'n Beauty",
+      "version": "beatmania IIDX 10th style"
+    },
+    {
+      "artist": "\u5c0f\u5742\u308a\u3086",
+      "bpm": "140",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 7,
+        "2": 8,
+        "3": 9
+      },
+      "genre": "J-POP",
+      "id": 78,
+      "title": "SHOOTING STAR",
+      "version": "beatmania IIDX 10th style"
+    },
+    {
+      "artist": "AKIRA YAMAOKA",
+      "bpm": "139",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 3,
+        "2": 8,
+        "3": 11
+      },
+      "genre": "\u6226\u8266\u30c6\u30af\u30ce",
+      "id": 79,
+      "title": "SPACE FIGHT",
+      "version": "beatmania IIDX 10th style"
+    },
+    {
+      "artist": "Ryu\u2606",
+      "bpm": "151",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 10,
+        "3": 12
+      },
+      "genre": "HARD HOUSE",
+      "id": 80,
+      "title": "\u96ea\u6708\u82b1",
+      "version": "beatmania IIDX 10th style"
+    },
+    {
+      "artist": "D.J.Amuro",
+      "bpm": "154",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 10,
+        "3": 12
+      },
+      "genre": "RENAISSANCE",
+      "id": 81,
+      "title": "AA",
+      "version": "beatmania IIDX 11 IIDXRED"
+    },
+    {
+      "artist": "Ryu\u2606",
+      "bpm": "180",
+      "default": false,
+      "difficulty": {
+        "0": 2,
+        "1": 5,
+        "2": 8,
+        "3": 9
+      },
+      "genre": "HAPPY HARDCORE",
+      "id": 82,
+      "title": "AGEHA",
+      "version": "beatmania IIDX 11 IIDXRED"
+    },
+    {
+      "artist": "Sota Fujimori",
+      "bpm": "150",
+      "default": false,
+      "difficulty": {
+        "0": 3,
+        "1": 5,
+        "2": 8,
+        "3": 11
+      },
+      "genre": "PSYCHEDELICGOA TRANCE",
+      "id": 83,
+      "title": "ANDROMEDA",
+      "version": "beatmania IIDX 11 IIDXRED"
+    },
+    {
+      "artist": "AKIRA YAMAOKA",
+      "bpm": "143",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 7,
+        "3": 10
+      },
+      "genre": "TRANCE",
+      "id": 84,
+      "title": "awakening",
+      "version": "beatmania IIDX 11 IIDXRED"
+    },
+    {
+      "artist": "D-crew feat.DENNIS GUNN(DJ Yoshitaka SCRATCHING)",
+      "bpm": "132-145",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 8,
+        "3": 9
+      },
+      "genre": "AMERICA",
+      "id": 85,
+      "title": "Close my Eyes for Me",
+      "version": "beatmania IIDX 11 IIDXRED"
+    },
+    {
+      "artist": "DJ Yoshitaka feat.\u661f\u91ce\u594f\u5b50",
+      "bpm": "116",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 3,
+        "2": 5,
+        "3": 10
+      },
+      "genre": "J-POP",
+      "id": 86,
+      "title": "D.A.N.C.E.!",
+      "version": "beatmania IIDX 11 IIDXRED"
+    },
+    {
+      "artist": "dj TAKA",
+      "bpm": "45-94",
+      "default": true,
+      "difficulty": {
+        "0": -1,
+        "1": 2,
+        "2": 5,
+        "3": 7
+      },
+      "genre": "PIANO BALLAD",
+      "id": 87,
+      "title": "earth scape",
+      "version": "beatmania IIDX 11 IIDXRED"
+    },
+    {
+      "artist": "teranoid feat.MC Natsack",
+      "bpm": "173",
+      "default": false,
+      "difficulty": {
+        "0": 3,
+        "1": 9,
+        "2": 12,
+        "3": 12
+      },
+      "genre": "NUSTYLE GABBA",
+      "id": 88,
+      "title": "gigadelic",
+      "version": "beatmania IIDX 11 IIDXRED"
+    },
+    {
+      "artist": "\u65b0\u8c37\u3042\u304d\u3089",
+      "bpm": "160",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 6,
+        "3": 9
+      },
+      "genre": "ELECTRIC CABARET",
+      "id": 89,
+      "title": "\u25bcINJECTION OF LOVE",
+      "version": "beatmania IIDX 11 IIDXRED"
+    },
+    {
+      "artist": "Tatsh&NAOKI",
+      "bpm": "165",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 9,
+        "3": 11
+      },
+      "genre": "SPEED RAVE",
+      "id": 90,
+      "title": "RED ZONE",
+      "version": "beatmania IIDX 11 IIDXRED"
+    },
+    {
+      "artist": "Tatsh feat. K.Nayuki",
+      "bpm": "160",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 9,
+        "3": 10
+      },
+      "genre": "MEDIEVAL CHOIR",
+      "id": 91,
+      "title": "Sphere",
+      "version": "beatmania IIDX 11 IIDXRED"
+    },
+    {
+      "artist": "D.J.SETUP",
+      "bpm": "154",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 9,
+        "3": 11
+      },
+      "genre": "PSYCHEDELIC TECHNO",
+      "id": 92,
+      "title": "spiral galaxy",
+      "version": "beatmania IIDX 11 IIDXRED"
+    },
+    {
+      "artist": "Sota Fujimori",
+      "bpm": "144",
+      "default": false,
+      "difficulty": {
+        "0": 2,
+        "1": 5,
+        "2": 8,
+        "3": 10
+      },
+      "genre": "CYBORG TRANCE",
+      "id": 93,
+      "title": "The Hope of Tomorrow",
+      "version": "beatmania IIDX 11 IIDXRED"
+    },
+    {
+      "artist": "T\u0401\u042fRA",
+      "bpm": "180",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 7,
+        "3": 9
+      },
+      "genre": "HYPER J-POP FIVE",
+      "id": 94,
+      "title": "ULTiM\u2227TE",
+      "version": "beatmania IIDX 11 IIDXRED"
+    },
+    {
+      "artist": "virkato",
+      "bpm": "165-188",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 11,
+        "3": 12
+      },
+      "genre": "DIRGE",
+      "id": 95,
+      "title": "\u30d4\u30a2\u30ce\u5354\u594f\u66f2\u7b2c1\u756a\"\u880d\u706b\"",
+      "version": "beatmania IIDX 11 IIDXRED"
+    },
+    {
+      "artist": "NAOKI feat.\u661f\u91ce\u594f\u5b50",
+      "bpm": "155",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 8,
+        "3": 9
+      },
+      "genre": "CYBER J-EURO",
+      "id": 96,
+      "title": "\u592a\u967d\u301cT\u30fbA\u30fbI\u30fbY\u30fbO\u301c",
+      "version": "beatmania IIDX 11 IIDXRED"
+    },
+    {
+      "artist": "\u3042\u3055\u304d",
+      "bpm": "70-168",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 9,
+        "3": 10
+      },
+      "genre": "GOTHIC METAL",
+      "id": 97,
+      "title": "Agnus Dei",
+      "version": "beatmania IIDX 12 HAPPY SKY"
+    },
+    {
+      "artist": "Ryu\u2606",
+      "bpm": "181",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 7,
+        "2": 10,
+        "3": 11
+      },
+      "genre": "TRANCE CORE",
+      "id": 98,
+      "title": "Aurora",
+      "version": "beatmania IIDX 12 HAPPY SKY"
+    },
+    {
+      "artist": "A/I",
+      "bpm": "160",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 9,
+        "3": 11
+      },
+      "genre": "NOSTALISH REQUIEM",
+      "id": 99,
+      "title": "CaptivAte\u301c\u6d44\u5316\u301c",
+      "version": "beatmania IIDX 12 HAPPY SKY"
+    },
+    {
+      "artist": "DJ Yoshitaka feat. ERi",
+      "bpm": "115",
+      "default": false,
+      "difficulty": {
+        "0": 2,
+        "1": 5,
+        "2": 8,
+        "3": 10
+      },
+      "genre": "ACID JAZZ",
+      "id": 100,
+      "title": "Catch Me",
+      "version": "beatmania IIDX 12 HAPPY SKY"
+    },
+    {
+      "artist": "T\u0401\u042fRA",
+      "bpm": "200",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 9,
+        "3": 10
+      },
+      "genre": "HYPER J-POP SIX",
+      "id": 101,
+      "title": "EDEN",
+      "version": "beatmania IIDX 12 HAPPY SKY"
+    },
+    {
+      "artist": "AKIRA YAMAOKA",
+      "bpm": "182",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 3,
+        "2": 5,
+        "3": 8
+      },
+      "genre": "E-ROCK",
+      "id": 102,
+      "title": "EMPTY OF THE SKY",
+      "version": "beatmania IIDX 12 HAPPY SKY"
+    },
+    {
+      "artist": "jun with TAHIRIH",
+      "bpm": "180",
+      "default": false,
+      "difficulty": {
+        "0": 3,
+        "1": 5,
+        "2": 7,
+        "3": 10
+      },
+      "genre": "HAPPY HARDCORE",
+      "id": 103,
+      "title": "HAPPY\u2606ANGEL",
+      "version": "beatmania IIDX 12 HAPPY SKY"
+    },
+    {
+      "artist": "dj TAKA",
+      "bpm": "148",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 9,
+        "3": 11
+      },
+      "genre": "TRANCE",
+      "id": 104,
+      "title": "INAZUMA",
+      "version": "beatmania IIDX 12 HAPPY SKY"
+    },
+    {
+      "artist": "Risk Junk feat.Erika Mochizuki",
+      "bpm": "152",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 8,
+        "3": 9
+      },
+      "genre": "HAPPY EXTREME",
+      "id": 105,
+      "title": "LESSON 5",
+      "version": "beatmania IIDX 12 HAPPY SKY"
+    },
+    {
+      "artist": "SHRINE 418",
+      "bpm": "\u203b",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 10,
+        "3": 11
+      },
+      "genre": "PUNK OPERA",
+      "id": 106,
+      "title": "Little Little Princess",
+      "version": "beatmania IIDX 12 HAPPY SKY"
+    },
+    {
+      "artist": "Sota Fujimori",
+      "bpm": "148",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 8,
+        "3": 9
+      },
+      "genre": "SYNTHESIZED TECHNO",
+      "id": 107,
+      "title": "PLASMA",
+      "version": "beatmania IIDX 12 HAPPY SKY"
+    },
+    {
+      "artist": "kors k",
+      "bpm": "179",
+      "default": true,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 7,
+        "3": 10
+      },
+      "genre": "MAKINA",
+      "id": 108,
+      "title": "SigSig",
+      "version": "beatmania IIDX 12 HAPPY SKY"
+    },
+    {
+      "artist": "TOMOSUKE",
+      "bpm": "265",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 9,
+        "3": 10
+      },
+      "genre": "MPB",
+      "id": 109,
+      "title": "Tizona d'El Cid",
+      "version": "beatmania IIDX 12 HAPPY SKY"
+    },
+    {
+      "artist": "\u5357\u3055\u3084\u304b(BeForU) with platoniX",
+      "bpm": "170",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 7,
+        "3": 9
+      },
+      "genre": "J-EUROTRANCE",
+      "id": 110,
+      "title": "Under the Sky",
+      "version": "beatmania IIDX 12 HAPPY SKY"
+    },
+    {
+      "artist": "Tatsh",
+      "bpm": "170",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 10,
+        "3": 11
+      },
+      "genre": "MEDIEVAL CHOIR",
+      "id": 111,
+      "title": "Xepher",
+      "version": "beatmania IIDX 12 HAPPY SKY"
+    },
+    {
+      "artist": "Sota Fujimori",
+      "bpm": "252",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 10,
+        "3": 11
+      },
+      "genre": "SYNTHETIC PROGRESSIVE ROCK",
+      "id": 112,
+      "title": "100% minimoo-G",
+      "version": "beatmania IIDX 12 HAPPY SKY"
+    },
+    {
+      "artist": "Tatsh feat. \u661f\u91ce\u594f\u5b50",
+      "bpm": "155",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 8,
+        "3": 10
+      },
+      "genre": "J-EUROBEAT",
+      "id": 113,
+      "title": "\u6708\u5149",
+      "version": "beatmania IIDX 12 HAPPY SKY"
+    },
+    {
+      "artist": "Amuro vs Killer",
+      "bpm": "66-200",
+      "default": false,
+      "difficulty": {
+        "0": 3,
+        "1": 5,
+        "2": 10,
+        "3": 12
+      },
+      "genre": "HUMAN SEQUENCER",
+      "id": 114,
+      "title": "\u51a5",
+      "version": "beatmania IIDX 12 HAPPY SKY"
+    },
+    {
+      "artist": "L.E.D. / Remixed by Ryu\u2606",
+      "bpm": "155",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 8,
+        "3": 11
+      },
+      "genre": "HARD DANCE",
+      "id": 115,
+      "title": "\u5408\u4f53\u305b\u3088\uff01\u30b9\u30c8\u30ed\u30f3\u30b0\u30a4\u30a7\u30fc\u30ac\u30fc\uff01\uff01 (Ryu\u2606 remix)",
+      "version": "beatmania IIDX 12 HAPPY SKY"
+    },
+    {
+      "artist": "GINGER",
+      "bpm": "117-170",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 8,
+        "3": 10
+      },
+      "genre": "K-GROOVE",
+      "id": 116,
+      "title": "\u25bc\u30ad\u30e3\u30c3\u30b7\u30e5\u30ec\u30b9\u306f\u611b\u60c5\u6d88\u3059\u30c6\u30a3\u30c3\u30b7\u30e5",
+      "version": "beatmania IIDX 12 HAPPY SKY"
+    },
+    {
+      "artist": "Zektbach",
+      "bpm": "170",
+      "default": false,
+      "difficulty": {
+        "0": 1,
+        "1": 5,
+        "2": 9,
+        "3": 10
+      },
+      "genre": "ORATORIO",
+      "id": 117,
+      "title": "Apocalypse \u301cdirge of swans\u301c",
+      "version": "beatmania IIDX 13 DistorteD"
+    },
+    {
+      "artist": "DJ YOSHITAKA",
+      "bpm": "170",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 9,
+        "3": 10
+      },
+      "genre": "HARD RENAISSANCE",
+      "id": 118,
+      "title": "Bloody Tears(IIDX EDITION)",
+      "version": "beatmania IIDX 13 DistorteD"
+    },
+    {
+      "artist": "\u5c0f\u91ce\u79c0\u5e78",
+      "bpm": "140",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 7,
+        "3": 10
+      },
+      "genre": "LATIN HORNS GROOVE",
+      "id": 119,
+      "title": "\u25bcbluemoon",
+      "version": "beatmania IIDX 13 DistorteD"
+    },
+    {
+      "artist": "\u4f50\u3005\u6728\u535a\u53f2",
+      "bpm": "103-155",
+      "default": false,
+      "difficulty": {
+        "0": 2,
+        "1": 5,
+        "2": 10,
+        "3": 12
+      },
+      "genre": "PROGRESSIVE",
+      "id": 120,
+      "title": "Concertino in Blue",
+      "version": "beatmania IIDX 13 DistorteD"
+    },
+    {
+      "artist": "DJ MURASAME",
+      "bpm": "155",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 9,
+        "3": 11
+      },
+      "genre": "TECHNO",
+      "id": 121,
+      "title": "D.C.fish",
+      "version": "beatmania IIDX 13 DistorteD"
+    },
+    {
+      "artist": "\u7384\u6b66",
+      "bpm": "72-82",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 10,
+        "3": 11
+      },
+      "genre": "ESOTERIC SLOWCORE",
+      "id": 122,
+      "title": "Ganymede",
+      "version": "beatmania IIDX 13 DistorteD"
+    },
+    {
+      "artist": "Ryu\u2606",
+      "bpm": "135",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 8,
+        "3": 11
+      },
+      "genre": "PROGRESSIVE HOUSE",
+      "id": 123,
+      "title": "Harmony and Lovely",
+      "version": "beatmania IIDX 13 DistorteD"
+    },
+    {
+      "artist": "AKIRA YAMAOKA",
+      "bpm": "130",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 7,
+        "3": 10
+      },
+      "genre": "TRANCE",
+      "id": 124,
+      "title": "Heavenly Sun (IIDX VERSION)",
+      "version": "beatmania IIDX 13 DistorteD"
+    },
+    {
+      "artist": "Caldeira feat.\u661f\u91ce\u594f\u5b50",
+      "bpm": "135",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 7,
+        "3": 9
+      },
+      "genre": "BRAZILIAN HOUSE",
+      "id": 125,
+      "title": "INFERNO",
+      "version": "beatmania IIDX 13 DistorteD"
+    },
+    {
+      "artist": "SEIYA MURAI meets \"eimy\"",
+      "bpm": "145",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 8,
+        "3": 10
+      },
+      "genre": "SYMPHONIC EURO",
+      "id": 126,
+      "title": "Leaving...",
+      "version": "beatmania IIDX 13 DistorteD"
+    },
+    {
+      "artist": "dj TAKA feat.Erika Mochizuki",
+      "bpm": "156",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 9,
+        "3": 10
+      },
+      "genre": "\u54c0\u6101\u30e6\u30fc\u30ed",
+      "id": 127,
+      "title": "MOON",
+      "version": "beatmania IIDX 13 DistorteD"
+    },
+    {
+      "artist": "kors k feat.PSY",
+      "bpm": "135",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 7,
+        "3": 10
+      },
+      "genre": "2 STEP",
+      "id": 128,
+      "title": "Power of Love",
+      "version": "beatmania IIDX 13 DistorteD"
+    },
+    {
+      "artist": "kors k vs teranoid",
+      "bpm": "182",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 9,
+        "3": 12
+      },
+      "genre": "FREEFORM",
+      "id": 129,
+      "title": "tripping contact",
+      "version": "beatmania IIDX 13 DistorteD"
+    },
+    {
+      "artist": "L.E.D.",
+      "bpm": "159",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 9,
+        "3": 11
+      },
+      "genre": "PSYCHEDELIC TRANCE",
+      "id": 130,
+      "title": "TYPE MARS(G-Style Mix)",
+      "version": "beatmania IIDX 13 DistorteD"
+    },
+    {
+      "artist": "\u9752\u9f8d",
+      "bpm": "191",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 7,
+        "2": 10,
+        "3": 11
+      },
+      "genre": "DANCE SPEED",
+      "id": 131,
+      "title": "waxing and wanding",
+      "version": "beatmania IIDX 13 DistorteD"
+    },
+    {
+      "artist": "Sota Fujimori",
+      "bpm": "140",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 7,
+        "3": 9
+      },
+      "genre": "NU BIGBEAT BREAKS",
+      "id": 132,
+      "title": "\u25bcWinning Eleven9 Theme(IIDX EDITION)",
+      "version": "beatmania IIDX 13 DistorteD"
+    },
+    {
+      "artist": "Sota Fujimori",
+      "bpm": "135",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 6,
+        "3": 9
+      },
+      "genre": "FUNK\u00b4N JAZZ HOUSE",
+      "id": 133,
+      "title": "with you\u2026",
+      "version": "beatmania IIDX 13 DistorteD"
+    },
+    {
+      "artist": "Tatsh",
+      "bpm": "160",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 7,
+        "3": 10
+      },
+      "genre": "CYBER OPUS",
+      "id": 134,
+      "title": "Zenius -I- vanisher",
+      "version": "beatmania IIDX 13 DistorteD"
+    },
+    {
+      "artist": "\u767d\u864e",
+      "bpm": "199",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 10,
+        "3": 11
+      },
+      "genre": "ASIAN MIXTURE",
+      "id": 135,
+      "title": "\u83ef\u8776\u98a8\u96ea",
+      "version": "beatmania IIDX 13 DistorteD"
+    },
+    {
+      "artist": "\u91d1\u7345\u5b50",
+      "bpm": "160",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 8,
+        "2": 11,
+        "3": 12
+      },
+      "genre": "CONTEMPORARY",
+      "id": 136,
+      "title": "\u5606\u304d\u306e\u6a39",
+      "version": "beatmania IIDX 13 DistorteD"
+    },
+    {
+      "artist": "DJ YOSHITAKA feat. G.S.C license",
+      "bpm": "160",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 8,
+        "3": 9
+      },
+      "genre": "LOVELY TRANS POP",
+      "id": 137,
+      "title": "\u8679\u8272",
+      "version": "beatmania IIDX 13 DistorteD"
+    },
+    {
+      "artist": "\u661f\u91ce\u594f\u5b50 with the BAND",
+      "bpm": "180",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 7,
+        "3": 9
+      },
+      "genre": "POPROCK",
+      "id": 138,
+      "title": "\u30bf\u30b7\u30ab\u30ca\u30e2\u30ce",
+      "version": "beatmania IIDX 13 DistorteD"
+    },
+    {
+      "artist": "Sota Fujimori",
+      "bpm": "152",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 9,
+        "3": 10
+      },
+      "genre": "PSYCHEDELIC SYNTH TRANCE",
+      "id": 139,
+      "title": "ANDROMEDA II",
+      "version": "beatmania IIDX 14 GOLD"
+    },
+    {
+      "artist": "A/I",
+      "bpm": "160",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 9,
+        "3": 10
+      },
+      "genre": "NOSTALISH REQUIEM",
+      "id": 140,
+      "title": "CaptivAte\u301c\u8a93\u3044\u301c",
+      "version": "beatmania IIDX 14 GOLD"
+    },
+    {
+      "artist": "Sota Fujimori feat.cyborg AKEMI",
+      "bpm": "146",
+      "default": false,
+      "difficulty": {
+        "0": 2,
+        "1": 5,
+        "2": 9,
+        "3": 10
+      },
+      "genre": "CYBORG TRANCE",
+      "id": 141,
+      "title": "Cyber Force",
+      "version": "beatmania IIDX 14 GOLD"
+    },
+    {
+      "artist": "100-200-400",
+      "bpm": "100-400",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 9,
+        "2": 11,
+        "3": 12
+      },
+      "genre": "SuperNOVA BEAT",
+      "id": 142,
+      "title": "Fascination MAXX",
+      "version": "beatmania IIDX 14 GOLD"
+    },
+    {
+      "artist": "Sis Bond Chit",
+      "bpm": "157",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 6,
+        "3": 8
+      },
+      "genre": "ROCK",
+      "id": 143,
+      "title": "four-leaf",
+      "version": "beatmania IIDX 14 GOLD"
+    },
+    {
+      "artist": "DJ YOSHITAKA-G feat.Michael a la mode",
+      "bpm": "162",
+      "default": false,
+      "difficulty": {
+        "0": 3,
+        "1": 7,
+        "2": 9,
+        "3": 11
+      },
+      "genre": "RECKLESS RAVE",
+      "id": 144,
+      "title": "GOLD RUSH",
+      "version": "beatmania IIDX 14 GOLD"
+    },
+    {
+      "artist": "SAW WAVE SQUAD",
+      "bpm": "160",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 8,
+        "3": 10
+      },
+      "genre": "ELECTRONICA",
+      "id": 145,
+      "title": "GRID KNIGHT",
+      "version": "beatmania IIDX 14 GOLD"
+    },
+    {
+      "artist": "Mutsuhiko Izumi",
+      "bpm": "140",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 8,
+        "3": 10
+      },
+      "genre": "PROGRESSIVE",
+      "id": 146,
+      "title": "\u25bcHALF MOON",
+      "version": "beatmania IIDX 14 GOLD"
+    },
+    {
+      "artist": "kors k",
+      "bpm": "132",
+      "default": false,
+      "difficulty": {
+        "0": 2,
+        "1": 5,
+        "2": 7,
+        "3": 9
+      },
+      "genre": "FILTER HOUSE",
+      "id": 147,
+      "title": "heaven above",
+      "version": "beatmania IIDX 14 GOLD"
+    },
+    {
+      "artist": "DJ YOSHITAKA feat.DWP",
+      "bpm": "180",
+      "default": false,
+      "difficulty": {
+        "0": 2,
+        "1": 4,
+        "2": 6,
+        "3": 9
+      },
+      "genre": "HIGH SPEED LOVE SONG",
+      "id": 148,
+      "title": "High School Love",
+      "version": "beatmania IIDX 14 GOLD"
+    },
+    {
+      "artist": "DJ TECHNORCH fw. GUHROOVY",
+      "bpm": "165",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 9,
+        "3": 11
+      },
+      "genre": "FREEFORM HARDCORE",
+      "id": 149,
+      "title": "KAMAITACHI",
+      "version": "beatmania IIDX 14 GOLD"
+    },
+    {
+      "artist": "L.E.D.",
+      "bpm": "152",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 7,
+        "2": 11,
+        "3": 12
+      },
+      "genre": "NU-SKOOL BREAKS",
+      "id": 150,
+      "title": "LASER CRUSTER",
+      "version": "beatmania IIDX 14 GOLD"
+    },
+    {
+      "artist": "Ryu\u2606",
+      "bpm": "149",
+      "default": false,
+      "difficulty": {
+        "0": 1,
+        "1": 5,
+        "2": 8,
+        "3": 11
+      },
+      "genre": "HANDZ UP",
+      "id": 151,
+      "title": "Second Heaven",
+      "version": "beatmania IIDX 14 GOLD"
+    },
+    {
+      "artist": "dj TAKA",
+      "bpm": "145",
+      "default": false,
+      "difficulty": {
+        "0": 1,
+        "1": 4,
+        "2": 9,
+        "3": 10
+      },
+      "genre": "TRANCE",
+      "id": 152,
+      "title": "snow storm",
+      "version": "beatmania IIDX 14 GOLD"
+    },
+    {
+      "artist": "\u6731\u96c0",
+      "bpm": "185",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 8,
+        "2": 11,
+        "3": 12
+      },
+      "genre": "DECEPTIVE GABBA",
+      "id": 153,
+      "title": "VANESSA",
+      "version": "beatmania IIDX 14 GOLD"
+    },
+    {
+      "artist": "\u30a4\u30aa\u30f3\u30c1\u30e3\u30f3\u30cd\u30eb",
+      "bpm": "185",
+      "default": false,
+      "difficulty": {
+        "0": 2,
+        "1": 5,
+        "2": 8,
+        "3": 10
+      },
+      "genre": "FUTURE POP",
+      "id": 154,
+      "title": "\u30af\u30eb\u30af\u30eb\u2606\u30e9\u30d6\u301cOpioid Peptide MIX\u301c",
+      "version": "beatmania IIDX 14 GOLD"
+    },
+    {
+      "artist": "S.S.D.FANTASICA feat.\u30e6\u30c3\u30b3",
+      "bpm": "150",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 6,
+        "3": 8
+      },
+      "genre": "JAPANESE ALTERATION",
+      "id": 155,
+      "title": "\u82b1\u5439\u96ea \u301c IIDX LIMITED \u301c",
+      "version": "beatmania IIDX 14 GOLD"
+    },
+    {
+      "artist": "\u3042\u3055\u304d",
+      "bpm": "250",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 8,
+        "3": 10
+      },
+      "genre": "INDUSTRIAL REVIEW",
+      "id": 156,
+      "title": "\u25bc\u9b3c\u8a00\u96c6",
+      "version": "beatmania IIDX 14 GOLD"
+    },
+    {
+      "artist": "DJ YOSHITAKA feat.\u661f\u91ce\u594f\u5b50",
+      "bpm": "165",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 7,
+        "2": 9,
+        "3": 10
+      },
+      "genre": "J-POP",
+      "id": 157,
+      "title": "\u661f\u3092\u3053\u306e\u624b\u306b",
+      "version": "beatmania IIDX 14 GOLD"
+    },
+    {
+      "artist": "\u661f\u91ce\u594f\u5b50",
+      "bpm": "155",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 8,
+        "3": 10
+      },
+      "genre": "EURO TRANCE",
+      "id": 158,
+      "title": "\u30ea\u30b0\u30ec\u30c3\u30c8",
+      "version": "beatmania IIDX 14 GOLD"
+    },
+    {
+      "artist": "AKIRA YAMAOKA",
+      "bpm": "150",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 7,
+        "3": 9
+      },
+      "genre": "TECHNO",
+      "id": 159,
+      "title": "\u30e8\u30b7\u30c0\u3055\u3093",
+      "version": "beatmania IIDX 14 GOLD"
+    },
+    {
+      "artist": "T\u0401\u042fRA",
+      "bpm": "180",
+      "default": false,
+      "difficulty": {
+        "0": 1,
+        "1": 6,
+        "2": 8,
+        "3": 9
+      },
+      "genre": "HYPER J-POP ZERO",
+      "id": 160,
+      "title": "\u96f6 - ZERO -",
+      "version": "beatmania IIDX 14 GOLD"
+    },
+    {
+      "artist": "\u6731\u96c0",
+      "bpm": "185",
+      "default": false,
+      "difficulty": {
+        "0": 3,
+        "1": 6,
+        "2": 10,
+        "3": 11
+      },
+      "genre": "HARD RENAISSANCE",
+      "id": 161,
+      "title": "Anisakis -somatic mutation type\"Forza\"-",
+      "version": "beatmania IIDX 15 DJ TROOPERS"
+    },
+    {
+      "artist": "DJ Yoshitaka feat.B-Agents",
+      "bpm": "100",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 6,
+        "3": 8
+      },
+      "genre": "J-R&B",
+      "id": 162,
+      "title": "Darling my LUV",
+      "version": "beatmania IIDX 15 DJ TROOPERS"
+    },
+    {
+      "artist": "\u732b\u53c9Master+",
+      "bpm": "162",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 9,
+        "3": 10
+      },
+      "genre": "FRENZY HOUSE",
+      "id": 163,
+      "title": "end of world",
+      "version": "beatmania IIDX 15 DJ TROOPERS"
+    },
+    {
+      "artist": "kors k",
+      "bpm": "133",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 7,
+        "3": 10
+      },
+      "genre": "PROG",
+      "id": 164,
+      "title": "evergreen",
+      "version": "beatmania IIDX 15 DJ TROOPERS"
+    },
+    {
+      "artist": "Lion",
+      "bpm": "125-195",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 10,
+        "3": 11
+      },
+      "genre": "JUNGLE",
+      "id": 165,
+      "title": "four pieces of heaven",
+      "version": "beatmania IIDX 15 DJ TROOPERS"
+    },
+    {
+      "artist": "dj TAKA",
+      "bpm": "145",
+      "default": false,
+      "difficulty": {
+        "0": 2,
+        "1": 4,
+        "2": 7,
+        "3": 10
+      },
+      "genre": "TRANCE",
+      "id": 166,
+      "title": "Freeway Shuffle",
+      "version": "beatmania IIDX 15 DJ TROOPERS"
+    },
+    {
+      "artist": "Ryu\u2606",
+      "bpm": "180",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 7,
+        "2": 9,
+        "3": 11
+      },
+      "genre": "HAPPY HARDCORE",
+      "id": 167,
+      "title": "in the Sky",
+      "version": "beatmania IIDX 15 DJ TROOPERS"
+    },
+    {
+      "artist": "L.E.D.-G",
+      "bpm": "178",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 9,
+        "3": 10
+      },
+      "genre": "HAPPY HARDCORE",
+      "id": 168,
+      "title": "LOVELY STORM",
+      "version": "beatmania IIDX 15 DJ TROOPERS"
+    },
+    {
+      "artist": "DJ YOSHITAKA feat.\u661f\u91ce\u594f\u5b50",
+      "bpm": "180",
+      "default": false,
+      "difficulty": {
+        "0": 3,
+        "1": 5,
+        "2": 8,
+        "3": 10
+      },
+      "genre": "LOVELY BUCHIAGE POP",
+      "id": 169,
+      "title": "MAX LOVE",
+      "version": "beatmania IIDX 15 DJ TROOPERS"
+    },
+    {
+      "artist": "Humanoid",
+      "bpm": "168",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 11,
+        "3": 12
+      },
+      "genre": "IRREGULAR HI-BREAK",
+      "id": 170,
+      "title": "MENDES",
+      "version": "beatmania IIDX 15 DJ TROOPERS"
+    },
+    {
+      "artist": "SUPER STAR \u6e80-MITSURU-",
+      "bpm": "165",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 9,
+        "3": 10
+      },
+      "genre": "ONLY ONE EURO BEAT",
+      "id": 171,
+      "title": "NEW GENERATION -\u3082\u3046\u3001\u304a\u524d\u3057\u304b\u898b\u3048\u306a\u3044-",
+      "version": "beatmania IIDX 15 DJ TROOPERS"
+    },
+    {
+      "artist": "T\u0401\u042fRA WORKS",
+      "bpm": "70",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 3,
+        "2": 7,
+        "3": 8
+      },
+      "genre": "BALLAD",
+      "id": 172,
+      "title": "PROMISE FOR LIFE",
+      "version": "beatmania IIDX 15 DJ TROOPERS"
+    },
+    {
+      "artist": "Zektbach",
+      "bpm": "160",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 9,
+        "3": 12
+      },
+      "genre": "OUVERT\u00dcRE",
+      "id": 173,
+      "title": "Ristaccia",
+      "version": "beatmania IIDX 15 DJ TROOPERS"
+    },
+    {
+      "artist": "\u732b\u53c9Master",
+      "bpm": "154",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 9,
+        "3": 11
+      },
+      "genre": "HARD HOUSE",
+      "id": 174,
+      "title": "satellite020712 from \"CODED ARMS\"",
+      "version": "beatmania IIDX 15 DJ TROOPERS"
+    },
+    {
+      "artist": "\u732b\u53c9Master",
+      "bpm": "141",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 3,
+        "2": 5,
+        "3": 8
+      },
+      "genre": "WORLD/ELECTRONICA",
+      "id": 175,
+      "title": "scar in the earth",
+      "version": "beatmania IIDX 15 DJ TROOPERS"
+    },
+    {
+      "artist": "AKIRA YAMAOKA",
+      "bpm": "130",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 8,
+        "3": 10
+      },
+      "genre": "TECHNO",
+      "id": 176,
+      "title": "\u25bcSHIFT",
+      "version": "beatmania IIDX 15 DJ TROOPERS"
+    },
+    {
+      "artist": "L.E.D.-G",
+      "bpm": "173",
+      "default": false,
+      "difficulty": {
+        "0": 2,
+        "1": 6,
+        "2": 10,
+        "3": 11
+      },
+      "genre": "NU STYLE GABBA",
+      "id": 177,
+      "title": "THE DEEP STRIKER",
+      "version": "beatmania IIDX 15 DJ TROOPERS"
+    },
+    {
+      "artist": "Seiya Murai",
+      "bpm": "150",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 7,
+        "3": 9
+      },
+      "genre": "ETHNOTRONICA",
+      "id": 178,
+      "title": "the trigger of innocence",
+      "version": "beatmania IIDX 15 DJ TROOPERS"
+    },
+    {
+      "artist": "\u9752\u9f8d",
+      "bpm": "191",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 10,
+        "3": 11
+      },
+      "genre": "DANCE SPEED",
+      "id": 179,
+      "title": "Time to Air",
+      "version": "beatmania IIDX 15 DJ TROOPERS"
+    },
+    {
+      "artist": "Remixed by \u5c11\u5e74\u30e9\u30b8\u30aa",
+      "bpm": "90-192",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 10,
+        "3": 12
+      },
+      "genre": "POST RENAISSANCE",
+      "id": 180,
+      "title": "\u5c11\u5e74A",
+      "version": "beatmania IIDX 15 DJ TROOPERS"
+    },
+    {
+      "artist": "Dr. Honda",
+      "bpm": "150",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 7,
+        "3": 9
+      },
+      "genre": "SYMPHONIC TECHNO",
+      "id": 181,
+      "title": "\u25bc\u9ad8\u9ad8\u5ea6\u964d\u4e0b\u4f4e\u9ad8\u5ea6\u958b\u5098",
+      "version": "beatmania IIDX 15 DJ TROOPERS"
+    },
+    {
+      "artist": "Jimmy Weckl",
+      "bpm": "144",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 9,
+        "3": 10
+      },
+      "genre": "FUSION",
+      "id": 182,
+      "title": "\u30df\u30e9\u30fc\u30b8\u30e5\u30fb\u30ec\u30b8\u30c7\u30f3\u30b9",
+      "version": "beatmania IIDX 15 DJ TROOPERS"
+    },
+    {
+      "artist": "AKIRA YAMAOKA",
+      "bpm": "152",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 6,
+        "3": 8
+      },
+      "genre": "EDUCATION",
+      "id": 183,
+      "title": "\u30de\u30c1\u5b50\u306e\u5504",
+      "version": "beatmania IIDX 15 DJ TROOPERS"
+    },
+    {
+      "artist": "TAKA",
+      "bpm": "68-85",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 3,
+        "2": 4,
+        "3": 7
+      },
+      "genre": "SOLDIER\u00b4S BALLAD",
+      "id": 184,
+      "title": "\u8d70\u99ac\u706f -The Last Song-",
+      "version": "beatmania IIDX 15 DJ TROOPERS"
+    },
+    {
+      "artist": "SUPER STAR \u6e80-MITSURU-",
+      "bpm": "170",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 9,
+        "3": 11
+      },
+      "genre": "ONLY ONE EURO BEAT",
+      "id": 185,
+      "title": "ALL MY TURN -\u3053\u306e\u30bf\u30fc\u30f3\u306b\u3001\u30aa\u30ec\u306e\u5168\u3066\u3092\u8ced\u3051\u308b-",
+      "version": "beatmania IIDX 16 EMPRESS"
+    },
+    {
+      "artist": "dj MAX STEROID",
+      "bpm": "180",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 10,
+        "3": 11
+      },
+      "genre": "ARABIC HARDCORE",
+      "id": 186,
+      "title": "Arabian Rave Night",
+      "version": "beatmania IIDX 16 EMPRESS"
+    },
+    {
+      "artist": "\u732b\u53c9Master feat.JUNE",
+      "bpm": "155",
+      "default": false,
+      "difficulty": {
+        "0": 3,
+        "1": 4,
+        "2": 9,
+        "3": 10
+      },
+      "genre": "HOUSE",
+      "id": 187,
+      "title": "Bahram Attack-\u732b\u53c9Master Remix-",
+      "version": "beatmania IIDX 16 EMPRESS"
+    },
+    {
+      "artist": "L.E.D.-G",
+      "bpm": "165",
+      "default": false,
+      "difficulty": {
+        "0": 3,
+        "1": 5,
+        "2": 10,
+        "3": 12
+      },
+      "genre": "JUMPSTYLE",
+      "id": 188,
+      "title": "BITTER CHOCOLATE STRIKER",
+      "version": "beatmania IIDX 16 EMPRESS"
+    },
+    {
+      "artist": "e-lma",
+      "bpm": "175",
+      "default": false,
+      "difficulty": {
+        "0": 1,
+        "1": 6,
+        "2": 9,
+        "3": 11
+      },
+      "genre": "NOSTALISH REQUIEM",
+      "id": 189,
+      "title": "CaptivAte2\u301c\u899a\u9192\u301c",
+      "version": "beatmania IIDX 16 EMPRESS"
+    },
+    {
+      "artist": "kors k as disconation",
+      "bpm": "155",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 8,
+        "3": 10
+      },
+      "genre": "MEGA MIX",
+      "id": 190,
+      "title": "Flash Back 90's",
+      "version": "beatmania IIDX 16 EMPRESS"
+    },
+    {
+      "artist": "Sota Fujimori",
+      "bpm": "150",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 6,
+        "3": 8
+      },
+      "genre": "DREAM TRANCE",
+      "id": 191,
+      "title": "Fly Above",
+      "version": "beatmania IIDX 16 EMPRESS"
+    },
+    {
+      "artist": "Ryu Vs. Sota",
+      "bpm": "200",
+      "default": false,
+      "difficulty": {
+        "0": 3,
+        "1": 6,
+        "2": 10,
+        "3": 12
+      },
+      "genre": "TRANCE CORE",
+      "id": 192,
+      "title": "Go Beyond!!",
+      "version": "beatmania IIDX 16 EMPRESS"
+    },
+    {
+      "artist": "\u98db\u71d5\u6d41\u821e",
+      "bpm": "177",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 10,
+        "3": 11
+      },
+      "genre": "ASIAN JANGLE",
+      "id": 193,
+      "title": "Kung-fu Empire",
+      "version": "beatmania IIDX 16 EMPRESS"
+    },
+    {
+      "artist": "kors k as StripE",
+      "bpm": "153",
+      "default": false,
+      "difficulty": {
+        "0": 3,
+        "1": 5,
+        "2": 9,
+        "3": 11
+      },
+      "genre": "PSY TRANCE(FULL ON)",
+      "id": 194,
+      "title": "Programmed World",
+      "version": "beatmania IIDX 16 EMPRESS"
+    },
+    {
+      "artist": "\u732b\u53c9Master+",
+      "bpm": "152",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 8,
+        "3": 10
+      },
+      "genre": "BIGBEAT",
+      "id": 195,
+      "title": "Queen's Tragedy",
+      "version": "beatmania IIDX 16 EMPRESS"
+    },
+    {
+      "artist": "kors k",
+      "bpm": "177",
+      "default": false,
+      "difficulty": {
+        "0": 2,
+        "1": 4,
+        "2": 8,
+        "3": 10
+      },
+      "genre": "CANDY RAVE",
+      "id": 196,
+      "title": "smooooch\u30fb\u2200\u30fb",
+      "version": "beatmania IIDX 16 EMPRESS"
+    },
+    {
+      "artist": "L.E.D.",
+      "bpm": "152",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 9,
+        "3": 10
+      },
+      "genre": "TECHNO",
+      "id": 197,
+      "title": "SOLITON BEAM",
+      "version": "beatmania IIDX 16 EMPRESS"
+    },
+    {
+      "artist": "SUPER STAR \u6e80-MITSURU-",
+      "bpm": "45-170",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 9,
+        "3": 10
+      },
+      "genre": "ONLY ONE EPILOGUE",
+      "id": 198,
+      "title": "THANK YOU FOR PLAYING",
+      "version": "beatmania IIDX 16 EMPRESS"
+    },
+    {
+      "artist": "Zektbach",
+      "bpm": "148",
+      "default": false,
+      "difficulty": {
+        "0": 2,
+        "1": 4,
+        "2": 9,
+        "3": 10
+      },
+      "genre": "ELEMENTAL CHANT",
+      "id": 199,
+      "title": "Turii \u301cPanta rhei\u301c",
+      "version": "beatmania IIDX 16 EMPRESS"
+    },
+    {
+      "artist": "TAKA",
+      "bpm": "150",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 10,
+        "3": 11
+      },
+      "genre": "PROGRESSIVE",
+      "id": 200,
+      "title": "V2",
+      "version": "beatmania IIDX 16 EMPRESS"
+    },
+    {
+      "artist": "\u9752\u9f8d",
+      "bpm": "191",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 7,
+        "2": 10,
+        "3": 12
+      },
+      "genre": "DANCE SPEED",
+      "id": 201,
+      "title": "3y3s",
+      "version": "beatmania IIDX 16 EMPRESS"
+    },
+    {
+      "artist": "AKIRA YAMAOKA feat.\u559c\u5c4b\u6b66\u3061\u3042\u304d",
+      "bpm": "148",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 7,
+        "3": 10
+      },
+      "genre": "\u30dd\u30c3\u30d7\u30b9",
+      "id": 202,
+      "title": "\u5c71\u5ca1\u6643\u306e\u300c\u30af\u30a4\u30ba\uff01\u5bb6\u4e8b\u90fd\u5408\uff01\u300d",
+      "version": "beatmania IIDX 16 EMPRESS"
+    },
+    {
+      "artist": "Risk Junk",
+      "bpm": "188",
+      "default": false,
+      "difficulty": {
+        "0": 3,
+        "1": 6,
+        "2": 9,
+        "3": 12
+      },
+      "genre": "HARDCORE",
+      "id": 203,
+      "title": "\u4e0d\u6c88\u8266CANDY",
+      "version": "beatmania IIDX 16 EMPRESS"
+    },
+    {
+      "artist": "Des-MASTERS",
+      "bpm": "143",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 8,
+        "3": 10
+      },
+      "genre": "HOU-ROCK",
+      "id": 204,
+      "title": "\u30cf\u30ea\u30c4\u30e4\u30e9\u30f3\u30c7\u30f4\u30fc",
+      "version": "beatmania IIDX 16 EMPRESS"
+    },
+    {
+      "artist": "\u6731\u96c0 VS \u7384\u6b66",
+      "bpm": "83-185",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 11,
+        "3": 12
+      },
+      "genre": "ESOTERIC SPEEDCORE",
+      "id": 205,
+      "title": "\u5351\u5f25\u547c",
+      "version": "beatmania IIDX 16 EMPRESS"
+    },
+    {
+      "artist": "HHH+H",
+      "bpm": "149",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 7,
+        "3": 9
+      },
+      "genre": "J-DANCE POP",
+      "id": 206,
+      "title": "\u307e\u307b\u308d\u3070",
+      "version": "beatmania IIDX 16 EMPRESS"
+    },
+    {
+      "artist": "Dr. Honda",
+      "bpm": "150",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 7,
+        "3": 9
+      },
+      "genre": "TRENDY TECHNO",
+      "id": 207,
+      "title": "\u30df\u30c3\u30c9\u30ca\u30a4\u30c8\u5815\u5929\u4f7f",
+      "version": "beatmania IIDX 16 EMPRESS"
+    },
+    {
+      "artist": "\u7d05\u8272\u30ea\u30c8\u30de\u30b9",
+      "bpm": "163",
+      "default": true,
+      "difficulty": {
+        "0": 2,
+        "1": 6,
+        "2": 9,
+        "3": 10
+      },
+      "genre": "\u64ab\u5b50\u30ed\u30c3\u30af",
+      "id": 208,
+      "title": "\u51db\u3068\u3057\u3066\u54b2\u304f\u82b1\u306e\u5982\u304f",
+      "version": "beatmania IIDX 16 EMPRESS"
+    },
+    {
+      "artist": "Seiya Murai",
+      "bpm": "160",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 7,
+        "3": 10
+      },
+      "genre": "IRON CONCERTO",
+      "id": 209,
+      "title": "\u9244\u7532\u4e59\u5973-under the steel-",
+      "version": "beatmania IIDX 16 EMPRESS"
+    },
+    {
+      "artist": "\u5c0f\u6797\u3086\u3046",
+      "bpm": "148",
+      "default": false,
+      "difficulty": {
+        "0": 1,
+        "1": 4,
+        "2": 7,
+        "3": 9
+      },
+      "genre": "J-TRANCE",
+      "id": 210,
+      "title": "\u7ffc",
+      "version": "beatmania IIDX 16 EMPRESS"
+    },
+    {
+      "artist": "GUHROOVY",
+      "bpm": "180",
+      "default": false,
+      "difficulty": {
+        "0": 3,
+        "1": 7,
+        "2": 9,
+        "3": 11
+      },
+      "genre": "SPEEDCORE",
+      "id": 211,
+      "title": "AIR RAID FROM THA UNDAGROUND",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "Galdeira",
+      "bpm": "178",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 7,
+        "2": 11,
+        "3": 12
+      },
+      "genre": "AKASHIC RECORDS",
+      "id": 212,
+      "title": "Almagest",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "kors k as teranoid",
+      "bpm": "195",
+      "default": true,
+      "difficulty": {
+        "0": -1,
+        "1": 7,
+        "2": 10,
+        "3": 12
+      },
+      "genre": "INDUSTRIAL",
+      "id": 213,
+      "title": "Bad Maniacs",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "Ryu\u2606",
+      "bpm": "140",
+      "default": false,
+      "difficulty": {
+        "0": 1,
+        "1": 4,
+        "2": 7,
+        "3": 10
+      },
+      "genre": "BUBBLEGUM DANCE",
+      "id": 214,
+      "title": "bass 2 bass",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "\u732b\u53c9Master+ feat.JUNE",
+      "bpm": "102",
+      "default": true,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 7,
+        "3": 10
+      },
+      "genre": "ELECTRO POP",
+      "id": 215,
+      "title": "being torn the sky",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "Ryu\u2606",
+      "bpm": "181",
+      "default": false,
+      "difficulty": {
+        "0": 2,
+        "1": 7,
+        "2": 9,
+        "3": 11
+      },
+      "genre": "HAPPY HARDCORE",
+      "id": 216,
+      "title": "bloomin' feeling",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "Ben Franklin",
+      "bpm": "130",
+      "default": true,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 8,
+        "3": 9
+      },
+      "genre": "LATIN HOUSE",
+      "id": 217,
+      "title": "\u25bcBrazilian Fire",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "Remixed by DJ YOSHITAKA",
+      "bpm": "180",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 8,
+        "3": 10
+      },
+      "genre": "SUBLIME TECHNO",
+      "id": 218,
+      "title": "CaptivAte\u301c\u88c1\u304d\u301c(SUBLIME TECHNO MIX)",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "Yocke feat. Mayu",
+      "bpm": "90",
+      "default": true,
+      "difficulty": {
+        "0": -1,
+        "1": 3,
+        "2": 5,
+        "3": 7
+      },
+      "genre": "TRIP-POP",
+      "id": 219,
+      "title": "\u25bcChocolate Dancing",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "Eagle",
+      "bpm": "30-240",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 8,
+        "2": 10,
+        "3": 11
+      },
+      "genre": "NEXT SKOOLBREAKBEATS HARDCORE",
+      "id": 220,
+      "title": "D",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "Remixed by DJ Command",
+      "bpm": "160",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 8,
+        "3": 10
+      },
+      "genre": "EUROBEAT",
+      "id": 221,
+      "title": "Dazzlin' Darlin-\u79cb\u8449\u5de5\u623fmix-",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "Remixed by Sota Fujimori",
+      "bpm": "165",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 8,
+        "3": 10
+      },
+      "genre": "PSYCHE TRANCE",
+      "id": 222,
+      "title": "\u25bcDENJIN AKATSUKINI TAORERU -SF PureAnalogSynth Mix-",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "M-Project fw. GUHROOVY",
+      "bpm": "175",
+      "default": true,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 9,
+        "3": 11
+      },
+      "genre": "UK HARDCORE",
+      "id": 223,
+      "title": "DESIRE",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "L.E.D.-G",
+      "bpm": "196",
+      "default": true,
+      "difficulty": {
+        "0": -1,
+        "1": 7,
+        "2": 10,
+        "3": 12
+      },
+      "genre": "HARDCORE",
+      "id": 224,
+      "title": "DOMINION",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "dj TAKA feat.Kanako Hoshino",
+      "bpm": "152",
+      "default": false,
+      "difficulty": {
+        "0": 2,
+        "1": 4,
+        "2": 9,
+        "3": 11
+      },
+      "genre": "WHITE SEQUENCE",
+      "id": 225,
+      "title": "DROP",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "DJ YOSHITAKA",
+      "bpm": "185",
+      "default": true,
+      "difficulty": {
+        "0": 3,
+        "1": 6,
+        "2": 10,
+        "3": 11
+      },
+      "genre": "TRANCE CORE",
+      "id": 226,
+      "title": "Elisha",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "Dirty Androids",
+      "bpm": "173",
+      "default": true,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 9,
+        "3": 11
+      },
+      "genre": "CYBERPUNK",
+      "id": 227,
+      "title": "Empire State Glory",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "L.E.D.-G VS GUHROOVY",
+      "bpm": "135-270",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 7,
+        "2": 10,
+        "3": 12
+      },
+      "genre": "HARDCORE",
+      "id": 228,
+      "title": "eRAseRmOToRpHAntOM",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "DJ YOSHITAKA",
+      "bpm": "185",
+      "default": false,
+      "difficulty": {
+        "0": 3,
+        "1": 6,
+        "2": 11,
+        "3": -1
+      },
+      "genre": "HARD RENAISSANCE",
+      "id": 229,
+      "title": "Evans",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "L.E.D.-G",
+      "bpm": "188",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 10,
+        "3": 12
+      },
+      "genre": "HARDCORE",
+      "id": 230,
+      "title": "EXUSIA",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "\u6012\u308c\u308b\u91d1\u306e\u7345\u5b50",
+      "bpm": "170",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 7,
+        "2": 10,
+        "3": 12
+      },
+      "genre": "EXPERIMENTAL MUSIC",
+      "id": 231,
+      "title": "G59",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "L.E.D.",
+      "bpm": "165",
+      "default": true,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 10,
+        "3": 11
+      },
+      "genre": "HARDCORE TECHNO",
+      "id": 232,
+      "title": "GALGALIM",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "MAD CHILD",
+      "bpm": "143",
+      "default": true,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 8,
+        "3": 10
+      },
+      "genre": "TECH DANCE",
+      "id": 233,
+      "title": "Hydrogen Blueback",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "DJ Command feat.NAGISA",
+      "bpm": "166",
+      "default": true,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 9,
+        "3": 10
+      },
+      "genre": "EUROBEAT",
+      "id": 234,
+      "title": "Keep it-\u79cb\u8449\u5de5\u623fmix-",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "Dirty Androids",
+      "bpm": "130",
+      "default": true,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 7,
+        "3": 10
+      },
+      "genre": "ELECTRO",
+      "id": 235,
+      "title": "Last Burning",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "Ryu\u2606",
+      "bpm": "140",
+      "default": true,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 7,
+        "3": 10
+      },
+      "genre": "BUBBLEGUM DANCE",
+      "id": 236,
+      "title": "Light Shine",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "Paddington Private Detective",
+      "bpm": "150",
+      "default": true,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 6,
+        "3": 8
+      },
+      "genre": "SERIOUS STEP",
+      "id": 237,
+      "title": "\u25bcLondon Affairs Beckoned With Money Loved By Yellow Papers.",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "Lucky Vacuum",
+      "bpm": "160",
+      "default": true,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 9,
+        "3": 11
+      },
+      "genre": "BUCHIAGE TRANCE",
+      "id": 238,
+      "title": "MIRACLE MEETS",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "Auridy",
+      "bpm": "188",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 7,
+        "2": 10,
+        "3": 12
+      },
+      "genre": "TECHNO POP SPEED",
+      "id": 239,
+      "title": "mosaic",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "SUPER HEROINE \u5f69\u9999-AYAKA-",
+      "bpm": "200",
+      "default": true,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 10,
+        "3": 11
+      },
+      "genre": "ONLY ONE IDOL SONG",
+      "id": 240,
+      "title": "NEW SENSATION -\u3082\u3046\u3001\u3042\u306a\u305f\u3057\u304b\u898b\u3048\u306a\u3044-",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "Creative Life",
+      "bpm": "160",
+      "default": true,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 7,
+        "3": 10
+      },
+      "genre": "TECHNO POP",
+      "id": 241,
+      "title": "NoN-Fiction Story!",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "Crystal Begley",
+      "bpm": "132",
+      "default": true,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 8,
+        "3": 9
+      },
+      "genre": "TECHNO/DANCE",
+      "id": 242,
+      "title": "\u25bcOne of A Kind",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "kors k",
+      "bpm": "144",
+      "default": true,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 9,
+        "3": 11
+      },
+      "genre": "PSY TRANCE(MORNING)",
+      "id": 243,
+      "title": "Programmed Sun",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "dj TAKA Vs. DJ YOSHITAKA",
+      "bpm": "\u203b",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 9,
+        "3": 12
+      },
+      "genre": "TRANCE",
+      "id": 244,
+      "title": "quell\u301cthe seventh slave\u301c",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "Zektbach",
+      "bpm": "155-175",
+      "default": true,
+      "difficulty": {
+        "0": 1,
+        "1": 5,
+        "2": 10,
+        "3": 11
+      },
+      "genre": "ASTRAL CHOIR",
+      "id": 245,
+      "title": "Raison d'\u00eatre\u301c\u4ea4\u5dee\u3059\u308b\u5bbf\u547d\u301c",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "DJ Mass MAD Izm*",
+      "bpm": "158",
+      "default": true,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 10,
+        "3": 12
+      },
+      "genre": "TECH-BREAKBEATS",
+      "id": 246,
+      "title": "Red. by Full Metal Jacket",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "\u30ca\u30a4\u30a2",
+      "bpm": "158",
+      "default": false,
+      "difficulty": {
+        "0": 2,
+        "1": 4,
+        "2": 7,
+        "3": 9
+      },
+      "genre": "ACTRESS",
+      "id": 247,
+      "title": "Roots of my way!",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "SUPER STAR \u6e80-MITSURU-",
+      "bpm": "85-170",
+      "default": true,
+      "difficulty": {
+        "0": 3,
+        "1": 5,
+        "2": 9,
+        "3": 10
+      },
+      "genre": "ONLY ONE BALLAD",
+      "id": 248,
+      "title": "She is my wife",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "kors k Vs. L.E.D.",
+      "bpm": "155",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 10,
+        "3": 12
+      },
+      "genre": "HARDSTYLE",
+      "id": 249,
+      "title": "SOLID STATE SQUAD",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "Asako Yoshihiro",
+      "bpm": "185",
+      "default": true,
+      "difficulty": {
+        "0": 1,
+        "1": 5,
+        "2": 8,
+        "3": 10
+      },
+      "genre": "EMO",
+      "id": 250,
+      "title": "Sorrows",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "kors k feat. Suzuyo Miyamoto",
+      "bpm": "128",
+      "default": false,
+      "difficulty": {
+        "0": 2,
+        "1": 5,
+        "2": 7,
+        "3": 9
+      },
+      "genre": "J-HOUSE",
+      "id": 251,
+      "title": "Special One",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "Remixed by L.E.D.",
+      "bpm": "154",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 9,
+        "3": 10
+      },
+      "genre": "PSYCHEDELIC TRANCE",
+      "id": 252,
+      "title": "\u25bcspiral galaxy -L.E.D. STYLE SPREADING PARTICLE BEAM MIX-",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "L.E.D.",
+      "bpm": "185",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 8,
+        "3": 11
+      },
+      "genre": "DRUM & BASS",
+      "id": 253,
+      "title": "THE LAST STRIKER",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "SADA & Sota",
+      "bpm": "150",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 8,
+        "3": 10
+      },
+      "genre": "EPIC TRANCE",
+      "id": 254,
+      "title": "The Story Begins",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "seiya-murai",
+      "bpm": "122",
+      "default": true,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 7,
+        "3": 9
+      },
+      "genre": "CLUB' 80s",
+      "id": 255,
+      "title": "\u25bcTo the Future",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "Sota Fujimori feat.Kemy",
+      "bpm": "144",
+      "default": true,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 8,
+        "3": 10
+      },
+      "genre": "ELECTRO",
+      "id": 256,
+      "title": "\u25bcwith me...",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "\u5287\u56e3\u30ec\u30b3\u30fc\u30c9",
+      "bpm": "164",
+      "default": true,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 7,
+        "3": 8
+      },
+      "genre": "DISTORTED NEW AGE",
+      "id": 257,
+      "title": "\u30d0\u30d3\u30ed\u30cb\u30a2",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "TSU-NA",
+      "bpm": "148",
+      "default": true,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 8,
+        "3": 9
+      },
+      "genre": "J-POP",
+      "id": 258,
+      "title": "\u30b3\u30b9\u30e2\u30b9",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "\u30ac\u30ad\u5927\u5c06\u30c6\u30a3\u30fc\u30e0",
+      "bpm": "110",
+      "default": true,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 6,
+        "3": 8
+      },
+      "genre": "\u30e2\u30c3\u30b7\u30e5",
+      "id": 259,
+      "title": "\u25bc\u30d5\u30a7\u30c6\u30a3\u30c3\u30b7\u30e5\u30da\u30a4\u30d1\u30fc \u301c\u8107\u306e\u6c57\u56de\u8ee2\u30ac\u30fc\u30eb\u301c",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "CULTVOICE by S.S.D.PRODUCTS",
+      "bpm": "170",
+      "default": true,
+      "difficulty": {
+        "0": -1,
+        "1": 3,
+        "2": 6,
+        "3": 8
+      },
+      "genre": "INSANIO",
+      "id": 260,
+      "title": "\u304b\u305a\u3042\u305d\u3073",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "\u661f\u91ce\u594f\u5b50",
+      "bpm": "132",
+      "default": true,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 7,
+        "3": 9
+      },
+      "genre": "STAR POP",
+      "id": 261,
+      "title": "\u672a\u6765\u306e\u30d7\u30ea\u30ba\u30e0",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "\u732b\u53c9Master",
+      "bpm": "111",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 6,
+        "3": 8
+      },
+      "genre": "WORLD/ELECTRONICA",
+      "id": 262,
+      "title": "\u30b5\u30e8\u30ca\u30e9\u30fb\u30d8\u30f4\u30f3",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "\u732b\u53c9Master",
+      "bpm": "140",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 8,
+        "3": 10
+      },
+      "genre": "WORLD/ELECTRONICA",
+      "id": 263,
+      "title": "\u6c34\u4e0a\u306e\u63d0\u7763(Short mix from \"\u5e7b\u60f3\u6c34\u6ef8\u4f1dV\")",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "virkato",
+      "bpm": "\u203b",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 10,
+        "3": 12
+      },
+      "genre": "VALSE",
+      "id": 264,
+      "title": "\u30ef\u30eb\u30c4\u7b2c17\u756a \u30c8\u77ed\u8abf\"\u5927\u72ac\u306e\u30ef\u30eb\u30c4\"",
+      "version": "beatmania IIDX 17 SIRIUS"
+    },
+    {
+      "artist": "IT medalion",
+      "bpm": "162",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 8,
+        "3": 11
+      },
+      "genre": "TECHNO",
+      "id": 265,
+      "title": "Aegis",
+      "version": "beatmania IIDX 18 Resort Anthem"
+    },
+    {
+      "artist": "DJ YOSHITAKA",
+      "bpm": "185",
+      "default": false,
+      "difficulty": {
+        "0": 3,
+        "1": 6,
+        "2": 10,
+        "3": 12
+      },
+      "genre": "HARD RENAISSANCE",
+      "id": 266,
+      "title": "ALBIDA",
+      "version": "beatmania IIDX 18 Resort Anthem"
+    },
+    {
+      "artist": "\u661f\u91ce\u594f\u5b50",
+      "bpm": "156",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 7,
+        "3": 10
+      },
+      "genre": "STARPOP",
+      "id": 267,
+      "title": "Answer",
+      "version": "beatmania IIDX 18 Resort Anthem"
+    },
+    {
+      "artist": "DJ\u30e0\u30e9\u30b5\u30e1",
+      "bpm": "151",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 9,
+        "3": 11
+      },
+      "genre": "LATIN TEK",
+      "id": 268,
+      "title": "ANTHEM LANDING",
+      "version": "beatmania IIDX 18 Resort Anthem"
+    },
+    {
+      "artist": "kors k feat.Kanata Okajima\uff06\u697d\u5929\u658e",
+      "bpm": "116",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 9,
+        "3": 11
+      },
+      "genre": "DANCEHALL",
+      "id": 269,
+      "title": "Bounce Bounce Bounce",
+      "version": "beatmania IIDX 18 Resort Anthem"
+    },
+    {
+      "artist": "dj TAKA feat.AiMEE",
+      "bpm": "148",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 9,
+        "3": 12
+      },
+      "genre": "TRANCE",
+      "id": 270,
+      "title": "Broken",
+      "version": "beatmania IIDX 18 Resort Anthem"
+    },
+    {
+      "artist": "MYTHOLOGIA by MLREC.",
+      "bpm": "162",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 9,
+        "3": 11
+      },
+      "genre": "SYMPHONIC-TEK",
+      "id": 271,
+      "title": "BROKEN EDEN",
+      "version": "beatmania IIDX 18 Resort Anthem"
+    },
+    {
+      "artist": "Dr.Honda",
+      "bpm": "154",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 7,
+        "2": 10,
+        "3": 12
+      },
+      "genre": "\u30c8\u30ec\u30f3\u30c7\u30a3\u30fc\u30c8\u30e9\u30f3\u30b9",
+      "id": 272,
+      "title": "Dances with Snow Fairies",
+      "version": "beatmania IIDX 18 Resort Anthem"
+    },
+    {
+      "artist": "NAOKI",
+      "bpm": "155",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 9,
+        "3": 10
+      },
+      "genre": "SPEED RAVE",
+      "id": 273,
+      "title": "DM STAR\u301c\u95a2\u897f energy style\u301c",
+      "version": "beatmania IIDX 18 Resort Anthem"
+    },
+    {
+      "artist": "L.E.D.-G",
+      "bpm": "178",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 10,
+        "3": 12
+      },
+      "genre": "GABBA",
+      "id": 274,
+      "title": "ELECTRIC MASSIVE DIVER",
+      "version": "beatmania IIDX 18 Resort Anthem"
+    },
+    {
+      "artist": "SUPER STAR \u6e80-MITSURU-",
+      "bpm": "148",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 7,
+        "3": 10
+      },
+      "genre": "ONLY ONE ANTHEM",
+      "id": 275,
+      "title": "Everlasting Resort",
+      "version": "beatmania IIDX 18 Resort Anthem"
+    },
+    {
+      "artist": "T\u0401\u042fRA",
+      "bpm": "165",
+      "default": false,
+      "difficulty": {
+        "0": 1,
+        "1": 3,
+        "2": 8,
+        "3": 10
+      },
+      "genre": "HYPER FANTASIA",
+      "id": 276,
+      "title": "Fantasia",
+      "version": "beatmania IIDX 18 Resort Anthem"
+    },
+    {
+      "artist": "Dirty Androids",
+      "bpm": "130",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 8,
+        "3": 10
+      },
+      "genre": "NU DISCO",
+      "id": 277,
+      "title": "Golden Palms",
+      "version": "beatmania IIDX 18 Resort Anthem"
+    },
+    {
+      "artist": "DJ Weaver",
+      "bpm": "170",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 8,
+        "3": 10
+      },
+      "genre": "HARDCORE",
+      "id": 278,
+      "title": "\u25bcHardcore Mania",
+      "version": "beatmania IIDX 18 Resort Anthem"
+    },
+    {
+      "artist": "kobo feat. Marsha",
+      "bpm": "175",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 3,
+        "2": 7,
+        "3": 9
+      },
+      "genre": "DRUM & BASS",
+      "id": 279,
+      "title": "I FIGHT ME",
+      "version": "beatmania IIDX 18 Resort Anthem"
+    },
+    {
+      "artist": "kors k",
+      "bpm": "146",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 9,
+        "3": 11
+      },
+      "genre": "ENERGETICHAWAIIAN TRANCE",
+      "id": 280,
+      "title": "Kailua",
+      "version": "beatmania IIDX 18 Resort Anthem"
+    },
+    {
+      "artist": "dj TAKA feat. REN",
+      "bpm": "184",
+      "default": false,
+      "difficulty": {
+        "0": 2,
+        "1": 3,
+        "2": 8,
+        "3": 10
+      },
+      "genre": "HAPPY CORE",
+      "id": 281,
+      "title": "Love\u2661km",
+      "version": "beatmania IIDX 18 Resort Anthem"
+    },
+    {
+      "artist": "\u30a4\u30ed\u30cf\uff06\u30ea\u30ea\u30ca",
+      "bpm": "173",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 6,
+        "3": 9
+      },
+      "genre": "MAGICAL POP",
+      "id": 282,
+      "title": "Medicine of love",
+      "version": "beatmania IIDX 18 Resort Anthem"
+    },
+    {
+      "artist": "Cream puff",
+      "bpm": "140",
+      "default": false,
+      "difficulty": {
+        "0": 3,
+        "1": 5,
+        "2": 8,
+        "3": 10
+      },
+      "genre": "BUBBLEGUM DANCE",
+      "id": 283,
+      "title": "Mermaid girl",
+      "version": "beatmania IIDX 18 Resort Anthem"
+    },
+    {
+      "artist": "Sota Fujimori feat. dj MAX STEROID",
+      "bpm": "170",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 8,
+        "3": 11
+      },
+      "genre": "IIDX HANDZ UP!!",
+      "id": 284,
+      "title": "Never Fade Away",
+      "version": "beatmania IIDX 18 Resort Anthem"
+    },
+    {
+      "artist": "Ryu\u2606 Vs. L.E.D.-G",
+      "bpm": "200",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 7,
+        "2": 11,
+        "3": 12
+      },
+      "genre": "TRANCE CORE",
+      "id": 285,
+      "title": "PARADISE LOST",
+      "version": "beatmania IIDX 18 Resort Anthem"
+    },
+    {
+      "artist": "iconoclasm",
+      "bpm": "172",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 7,
+        "2": 11,
+        "3": 12
+      },
+      "genre": "ANTHEM CORE",
+      "id": 286,
+      "title": "perditus\u2020paradisus",
+      "version": "beatmania IIDX 18 Resort Anthem"
+    },
+    {
+      "artist": "Tatsh",
+      "bpm": "184",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 8,
+        "2": 11,
+        "3": 12
+      },
+      "genre": "CYBER WALTZ",
+      "id": 287,
+      "title": "reunion",
+      "version": "beatmania IIDX 18 Resort Anthem"
+    },
+    {
+      "artist": "M-Project fw. GUHROOVY",
+      "bpm": "175",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 9,
+        "3": 11
+      },
+      "genre": "UK HARDCORE",
+      "id": 288,
+      "title": "Rock Da House",
+      "version": "beatmania IIDX 18 Resort Anthem"
+    },
+    {
+      "artist": "TAG",
+      "bpm": "37-444",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 9,
+        "3": 11
+      },
+      "genre": "SHOOTING WALTZ",
+      "id": 289,
+      "title": "SABER WING",
+      "version": "beatmania IIDX 18 Resort Anthem"
+    },
+    {
+      "artist": "Ryu\u2606",
+      "bpm": "181",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 3,
+        "2": 9,
+        "3": 11
+      },
+      "genre": "HAPPY HARDCORE",
+      "id": 290,
+      "title": "Sakura Reflection",
+      "version": "beatmania IIDX 18 Resort Anthem"
+    },
+    {
+      "artist": "Ryu\u2606",
+      "bpm": "184",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 8,
+        "3": 12
+      },
+      "genre": "HAPPY HARDCORE",
+      "id": 291,
+      "title": "sakura storm",
+      "version": "beatmania IIDX 18 Resort Anthem"
+    },
+    {
+      "artist": "Lucky Vacuum",
+      "bpm": "168",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 8,
+        "3": 12
+      },
+      "genre": "BUCHIAGE TRANCE",
+      "id": 292,
+      "title": "SPECIAL SUMMER CAMPAIGN!",
+      "version": "beatmania IIDX 18 Resort Anthem"
+    },
+    {
+      "artist": "DJ Yoshitaka feat.RINA",
+      "bpm": "100",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 6,
+        "3": 8
+      },
+      "genre": "R&B",
+      "id": 293,
+      "title": "Stay my side",
+      "version": "beatmania IIDX 18 Resort Anthem"
+    },
+    {
+      "artist": "VENUS",
+      "bpm": "152",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 7,
+        "3": 10
+      },
+      "genre": "90's ELECTRIC POP",
+      "id": 294,
+      "title": "\u25bcSurvival Games",
+      "version": "beatmania IIDX 18 Resort Anthem"
+    },
+    {
+      "artist": "L.E.D.",
+      "bpm": "154",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 10,
+        "3": 11
+      },
+      "genre": "GOA TRANCE",
+      "id": 295,
+      "title": "THE BLACK KNIGHT",
+      "version": "beatmania IIDX 18 Resort Anthem"
+    },
+    {
+      "artist": "L.E.D.",
+      "bpm": "155",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 8,
+        "3": 10
+      },
+      "genre": "TRANCE",
+      "id": 296,
+      "title": "THE DOOR INTO RAINBOW",
+      "version": "beatmania IIDX 18 Resort Anthem"
+    },
+    {
+      "artist": "L.E.D.-G",
+      "bpm": "167",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 8,
+        "3": 11
+      },
+      "genre": "GOTH NU-STYLE GABBA",
+      "id": 297,
+      "title": "THE FALLEN",
+      "version": "beatmania IIDX 18 Resort Anthem"
+    },
+    {
+      "artist": "Mystic Moon",
+      "bpm": "152",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 7,
+        "3": 10
+      },
+      "genre": "PSYCHE FUSION",
+      "id": 298,
+      "title": "Vermillion",
+      "version": "beatmania IIDX 18 Resort Anthem"
+    },
+    {
+      "artist": "Studio Bongo Mango feat. Likkle Mai",
+      "bpm": "165",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 9,
+        "3": 10
+      },
+      "genre": "SURF\uff06DUB",
+      "id": 299,
+      "title": "WE LOVE SHONAN",
+      "version": "beatmania IIDX 18 Resort Anthem"
+    },
+    {
+      "artist": "kors k",
+      "bpm": "173",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 3,
+        "2": 8,
+        "3": 10
+      },
+      "genre": "CANDY RAVE",
+      "id": 300,
+      "title": "Wuv U",
+      "version": "beatmania IIDX 18 Resort Anthem"
+    },
+    {
+      "artist": "Zektbach",
+      "bpm": "90-180",
+      "default": false,
+      "difficulty": {
+        "0": 2,
+        "1": 4,
+        "2": 9,
+        "3": 11
+      },
+      "genre": "IDM",
+      "id": 301,
+      "title": "ZETA\u301c\u7d20\u6570\u306e\u4e16\u754c\u3068\u8d85\u8d8a\u8005\u301c",
+      "version": "beatmania IIDX 18 Resort Anthem"
+    },
+    {
+      "artist": "Ryu\u2606",
+      "bpm": "171",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 2,
+        "2": 8,
+        "3": 10
+      },
+      "genre": "HAPPY HARDCORE",
+      "id": 302,
+      "title": "\u4e2d\u83ef\u6025\u884c",
+      "version": "beatmania IIDX 18 Resort Anthem"
+    },
+    {
+      "artist": "CULTVOICE by S.S.D.PRODUCTS",
+      "bpm": "186",
+      "default": false,
+      "difficulty": {
+        "0": 3,
+        "1": 5,
+        "2": 7,
+        "3": 9
+      },
+      "genre": "NATSU MATSURI",
+      "id": 303,
+      "title": "\u304b\u3052\u306c\u3044 \u301c Ver.BENIBOTAN \u301c",
+      "version": "beatmania IIDX 18 Resort Anthem"
+    },
+    {
+      "artist": "\u6751\u6b63\u30af\u30aa\u30ea\u30a2",
+      "bpm": "150",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 9,
+        "3": 12
+      },
+      "genre": "\u64ab\u5b50\u30e1\u30bf\u30eb",
+      "id": 304,
+      "title": "\u9ed2\u9aea\u4e71\u308c\u3057\u4fee\u7f85\u3068\u306a\u308a\u3066",
+      "version": "beatmania IIDX 18 Resort Anthem"
+    },
+    {
+      "artist": "\u732b\u53c9Master feat.Sana",
+      "bpm": "100",
+      "default": false,
+      "difficulty": {
+        "0": 1,
+        "1": 3,
+        "2": 5,
+        "3": 7
+      },
+      "genre": "WORLD/POPS",
+      "id": 305,
+      "title": "\u304a\u304a\u304d\u306a\u3053\u3048\u3067",
+      "version": "beatmania IIDX 18 Resort Anthem"
+    },
+    {
+      "artist": "Remixed by JAKAZiD",
+      "bpm": "88-175",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 8,
+        "3": 10
+      },
+      "genre": "TECHY FREEFORM",
+      "id": 306,
+      "title": "\u25bc\u30e9\u30af\u30a8\u30f3 Feat.Chiharu Chonan -JAKA respect for K.S.K. Remix",
+      "version": "beatmania IIDX 18 Resort Anthem"
+    },
+    {
+      "artist": "DJ Mass MAD Izm*",
+      "bpm": "153",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 7,
+        "2": 10,
+        "3": 12
+      },
+      "genre": "BROKEN SAMBA BREAK",
+      "id": 307,
+      "title": "\u707c\u71b1Beach Side Bunny",
+      "version": "beatmania IIDX 18 Resort Anthem"
+    },
+    {
+      "artist": "XOGO BRYKK",
+      "bpm": "155",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 9,
+        "3": 11
+      },
+      "genre": "ELECLORE",
+      "id": 308,
+      "title": "\u65c5\u4eba\u30ea\u30e9\u30f3",
+      "version": "beatmania IIDX 18 Resort Anthem"
+    },
+    {
+      "artist": "JAKAZiD",
+      "bpm": "174",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 9,
+        "3": 11
+      },
+      "genre": "AURAL ADRENALINE",
+      "id": 309,
+      "title": "\u5915\u713c\u3051 \u301cFading Day\u301c",
+      "version": "beatmania IIDX 18 Resort Anthem"
+    },
+    {
+      "artist": "Qrispy Joybox",
+      "bpm": "172",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 8,
+        "3": 10
+      },
+      "genre": "TECHNO",
+      "id": 310,
+      "title": "Almace",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "Mayumi Morinaga",
+      "bpm": "165",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 7,
+        "3": 9
+      },
+      "genre": "DANCE POP",
+      "id": 311,
+      "title": "ANAGRAMS I to Y",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "DJ Mass MAD Izm*",
+      "bpm": "163",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 10,
+        "3": 12
+      },
+      "genre": "TECH-BREAKBEATS",
+      "id": 312,
+      "title": "BLACK.by X-Cross Fade",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "\u732b\u53c9Master",
+      "bpm": "158",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 2,
+        "2": 5,
+        "3": 8
+      },
+      "genre": "WORLD/ELECTRONICA",
+      "id": 313,
+      "title": "CALL",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "\u9752\u9f8d",
+      "bpm": "191",
+      "default": false,
+      "difficulty": {
+        "0": 1,
+        "1": 4,
+        "2": 9,
+        "3": 11
+      },
+      "genre": "DANCE SPEED",
+      "id": 314,
+      "title": "Castle on the Moon",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "Tatsh feat.\u5c0f\u7530\u30e6\u30a6",
+      "bpm": "286",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 7,
+        "3": 9
+      },
+      "genre": "SPEED POP",
+      "id": 315,
+      "title": "Change the World",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "\u5ea6\u80f8\u5144\u5f1f",
+      "bpm": "160",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 9,
+        "3": 12
+      },
+      "genre": "TRANSCENDENTAL ETUDES",
+      "id": 316,
+      "title": "DIAVOLO",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "kors k feat.\u53e4\u5ddd\u672a\u9234",
+      "bpm": "180",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 7,
+        "3": 10
+      },
+      "genre": "AKIBA RAVE",
+      "id": 317,
+      "title": "Drive Me Crazy",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "REDALiCE feat. Shihori",
+      "bpm": "182",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 6,
+        "3": 10
+      },
+      "genre": "J-CORE",
+      "id": 318,
+      "title": "Express Emotion",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "D.J.Amuro",
+      "bpm": "154",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 10,
+        "3": 12
+      },
+      "genre": "RENAISSANCE",
+      "id": 319,
+      "title": "F",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "\u732b\u53c9Master",
+      "bpm": "180",
+      "default": false,
+      "difficulty": {
+        "0": 2,
+        "1": 3,
+        "2": 7,
+        "3": 9
+      },
+      "genre": "DRUM'N'BASS",
+      "id": 320,
+      "title": "Far east nightbird",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "Five Hammer",
+      "bpm": "138",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 10,
+        "3": 12
+      },
+      "genre": "HARD Pf",
+      "id": 321,
+      "title": "\u0192\u0192\u0192\u0192\u0192",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "kors k",
+      "bpm": "175",
+      "default": false,
+      "difficulty": {
+        "0": 1,
+        "1": 3,
+        "2": 7,
+        "3": 10
+      },
+      "genre": "CANDY HANDZ UP",
+      "id": 322,
+      "title": "Flip Flap",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "HHH\u00d7MM\u00d7ST",
+      "bpm": "140",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 8,
+        "3": 10
+      },
+      "genre": "J-DANCE POP",
+      "id": 323,
+      "title": "Follow Tomorrow",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "D.J.Amuro Vs MAX MAXIMIZER",
+      "bpm": "208",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 10,
+        "3": 12
+      },
+      "genre": "ECCENTRIC",
+      "id": 324,
+      "title": "HAERETICUS",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "Ryu\u2606",
+      "bpm": "181",
+      "default": false,
+      "difficulty": {
+        "0": 2,
+        "1": 3,
+        "2": 8,
+        "3": 11
+      },
+      "genre": "HAPPY HARDCORE",
+      "id": 325,
+      "title": "I'm so Happy",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "seiya-murai",
+      "bpm": "140",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 3,
+        "2": 6,
+        "3": 9
+      },
+      "genre": "MARCHING ROCK",
+      "id": 326,
+      "title": "\u25bcGIGANT",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "\u732b\u53c9Master+",
+      "bpm": "190",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 9,
+        "3": 10
+      },
+      "genre": "DRUM'N'BASS",
+      "id": 327,
+      "title": "Infinite cave",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "Bulluvegola",
+      "bpm": "177",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 8,
+        "3": 11
+      },
+      "genre": "PROGRESSIVE ROCK",
+      "id": 328,
+      "title": "In the Blackest Den",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "kobo feat. RIO",
+      "bpm": "175",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 8,
+        "3": 10
+      },
+      "genre": "DRUM & BASS",
+      "id": 329,
+      "title": "\u25bcInto The Sunlight",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "Dr.Honda feat. Moe",
+      "bpm": "140",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 3,
+        "2": 6,
+        "3": 9
+      },
+      "genre": "\u30c8\u30ec\u30f3\u30c7\u30a3\u30fc\u30dd\u30c3\u30d7\u30b9",
+      "id": 330,
+      "title": "\u25bcKYAMISAMA ONEGAI!",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "Katana Sounds",
+      "bpm": "190",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 9,
+        "3": 10
+      },
+      "genre": "LOUD TECH",
+      "id": 331,
+      "title": "LAX5 feat.Ryota Yoshinari",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "T\u0401\u042fRA",
+      "bpm": "165",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 8,
+        "3": 10
+      },
+      "genre": "PLATINUM J-POP ONE",
+      "id": 332,
+      "title": "LETHEBOLG \u301c\u53cc\u795e\u5a01\u306b\u65ac\u308a\u54b2\u3051\u308a\u301c",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "Sota Fujimori feat. Kanako Hoshino",
+      "bpm": "160",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 8,
+        "3": 10
+      },
+      "genre": "DREAM TRANCE",
+      "id": 333,
+      "title": "Lucky Days",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "Dirty Androids",
+      "bpm": "131",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 6,
+        "3": 9
+      },
+      "genre": "80's ELECTRO HOUSE",
+      "id": 334,
+      "title": "Miami Sunset Drive",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "Levaslater",
+      "bpm": "101-202",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 10,
+        "3": 12
+      },
+      "genre": "ELECTRO GOTHIC",
+      "id": 335,
+      "title": "NNRT",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "\u9ad8\u7530\u96c5\u53f2",
+      "bpm": "183",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 8,
+        "3": 9
+      },
+      "genre": "ALTERNATIVE ETHNO POP",
+      "id": 336,
+      "title": "\u25bcPentaCube Gt.(RX-Ver.S.P.L.)",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "Hommarju",
+      "bpm": "176",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 7,
+        "3": 10
+      },
+      "genre": "HARD NRG",
+      "id": 337,
+      "title": "Phoenix",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "w\u00d7s ft.*spiLa*",
+      "bpm": "198",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 8,
+        "3": 11
+      },
+      "genre": "NU PROGRESSIVE",
+      "id": 338,
+      "title": "prompt",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "L.E.D.",
+      "bpm": "152",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 7,
+        "2": 10,
+        "3": 11
+      },
+      "genre": "TECHNO",
+      "id": 339,
+      "title": "QUANTUM TELEPORTATION",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "Risk Junk",
+      "bpm": "182-186",
+      "default": false,
+      "difficulty": {
+        "0": 1,
+        "1": 4,
+        "2": 9,
+        "3": 12
+      },
+      "genre": "HAPPY",
+      "id": 340,
+      "title": "quaver\u266a",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "Mystic Moon",
+      "bpm": "172",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 9,
+        "3": 11
+      },
+      "genre": "RAVE FUSION",
+      "id": 341,
+      "title": "Quick Silver",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "kors k",
+      "bpm": "146",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 7,
+        "3": 10
+      },
+      "genre": "TECH DANCE",
+      "id": 342,
+      "title": "Release The Music",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "\u30bb\u30ea\u30ab",
+      "bpm": "184",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 3,
+        "2": 7,
+        "3": 10
+      },
+      "genre": "MYSTERIOUS ROCK",
+      "id": 343,
+      "title": "RESISTANCE",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "Masayoshi Minoshima feat. \u7dbe\u5009\u76df",
+      "bpm": "145",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 6,
+        "3": 9
+      },
+      "genre": "HYPER ELECTRO",
+      "id": 344,
+      "title": "Round and Round",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "SUPER STAR \u6e80-MITSURU-",
+      "bpm": "85-170",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 8,
+        "3": 10
+      },
+      "genre": "ONLY ONE FINALE",
+      "id": 345,
+      "title": "SA.YO.NA.RA. SUPER STAR",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "Ashemu",
+      "bpm": "217",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 9,
+        "3": 11
+      },
+      "genre": "HARD ROCK",
+      "id": 346,
+      "title": "Scharfrichter",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "CAPACITY GATE",
+      "bpm": "180",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 8,
+        "3": 10
+      },
+      "genre": "VALIANT BEAT",
+      "id": 347,
+      "title": "Several Words",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "DJ MURASAME vs dj Killer",
+      "bpm": "151",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 9,
+        "3": 11
+      },
+      "genre": "TECHNO",
+      "id": 348,
+      "title": "SHADE",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "DJ Yoshitaka VS. DJ Mass MAD Izm*",
+      "bpm": "145",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 10,
+        "3": 12
+      },
+      "genre": "TECH-BREAKBEATS",
+      "id": 349,
+      "title": "Snake Stick",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "Nhato",
+      "bpm": "148",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 7,
+        "3": 10
+      },
+      "genre": "TRANCE",
+      "id": 350,
+      "title": "Star Trail",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "STN",
+      "bpm": "200",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 10,
+        "3": 12
+      },
+      "genre": "CYBER PUNK",
+      "id": 351,
+      "title": "The Limbo",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "Mamonis",
+      "bpm": "150",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 9,
+        "3": 12
+      },
+      "genre": "HARD TRANCE",
+      "id": 352,
+      "title": "The Sampling Paradise",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "\u96f7\u9f8d",
+      "bpm": "188",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 9,
+        "3": 12
+      },
+      "genre": "RAVERS DANCE SPEED",
+      "id": 353,
+      "title": "Thunderbolt",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "L.E.D.",
+      "bpm": "194",
+      "default": false,
+      "difficulty": {
+        "0": 2,
+        "1": 4,
+        "2": 8,
+        "3": 11
+      },
+      "genre": "DRUMSTEP",
+      "id": 354,
+      "title": "TITANS RETURN",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "Rche",
+      "bpm": "185",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 9,
+        "3": 12
+      },
+      "genre": "SACRED TRANCE",
+      "id": 355,
+      "title": "Todestrieb",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "L.E.D.",
+      "bpm": "165",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 9,
+        "3": 12
+      },
+      "genre": "HARD TRANCE",
+      "id": 356,
+      "title": "WONDER WALKER",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "Neulakyussra",
+      "bpm": "190",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 10,
+        "3": 12
+      },
+      "genre": "TERROR CORE",
+      "id": 357,
+      "title": "YAKSHA",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "S-C-U",
+      "bpm": "187",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 8,
+        "3": 10
+      },
+      "genre": "TEK-TRANCE",
+      "id": 358,
+      "title": "yellow head joe",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "xac",
+      "bpm": "174",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 7,
+        "3": 10
+      },
+      "genre": "DRUM'N'BASS",
+      "id": 359,
+      "title": "Yellow Sunrise",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "Tatsh",
+      "bpm": "168",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 9,
+        "3": 11
+      },
+      "genre": "EURO RAVE",
+      "id": 360,
+      "title": "24th Century BOY",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "Ryu\u2606",
+      "bpm": "177",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 3,
+        "2": 7,
+        "3": 11
+      },
+      "genre": "HARDCORE",
+      "id": 361,
+      "title": "532nm",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "Lucky Vacuum",
+      "bpm": "196",
+      "default": false,
+      "difficulty": {
+        "0": 2,
+        "1": 3,
+        "2": 8,
+        "3": 10
+      },
+      "genre": "HAPPY HARDCORE",
+      "id": 362,
+      "title": "\u30d3\u30e5\u30fc\u30c6\u30a3\u30d5\u30eb\u30ec\u30b7\u30fc\u30c8",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "\u4f50\u3005\u6728\u535a\u53f2",
+      "bpm": "280",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 10,
+        "3": 12
+      },
+      "genre": "PROGRESSIVE",
+      "id": 363,
+      "title": "\u5b50\u4f9b\u306e\u843d\u66f8\u304d\u5e33",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "Zektbach",
+      "bpm": "170",
+      "default": false,
+      "difficulty": {
+        "0": 2,
+        "1": 4,
+        "2": 8,
+        "3": 11
+      },
+      "genre": "ORIENTAL MYTHOLOGY",
+      "id": 364,
+      "title": "\u86c7\u795e",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "\u661f\u91ce\u594f\u5b50",
+      "bpm": "140",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 3,
+        "2": 6,
+        "3": 9
+      },
+      "genre": "POP",
+      "id": 365,
+      "title": "\u967d\u708e",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "Dr.Honda",
+      "bpm": "260",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 9,
+        "3": 11
+      },
+      "genre": "\u30c8\u30ec\u30f3\u30c7\u30a3\u30fc\u30d5\u30e5\u30fc\u30b8\u30e7\u30f3",
+      "id": 366,
+      "title": "\u541b\u306e\u30cf\u30fc\u30c8\u306b\u30ed\u30c3\u30af\u30aa\u30f3",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "Prim",
+      "bpm": "200",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 5,
+        "2": 8,
+        "3": 12
+      },
+      "genre": "Hi-BLEEP",
+      "id": 367,
+      "title": "\u604b\u3059\u308b\u2606\u5b87\u5b99\u6226\u4e89\u3063!!",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "\u5c71\u672c\u691b (monotone)",
+      "bpm": "185",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 7,
+        "3": 10
+      },
+      "genre": "\u96fb\u6ce2",
+      "id": 368,
+      "title": "\u7a81\u6483!\u30ac\u30e9\u30b9\u306e\u30cb\u30fc\u30bd\u59eb!",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "iNO",
+      "bpm": "139",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 7,
+        "3": 10
+      },
+      "genre": "NEO CLASSICAL DANCE",
+      "id": 369,
+      "title": "\u8870\u8272\u5c0f\u753a\u30e1\u30e9\u30f3\u30b3\u30ea\u30a2",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "Cuvelia",
+      "bpm": "150",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 7,
+        "2": 10,
+        "3": 12
+      },
+      "genre": "ANTHEM",
+      "id": 370,
+      "title": "\u5929\u7a7a\u306e\u591c\u660e\u3051",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "MYTHOLOGIA by MLREC.",
+      "bpm": "164",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 3,
+        "2": 7,
+        "3": 11
+      },
+      "genre": "SYMPHONIC-TEK",
+      "id": 371,
+      "title": "\u30e6\u30df\u30eb",
+      "version": "beatmania IIDX 19 Lincle"
+    },
+    {
+      "artist": "DJ YOSHITAKA",
+      "bpm": "173",
+      "default": false,
+      "difficulty": {
+        "0": 2,
+        "1": 6,
+        "2": 9,
+        "3": 11
+      },
+      "genre": "TRANCE CORE",
+      "id": 372,
+      "title": "FLOWER",
+      "version": "beatmania IIDX 20 tricoro"
+    },
+    {
+      "artist": "\u5c11\u5e74\u30e9\u30b8\u30aa",
+      "bpm": "\u203b",
+      "default": false,
+      "difficulty": {
+        "0": 1,
+        "1": 6,
+        "2": 10,
+        "3": 12
+      },
+      "genre": "NIENTE",
+      "id": 373,
+      "title": "neu",
+      "version": "beatmania IIDX 20 tricoro"
+    },
+    {
+      "artist": "dj TAKA",
+      "bpm": "160",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 10,
+        "3": 12
+      },
+      "genre": "MUSIC GAME TRADITIONAL",
+      "id": 374,
+      "title": "Shooting Fireball",
+      "version": "beatmania IIDX 22 PENDUAL"
+    },
+    {
+      "artist": "YURiCa/\u82b1\u305f\u3093",
+      "bpm": "185",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 6,
+        "2": 9,
+        "3": 11
+      },
+      "genre": "ROCKIN\u00b4 DRUM&BASS",
+      "id": 375,
+      "title": "SHELTER OF THE MIND",
+      "version": "beatmania IIDX 23 copula"
+    },
+    {
+      "artist": "\u4e2d\u5cf6\u7531\u8cb4",
+      "bpm": "190",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 4,
+        "2": 9,
+        "3": 11
+      },
+      "genre": "DIGITAL THRASH PUNK",
+      "id": 376,
+      "title": "Be a Hero!",
+      "version": "beatmania IIDX 25 CANNON BALLERS"
+    },
+    {
+      "artist": "SOUND HOLIC feat. Nana Takahashi Vs.GOD PHOENIX Prim",
+      "bpm": "180",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 7,
+        "2": 10,
+        "3": 12
+      },
+      "genre": "Hi-MYTH",
+      "id": 377,
+      "title": "\u795e\u8b33 -RESONANCE-",
+      "version": "beatmania IIDX 25 CANNON BALLERS"
+    },
+    {
+      "artist": "\u9752\u9f8d",
+      "bpm": "191",
+      "default": false,
+      "difficulty": {
+        "0": -1,
+        "1": 7,
+        "2": 10,
+        "3": 12
+      },
+      "genre": "DANCE SPEED",
+      "id": 378,
+      "title": "3y3s(Long ver.)",
+      "version": "beatmania IIDX INFINITAS"
+    }
+  ]
+}
