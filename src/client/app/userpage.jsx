@@ -147,7 +147,6 @@ class UserPage extends React.Component {
           diff: "["+ obj.difficulty.toUpperCase() + "]",
           level: level
         }
-        console.log(return_obj);
         return (song_name + " [" + obj.difficulty.toUpperCase() + "] "+ level)
       })
       console.log(queue_list)
@@ -208,15 +207,17 @@ class UserPage extends React.Component {
       return str1 + ", " + str2
     }))
     var orig_song_list = (this.state.search_term === '' && this.state.level_field === '') ? this.state.version_songs : this.state.filtered_songs;
+    console.log(orig_song_list)
     var orig_songs_rendered = orig_song_list.map(function(obj){
-      var version = Object.keys(obj)[0]
-      var version_songs = obj[version]
+      var version_songs = obj["songs"]
+      var version = obj["version"]
       if(version_songs.length > 0){
         var version_songs_rendered = version_songs.map(function(song){
           return(
-            <OrigSongList song={song} key={"original_"+song["id"]} />
+            <OrigSongList song={song} key={"original_"+song["id"]+"_"+version} />
           )
         })
+        console.log(version_songs_rendered)
         return(
           <tbody>
             <tr className="d-flex">
@@ -301,6 +302,7 @@ class OrigSongList extends React.Component{
   }
 
   render(){
+    console.log(this.props.song)
     var button_style = {
       float: "right"
     }
