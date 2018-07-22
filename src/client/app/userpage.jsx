@@ -11,6 +11,8 @@ class UserPage extends React.Component {
     song_list["songs"].map(function(obj){
       var version = obj["version"];
       var version_songs = obj["songs"];
+      var version_id = obj["version_id"];
+
       version_songs.map(function(song){
         var object = song;
         object["b_queue"] = false;
@@ -22,6 +24,7 @@ class UserPage extends React.Component {
         object["h_disabled"] = false;
         object["a_disabled"] = false;
         object["version"] = version;
+        object["version_id"] = version_id;
         raw_songs.push(object);
         return song
       })
@@ -59,8 +62,6 @@ class UserPage extends React.Component {
   }
 
   songsFilter(search_term, level_field){
-    console.log(search_term === "")
-    console.log(level_field === "")
     var diffs = ["b_disabled", "n_disabled", "h_disabled", "a_disabled"]
     var filter_songs = this.state.version_songs.map(function(obj){
       var version_songs = obj.filter(function(song){
@@ -86,7 +87,7 @@ class UserPage extends React.Component {
     var filtered_songs = filter_songs.filter(function(obj){
       return obj !== null;
     })
-    console.log(filtered_songs)
+    //console.log(filtered_songs)
 
     this.setState({
       search_term: search_term,
@@ -112,10 +113,10 @@ class UserPage extends React.Component {
       var version = obj["version"]
       var version_songs = obj["songs"].map(function(song){
         var object = song;
-        var beginner = "b"+song.id.toString()
-        var normal = "n"+song.id.toString()
-        var hyper = "h"+song.id.toString()
-        var another = "a"+song.id.toString()
+        var beginner = "b"+song.version_id.toString()+"_"+song.id.toString()
+        var normal = "n"+song.version_id.toString()+"_"+song.id.toString()
+        var hyper = "h"+song.version_id.toString()+"_"+song.id.toString()
+        var another = "a"+song.version_id.toString()+"_"+song.id.toString()
         object.b_queue = (queue.includes(beginner) ? true : false);
         object.n_queue = (queue.includes(normal)? true : false);
         object.h_queue = (queue.includes(hyper)? true : false);
@@ -126,6 +127,7 @@ class UserPage extends React.Component {
       version_obj[version] = version_songs;
       return version_obj
     })
+    console.log(updated_list)
     return updated_list
   }
 
@@ -133,15 +135,23 @@ class UserPage extends React.Component {
     socket.on("request_update", data => {
       var queue = data.queue.map(id =>{
         var difficulty = id.charAt(0)
-        var song_id = id.slice(1);
+        var version_song = id.slice(1);
+
+        var underscore_index = version_song.indexOf('_');
+
+        var version_id = version_song.substring(0,underscore_index);
+        var song_id = version_song.slice(underscore_index+1);
+        //pending on where underscore is, splice there
         var obj={
           id: song_id,
+          version_id: version_id,
           difficulty: difficulty
         }
         return obj
       })
       var queue_list = queue.map(obj =>{
         var diff = (obj.difficulty === "b" ? 0 : (obj.difficulty === "n" ? 1 : (obj.difficulty === "h" ? 2 : 3)))
+        console.log(this.state.raw_songs)
         var song_name = this.state.raw_songs[obj.id]["title"]
         var level = this.state.raw_songs[obj.id]["difficulty"][diff]
         var return_obj = {
@@ -151,7 +161,7 @@ class UserPage extends React.Component {
         }
         return (song_name + " [" + obj.difficulty.toUpperCase() + "] "+ level)
       })
-      console.log(queue_list)
+      //console.log(queue_list)
       var updated_list = this.updated_list(data.queue)
       var that = this;
       var queued_songs = queue.map(function(obj){
@@ -210,8 +220,6 @@ class UserPage extends React.Component {
     }))
     var x = 0;
     var orig_song_list = (this.state.search_term === '' && this.state.level_field === '') ? this.state.version_songs : this.state.filtered_songs;
-    console.log((this.state.search_term === '' && this.state.level_field === ''))
-    console.log(orig_song_list)
     var orig_songs_rendered = orig_song_list.map(function(obj){
       var version_songs = obj
       if(obj.length > 0){
@@ -306,7 +314,7 @@ class OrigSongList extends React.Component{
   }
 
   sendSongRequest(diff){
-    var request_string = diff + this.props.song.id.toString()
+    var request_string = diff + this.props.song.version_id.toString() + "_" + this.props.song.id.toString();
     socket.emit("song_request", request_string)
   }
 

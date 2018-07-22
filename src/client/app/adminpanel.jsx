@@ -8,9 +8,9 @@ class AdminPanel extends React.Component {
   constructor(props){
     super(props);
     var songs = []
-    song_list.map(function(obj){
-      var version = Object.keys(obj)[0];
-      var version_songs = obj[version];
+    song_list["songs"].map(function(obj){
+      var version = obj["version"]
+      var version_songs = obj["songs"];
       version_songs.map(function(song){
         var object = song;
         object["version"] = version;
@@ -26,7 +26,6 @@ class AdminPanel extends React.Component {
       message: false,
       requests: []
     }
-    console.log(songs)
     this.removeAllSongs = this.removeAllSongs.bind(this);
     this.changeConstraint = this.changeConstraint.bind(this);
   }
@@ -45,11 +44,15 @@ class AdminPanel extends React.Component {
       console.log(queue);
       var queue_list = data.queue.map(id => {
         var difficulty = id.charAt(0);
-        var id = id.slice(1);
-        var queue_song = this.state.raw_songs[id];
+        var version_song = id.slice(1);
+        var underscore_index = version_song.indexOf('_');
+        var version_id = version_song.substring(0,underscore_index);
+        var song_id = version_song.slice(underscore_index+1);
+        var queue_song = this.state.raw_songs[song_id];
         var diff = (difficulty === 'b' ? 0 : (difficulty === 'n' ? 1 : (difficulty === 'h' ? 2 : 3)));
         var obj = {
-          id: queue_song.id,
+          id: song_id,
+          version_id: version_id,
           title: queue_song.title,
           artist: queue_song.artist,
           version: queue_song.version,
@@ -85,8 +88,6 @@ class AdminPanel extends React.Component {
   render () {
     var diff = this.state.diff_constraints;
     var lvl = this.state.level_constraints;
-    console.log(diff);
-    console.log(lvl);
     var song_requests = this.state.requests.map(function(song){
       return(
         <AdminSongList song={song} key={"admin_"+song.id} />
@@ -146,7 +147,7 @@ class AdminSongList extends React.Component{
   }
 
   removeSongFromList(){
-    var item = this.props.song.difficulty + this.props.song.id
+    var item = this.props.song.difficulty + this.props.song.version_id.toString() + "_" + this.props.song.id.toString()
     socket.emit('request_remove', item)
   }
 

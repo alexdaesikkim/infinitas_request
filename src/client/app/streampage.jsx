@@ -8,9 +8,9 @@ class StreamPage extends React.Component {
   constructor(props){
     super(props);
     var songs = []
-    song_list.map(function(obj){
-      var version = Object.keys(obj)[0];
-      var version_songs = obj[version];
+    song_list["songs"].map(function(obj){
+      var version = obj["version"]
+      var version_songs = obj["songs"];
       version_songs.map(function(song){
         var object = song;
         object["version"] = version;
@@ -30,9 +30,12 @@ class StreamPage extends React.Component {
       var queue = data.queue;
       console.log(queue);
       var queue_list = data.queue.map(id => {
+        var version_song = id.slice(1);
+        var underscore_index = version_song.indexOf('_');
+        var version_id = version_song.substring(0,underscore_index);
+        var song_id = version_song.slice(underscore_index+1);
         var difficulty = "[" + id.charAt(0).toUpperCase() + "]";
-        var id = id.slice(1);
-        var queue_song = this.state.raw_songs[id];
+        var queue_song = this.state.raw_songs[song_id];
         var diff = (difficulty === 'b' ? 0 : (difficulty === 'n' ? 1 : (difficulty === 'h' ? 2 : 3)));
         return (queue_song.title + " " + difficulty + " " + queue_song.difficulty[diff])
       })
