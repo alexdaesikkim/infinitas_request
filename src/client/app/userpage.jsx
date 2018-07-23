@@ -151,7 +151,6 @@ class UserPage extends React.Component {
       })
       var queue_list = queue.map(obj =>{
         var diff = (obj.difficulty === "b" ? 0 : (obj.difficulty === "n" ? 1 : (obj.difficulty === "h" ? 2 : 3)))
-        console.log(this.state.raw_songs)
         var song_name = this.state.raw_songs[obj.id]["title"]
         var level = this.state.raw_songs[obj.id]["difficulty"][diff]
         var return_obj = {
@@ -188,10 +187,10 @@ class UserPage extends React.Component {
       var updated_list = this.state.version_songs.map(function(obj){
         var version_songs = obj.map(function(song){
           var object = song;
-          var beginner = "b"+song.id.toString()
-          var normal = "n"+song.id.toString()
-          var hyper = "h"+song.id.toString()
-          var another = "a"+song.id.toString()
+          var beginner = "b"+song.version_id.toString+"_"+song.id.toString()
+          var normal = "n"+song.version_id.toString+"_"+song.id.toString()
+          var hyper = "h"+song.version_id.toString+"_"+song.id.toString()
+          var another = "a"+song.version_id.toString+"_"+song.id.toString()
           object.b_disabled = (diff_constraints[0] || level_constraints[object.difficulty[0]-1]);
           object.n_disabled = (diff_constraints[1] || level_constraints[object.difficulty[1]-1]);
           object.h_disabled = (diff_constraints[2] || level_constraints[object.difficulty[2]-1]);

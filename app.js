@@ -30,7 +30,15 @@ io.on('connection', function(socket){ //this is when new user connects
   })
 
   client.lrange('unlocks', 0, -1, function(err, reply){
-    
+    var init_unlocks = reply;
+    console.log("unlocked songs");
+    var lock_object = {
+      "unlocked_songs": init_unlocks,
+      "success": true,
+      "message": ""
+    }
+    console.log("Locks loaded")
+    socket.emit('update_unlocks', lock_object)
   })
 
   client.lrange('constraints', 0, -1, function(err, reply){
@@ -59,6 +67,35 @@ io.on('connection', function(socket){ //this is when new user connects
     }
     socket.emit('constraint_update', constraint_obj)
   })
+
+  socket.on('add_to_unlocked', function(id)){
+    client.rpush('unlocks', id, function(err, reply){
+      client.lrange('unlocks', 0, -1, function(err, reply){
+        var obj = {
+          "queue": reply,
+          "success": true,
+          "message": ""
+        }
+        console.log(reply);
+        io.sockets.emit('update_unlock_status', obj);
+      })
+    })
+  }
+
+  socket.on('remove_from_unlocked'){
+    client.lrem('unlocks', 1, id, function(err, reply){
+      client.lrange('unlocks', 0, -1 function(err, reply){
+        console.log(reply);
+        console.log("updating");
+        var obj = {
+          "queue": reply,
+          "success": true,
+          "message": ""
+        }
+        io.sockets.emit('update_unlock_status', obj);
+      })
+    })
+  }
 
   socket.on('clear', function(){
     client.del('queue', function(err, reply){

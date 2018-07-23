@@ -8,7 +8,8 @@ var config = {
   entry: {
     userpage: APP_DIR + '/index.jsx',
     streampage: APP_DIR + '/stream_list.jsx',
-    adminpanel: APP_DIR + '/admin_panel_supernovamaniac.jsx'
+    adminpanel: APP_DIR + '/admin_panel_supernovamaniac.jsx',
+    unlock_panel: APP_DIR + '/unlock_panel.jsx'
   },
   output: {
     path: BUILD_DIR,
