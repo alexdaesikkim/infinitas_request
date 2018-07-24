@@ -8,24 +8,31 @@ class UnlockPanel extends React.Component {
   constructor(props){
     super(props);
     var raw_songs = []
-    song_list["songs"].map(function(obj){
+    var songs = song_list["songs"].map(function(obj){
       var version = obj["version"];
-      var version_songs = obj["songs"];
+      var orig_songs = obj["songs"];
       var version_id = obj["version_id"];
+      var version_list = [];
 
-      version_songs.map(function(song){
+      var version_songs = orig_songs.map(function(song){
         var object = song;
         object["b_locked"] = !song.default;
-        object["b_locked"] = !song.default;
-        object["b_locked"] = !song.default;
-        object["b_locked"] = !song.default;
+        object["n_locked"] = !song.default;
+        object["h_locked"] = !song.default;
+        object["a_locked"] = !song.default;
         object["version"] = version;
         object["version_id"] = version_id;
-        raw_songs.push(object);
-        return song
+        version_list.push(object);
+        return object
       })
+      raw_songs.push(version_list);
+      var return_obj = {
+        version: version,
+        version_id: version_id,
+        songs: version_songs
+      }
+      return return_obj
     })
-    var songs = song_list["songs"]
     var version_lengths = song_list["songs"].map(function(obj){
       return obj["count"]
     })
@@ -127,11 +134,13 @@ class UnlockPanel extends React.Component {
 
   render (){
     var x = 0;
+    console.log(this.state.filtered_songs)
     var orig_song_list = (this.state.search_term === '' && this.state.level_field === '') ? this.state.version_songs : this.state.filtered_songs;
     var orig_songs_rendered = orig_song_list.map(function(obj){
-      var version_songs = obj
-      if(obj.length > 0){
-        var version = obj[0]["version"]
+      var version_songs = obj["songs"]
+      console.log(obj)
+      if(obj.songs.length > 0){
+        var version = obj["version"]
         var version_songs_rendered = version_songs.map(function(song){
           return(
             <FullSongList song={song} key={"original_"+song["id"]+"_"+version} />
@@ -189,7 +198,8 @@ class UnlockPanel extends React.Component {
 class FullSongList extends React.Component{
   constructor(props){
     super(props);
-    this.sendSongRequest = this.sendSongRequest.bind(this);
+    this.UnlockSongRequest = this.UnlockSongRequest.bind(this);
+    this.LockSongRequest = this.LockSongRequest.bind(this);
   }
 
   UnlockSongRequest(diff){
@@ -211,20 +221,23 @@ class FullSongList extends React.Component{
         <td className="col-3">{this.props.song.title}</td>
         <td className="col-3">{this.props.song.artist}</td>
         <td className="col-2">{this.props.song.genre}</td>
-        <td className={"col-1"}>
-        </td>
-        <td className={"col-1" + (this.props.song.b_disabled ? " disabled" : " green")}>
+        <td className="col-1">
           {this.props.song.difficulty[0] === -1 ? "" : (
-            this.props.song.b_queue || this.props.song.b_disabled ? this.props.song.difficulty[0] : (
-              <div className="bt-active">
-                {this.props.song.difficulty[0]}&nbsp;
-                <button style={button_style} type="button" onClick={() => this.sendSongRequest("b")}>
+            <div className="bt-active">
+              this.props.song.difficulty[0]}&nbsp;
+              {this.props.b_locked ? (
+                <button style={button_style} type="button" onClick={() => this.UnlockSongRequest("b")}>
                   +
                 </button>
-              </div>
-            )
+              ):(
+                <button style={button_style} type="button" onClick={() => this.UnlockSongRequest("b")}>
+                  +
+                </button>
+              )}
+            </div>
           )}
         </td>
+
         <td className={"col-1" + (this.props.song.n_disabled ? " disabled" : " blue")}>
           {this.props.song.difficulty[1] === -1 ? "" : (
             this.props.song.n_queue || this.props.song.n_disabled ?  this.props.song.difficulty[1] : (

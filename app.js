@@ -68,7 +68,7 @@ io.on('connection', function(socket){ //this is when new user connects
     socket.emit('constraint_update', constraint_obj)
   })
 
-  socket.on('add_to_unlocked', function(id)){
+  socket.on('add_to_unlocked', function(id){
     client.rpush('unlocks', id, function(err, reply){
       client.lrange('unlocks', 0, -1, function(err, reply){
         var obj = {
@@ -80,11 +80,11 @@ io.on('connection', function(socket){ //this is when new user connects
         io.sockets.emit('update_unlock_status', obj);
       })
     })
-  }
+  })
 
-  socket.on('remove_from_unlocked'){
+  socket.on('remove_from_unlocked', function(id){
     client.lrem('unlocks', 1, id, function(err, reply){
-      client.lrange('unlocks', 0, -1 function(err, reply){
+      client.lrange('unlocks', 0, -1, function(err, reply){
         console.log(reply);
         console.log("updating");
         var obj = {
@@ -95,7 +95,7 @@ io.on('connection', function(socket){ //this is when new user connects
         io.sockets.emit('update_unlock_status', obj);
       })
     })
-  }
+  })
 
   socket.on('clear', function(){
     client.del('queue', function(err, reply){
@@ -191,6 +191,10 @@ app.get('/admin_panel_supernovamaniac', function(req, res){
 
 app.get('/request_list', function(req, res){
   res.sendFile(path.resolve(__dirname, 'src/client/public', 'Uhvq9YjGlS.html'))
+})
+
+app.get('/unlock_panel', function(req, res){
+  res.sendFile(path.resolve(__dirname, 'src/client/public', 'unlock_panel.html'))
 })
 
 app.get('*', function(req,res){

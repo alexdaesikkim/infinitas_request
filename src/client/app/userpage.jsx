@@ -7,13 +7,15 @@ const socket = socketIOClient();
 class UserPage extends React.Component {
   constructor(props){
     super(props);
-    var raw_songs = []
-    song_list["songs"].map(function(obj){
+    var raw_songs = [];
+    var song_count = 0;
+    var songs = song_list["songs"].map(function(obj){
       var version = obj["version"];
-      var version_songs = obj["songs"];
+      var orig_songs = obj["songs"];
       var version_id = obj["version_id"];
+      var version_list = [];
 
-      version_songs.map(function(song){
+      var version_songs = orig_songs.map(function(song){
         var object = song;
         object["b_queue"] = false;
         object["n_queue"] = false;
@@ -25,11 +27,19 @@ class UserPage extends React.Component {
         object["a_disabled"] = false;
         object["version"] = version;
         object["version_id"] = version_id;
-        raw_songs.push(object);
-        return song
+        object["raw_id"] = song_count;
+        song_count++;
+        version_list.push(object);
+        return object
       })
+      raw_songs.push(version_list);
+      var return_obj = {
+        version: version,
+        version_id: version_id,
+        songs: version_songs
+      }
+      return return_obj
     })
-    var songs = song_list["songs"]
     var version_lengths = song_list["songs"].map(function(obj){
       return obj["count"]
     })
@@ -54,6 +64,9 @@ class UserPage extends React.Component {
       message: false,
       requests: []
     }
+
+    console.log(songs)
+    console.log(raw_songs)
     //figure out a way to remove raw_songs as it creates technical debt
     //use version_lengths?
     this.removeAllSongs = this.removeAllSongs.bind(this);
@@ -127,7 +140,7 @@ class UserPage extends React.Component {
       version_obj[version] = version_songs;
       return version_obj
     })
-    console.log(updated_list)
+    //console.log(updated_list)
     return updated_list
   }
 
@@ -150,18 +163,21 @@ class UserPage extends React.Component {
         return obj
       })
       var queue_list = queue.map(obj =>{
+        console.log(obj.id)
         var diff = (obj.difficulty === "b" ? 0 : (obj.difficulty === "n" ? 1 : (obj.difficulty === "h" ? 2 : 3)))
-        var song_name = this.state.raw_songs[obj.id]["title"]
-        var level = this.state.raw_songs[obj.id]["difficulty"][diff]
+        console.log(this.state.raw_songs)
+        var song_name = this.state.raw_songs[obj.version_id][obj.id]["title"]
+        var level = this.state.raw_songs[obj.version_id][obj.id]["difficulty"][diff]
         var return_obj = {
           name: song_name,
           diff: "["+ obj.difficulty.toUpperCase() + "]",
           level: level
         }
+        console.log(return_obj)
         return (song_name + " [" + obj.difficulty.toUpperCase() + "] "+ level)
       })
-      //console.log(queue_list)
       var updated_list = this.updated_list(data.queue)
+      console.log(updated_list)
       var that = this;
       var queued_songs = queue.map(function(obj){
         var x = 0;
@@ -220,9 +236,10 @@ class UserPage extends React.Component {
     var x = 0;
     var orig_song_list = (this.state.search_term === '' && this.state.level_field === '') ? this.state.version_songs : this.state.filtered_songs;
     var orig_songs_rendered = orig_song_list.map(function(obj){
-      var version_songs = obj
-      if(obj.length > 0){
-        var version = obj[0]["version"]
+      var version_songs = obj["songs"]
+      //console.log(obj);
+      if(obj.songs.length > 0){
+        var version = obj["version"]
         var version_songs_rendered = version_songs.map(function(song){
           return(
             <OrigSongList song={song} key={"original_"+song["id"]+"_"+version} />
