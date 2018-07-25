@@ -33,12 +33,12 @@ io.on('connection', function(socket){ //this is when new user connects
     var init_unlocks = reply;
     console.log("unlocked songs");
     var lock_object = {
-      "unlocked_songs": init_unlocks,
+      "unlock_list": init_unlocks,
       "success": true,
       "message": ""
     }
     console.log("Locks loaded")
-    socket.emit('update_unlocks', lock_object)
+    socket.emit('update_unlock_status', lock_object)
   })
 
   client.lrange('constraints', 0, -1, function(err, reply){
@@ -72,7 +72,7 @@ io.on('connection', function(socket){ //this is when new user connects
     client.rpush('unlocks', id, function(err, reply){
       client.lrange('unlocks', 0, -1, function(err, reply){
         var obj = {
-          "queue": reply,
+          "unlock_list": reply,
           "success": true,
           "message": ""
         }
@@ -88,7 +88,7 @@ io.on('connection', function(socket){ //this is when new user connects
         console.log(reply);
         console.log("updating");
         var obj = {
-          "queue": reply,
+          "unlock_list": reply,
           "success": true,
           "message": ""
         }

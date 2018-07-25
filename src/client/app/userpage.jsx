@@ -40,6 +40,7 @@ class UserPage extends React.Component {
       }
       return return_obj
     })
+    console.log(songs)
     var version_lengths = song_list["songs"].map(function(obj){
       return obj["count"]
     })
@@ -77,7 +78,7 @@ class UserPage extends React.Component {
   songsFilter(search_term, level_field){
     var diffs = ["b_disabled", "n_disabled", "h_disabled", "a_disabled"]
     var filter_songs = this.state.version_songs.map(function(obj){
-      var version_songs = obj.filter(function(song){
+      var version_songs = obj["songs"].filter(function(song){
         var object = song;
         if(!(object.title.toLowerCase().includes(search_term))){
           return false;
@@ -91,8 +92,11 @@ class UserPage extends React.Component {
         return true
       })
       if(version_songs.length > 0){
-        var return_obj = {}
-        return_obj = version_songs
+        var return_obj = {
+          version: obj["version"],
+          version_id: obj["version_id"],
+          songs: version_songs
+        }
         return return_obj
       }
       else return null;
@@ -136,8 +140,11 @@ class UserPage extends React.Component {
         object.a_queue = (queue.includes(another) ? true : false);
         return object;
       })
-      var version_obj = obj["songs"];
-      version_obj[version] = version_songs;
+      var version_obj = {
+          version: obj["version"],
+          version_id: obj["version_id"],
+          songs: version_songs
+      }
       return version_obj
     })
     //console.log(updated_list)
@@ -163,9 +170,7 @@ class UserPage extends React.Component {
         return obj
       })
       var queue_list = queue.map(obj =>{
-        console.log(obj.id)
         var diff = (obj.difficulty === "b" ? 0 : (obj.difficulty === "n" ? 1 : (obj.difficulty === "h" ? 2 : 3)))
-        console.log(this.state.raw_songs)
         var song_name = this.state.raw_songs[obj.version_id][obj.id]["title"]
         var level = this.state.raw_songs[obj.version_id][obj.id]["difficulty"][diff]
         var return_obj = {
@@ -173,7 +178,6 @@ class UserPage extends React.Component {
           diff: "["+ obj.difficulty.toUpperCase() + "]",
           level: level
         }
-        console.log(return_obj)
         return (song_name + " [" + obj.difficulty.toUpperCase() + "] "+ level)
       })
       var updated_list = this.updated_list(data.queue)
@@ -201,7 +205,7 @@ class UserPage extends React.Component {
       var diff_constraints = data.diff_constraints;
       var level_constraints = data.level_constraints;
       var updated_list = this.state.version_songs.map(function(obj){
-        var version_songs = obj.map(function(song){
+        var version_songs = obj["songs"].map(function(song){
           var object = song;
           var beginner = "b"+song.version_id.toString+"_"+song.id.toString()
           var normal = "n"+song.version_id.toString+"_"+song.id.toString()
@@ -213,7 +217,11 @@ class UserPage extends React.Component {
           object.a_disabled = (diff_constraints[3] || level_constraints[object.difficulty[3]-1]);
           return object;
         })
-        var version_obj = version_songs;
+        var version_obj = {
+          version: obj["version"],
+          version_id: obj["version_id"],
+          songs: version_songs
+        }
         return version_obj
       })
       this.setState({
