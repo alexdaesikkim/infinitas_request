@@ -63,10 +63,14 @@ diff_options = {
 
 song_count = 0
 
-def get_song(difficulty, title, artist, genre, bpm, default):
+def get_song(difficulty, title, artist, genre, bpm, default, pack):
     global song_count
     key = title + " " + artist + " " + bpm
     if key not in song_dict:
+        if(re.match("▼", title)):
+            title = title[1:]
+        if(pack != "PK1" and pack != "PK2"):
+            pack = ""
         data = {
             "title": title,
             "artist": artist,
@@ -74,6 +78,7 @@ def get_song(difficulty, title, artist, genre, bpm, default):
             "bpm": bpm,
             "difficulty": difficulty,
             "default": default,
+            "pack": pack,
             "id": 0
         }
         song_dict[key] = True
@@ -87,6 +92,35 @@ leggendaria_mark = "†"
 hcn = "(HCN Ver.)"
 
 def parse_raw(rows):
+    iidx_versions=[
+        "beatmania IIDX",
+        "beatmania IIDX substream",
+        "beatmania IIDX 2nd style",
+        "beatmania IIDX 3rd style",
+        "beatmania IIDX 4th style",
+        "beatmania IIDX 5th style",
+        "beatmania IIDX 6th style",
+        "beatmania IIDX 7th style",
+        "beatmania IIDX 8th style",
+        "beatmania IIDX 9th style",
+        "beatmania IIDX 10th style",
+        "beatmania IIDX 11 IIDXRED",
+        "beatmania IIDX 12 HAPPY SKY",
+        "beatmania IIDX 13 DistorteD",
+        "beatmania IIDX 14 GOLD",
+        "beatmania IIDX 15 DJ TROOPERS",
+        "beatmania IIDX 16 EMPRESS",
+        "beatmania IIDX 17 SIRIUS",
+        "beatmania IIDX 18 Resort Anthem",
+        "beatmania IIDX 19 Lincle",
+        "beatmania IIDX 20 tricoro",
+        "beatmania IIDX 21 SPADA",
+        "beatmania IIDX 22 PENDUAL",
+        "beatmania IIDX 23 copula",
+        "beatmania IIDX 24 SINOBUZ",
+        "beatmania IIDX 25 CANNON BALLERS",
+        "beatmania IIDX INFINITAS",
+    ]
     count = 0
     version_id = 0
     version_songs = []
@@ -112,6 +146,15 @@ def parse_raw(rows):
                     version = version[:-6]
                 if(version.endswith(" ▲ △") or version.endswith(" ▼ △")):
                     version = version[:-4]
+                while(version != iidx_versions[version_id]):
+                    d = {
+                        "version": iidx_versions[version_id],
+                        "version_id" : version_id,
+                        "count": 0,
+                        "songs": []
+                    }
+                    songs.append(d)
+                    version_id += 1
                 version_songs = []
         if len(cols) == 12:
             count += 1
@@ -136,14 +179,14 @@ def parse_raw(rows):
                 print("when did this leak into the game LOL")
             elif not title.endswith(hcn):
                 if title.startswith('[N]'):
-                    data = get_song(difficulty, "Evans", artist, genre, bpm, default)
+                    data = get_song(difficulty, "Evans", artist, genre, bpm, default, cols[0].text)
                     version_songs.append(data)
                 else:
-                    data = get_song(difficulty, title, artist, genre, bpm, default)
+                    data = get_song(difficulty, title, artist, genre, bpm, default, cols[0].text)
                     version_songs.append(data)
     d = {
         "version": version,
-        "version_id": version_id,
+        "version_id": 100,
         "count": len(version_songs),
         "songs": version_songs
     }

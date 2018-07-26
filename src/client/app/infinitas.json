@@ -16,6 +16,7 @@
           },
           "genre": "BIG BEAT",
           "id": 0,
+          "pack": "",
           "title": "GAMBOL"
         },
         {
@@ -30,6 +31,7 @@
           },
           "genre": "DIGI-ROCK",
           "id": 1,
+          "pack": "",
           "title": "GRADIUSIC CYBER"
         },
         {
@@ -44,6 +46,7 @@
           },
           "genre": "RAVE",
           "id": 2,
+          "pack": "",
           "title": "R3"
         },
         {
@@ -58,6 +61,7 @@
           },
           "genre": "TECHNO",
           "id": 3,
+          "pack": "",
           "title": "22DUNK"
         },
         {
@@ -72,6 +76,7 @@
           },
           "genre": "PIANO AMBIENT",
           "id": 4,
+          "pack": "",
           "title": "5.1.1."
         }
       ],
@@ -93,6 +98,7 @@
           },
           "genre": "EURO GROOVE",
           "id": 0,
+          "pack": "",
           "title": "BRILLIANT 2U"
         },
         {
@@ -107,6 +113,7 @@
           },
           "genre": "TRANCE",
           "id": 1,
+          "pack": "",
           "title": "GENOM SCREAMS"
         },
         {
@@ -121,6 +128,7 @@
           },
           "genre": "DANCE POP",
           "id": 2,
+          "pack": "",
           "title": "KEEP ON MOVIN'"
         },
         {
@@ -135,6 +143,7 @@
           },
           "genre": "JUNGLE",
           "id": 3,
+          "pack": "",
           "title": "PARANOIA MAX\u301cDIRTY MIX\u301c"
         },
         {
@@ -149,6 +158,7 @@
           },
           "genre": "TRANCE",
           "id": 4,
+          "pack": "",
           "title": "THE EARTH LIGHT"
         }
       ],
@@ -170,6 +180,7 @@
           },
           "genre": "DISCO",
           "id": 0,
+          "pack": "",
           "title": "Dancin' Into The Night"
         },
         {
@@ -184,6 +195,7 @@
           },
           "genre": "ITALO HOUSE",
           "id": 1,
+          "pack": "",
           "title": "I Was The One"
         },
         {
@@ -198,6 +210,7 @@
           },
           "genre": "JAZZ FUNK",
           "id": 2,
+          "pack": "",
           "title": "PUT YOUR FAITH IN ME(for beatmania II)"
         },
         {
@@ -212,6 +225,7 @@
           },
           "genre": "JUNGLE",
           "id": 3,
+          "pack": "",
           "title": "SP-TRIP MACHINE(for beatmania II)"
         },
         {
@@ -226,6 +240,7 @@
           },
           "genre": "CHILL OUT",
           "id": 4,
+          "pack": "",
           "title": ".59"
         }
       ],
@@ -247,6 +262,7 @@
           },
           "genre": "DRUM'N'BASS",
           "id": 0,
+          "pack": "",
           "title": "era (nostalmix)"
         },
         {
@@ -261,6 +277,7 @@
           },
           "genre": "DIGI-ROCK",
           "id": 1,
+          "pack": "",
           "title": "LEADING CYBER"
         },
         {
@@ -275,6 +292,7 @@
           },
           "genre": "RAVE",
           "id": 2,
+          "pack": "",
           "title": "R5"
         },
         {
@@ -289,6 +307,7 @@
           },
           "genre": "TRANCE",
           "id": 3,
+          "pack": "",
           "title": "REINCARNATION"
         },
         {
@@ -303,6 +322,7 @@
           },
           "genre": "AMBIENT",
           "id": 4,
+          "pack": "",
           "title": "Tangerine Stream"
         },
         {
@@ -317,6 +337,7 @@
           },
           "genre": "WORLD HOUSE",
           "id": 5,
+          "pack": "",
           "title": "THE SAFARI"
         }
       ],
@@ -338,6 +359,7 @@
           },
           "genre": "EPIC TRANCE",
           "id": 0,
+          "pack": "",
           "title": "ABSOLUTE"
         },
         {
@@ -352,6 +374,7 @@
           },
           "genre": "HIP HOP",
           "id": 1,
+          "pack": "",
           "title": "CHECKING YOU OUT"
         },
         {
@@ -366,6 +389,7 @@
           },
           "genre": "AMBIENT",
           "id": 2,
+          "pack": "",
           "title": "FLOWERS for ALBION"
         },
         {
@@ -380,6 +404,7 @@
           },
           "genre": "DANCE POP",
           "id": 3,
+          "pack": "",
           "title": "HIGHER"
         },
         {
@@ -394,6 +419,7 @@
           },
           "genre": "TECHNO",
           "id": 4,
+          "pack": "",
           "title": "KAMIKAZE"
         },
         {
@@ -408,6 +434,7 @@
           },
           "genre": "MINIMAL",
           "id": 5,
+          "pack": "",
           "title": "minimalian"
         },
         {
@@ -422,6 +449,7 @@
           },
           "genre": "HAPPY HARDCORE",
           "id": 6,
+          "pack": "",
           "title": "starmine"
         }
       ],
@@ -443,6 +471,7 @@
           },
           "genre": "INTELLIGENCE",
           "id": 0,
+          "pack": "",
           "title": "Abyss"
         },
         {
@@ -457,6 +486,7 @@
           },
           "genre": "TRANCE",
           "id": 1,
+          "pack": "",
           "title": "in my eyes"
         },
         {
@@ -471,6 +501,7 @@
           },
           "genre": "EPIC TRANCE",
           "id": 2,
+          "pack": "",
           "title": "THE SHINING POLARIS"
         },
         {
@@ -485,6 +516,7 @@
           },
           "genre": "PROGRESSIVE",
           "id": 3,
+          "pack": "",
           "title": "V"
         }
       ],
@@ -506,6 +538,7 @@
           },
           "genre": "HOUSE",
           "id": 0,
+          "pack": "",
           "title": "Blueberry Stream"
         },
         {
@@ -520,6 +553,7 @@
           },
           "genre": "TRANCE",
           "id": 1,
+          "pack": "",
           "title": "Colors (radio edit)"
         },
         {
@@ -534,6 +568,7 @@
           },
           "genre": "TRANCE",
           "id": 2,
+          "pack": "",
           "title": "fly through the night"
         },
         {
@@ -548,6 +583,7 @@
           },
           "genre": "TRANCE",
           "id": 3,
+          "pack": "",
           "title": "Frozen Ray (original mix)"
         },
         {
@@ -562,6 +598,7 @@
           },
           "genre": "LOUNGE POP",
           "id": 4,
+          "pack": "",
           "title": "Linus"
         },
         {
@@ -576,6 +613,7 @@
           },
           "genre": "TECHNO",
           "id": 5,
+          "pack": "",
           "title": "NEMESIS"
         },
         {
@@ -590,6 +628,7 @@
           },
           "genre": "NOISY",
           "id": 6,
+          "pack": "",
           "title": "route 80s"
         },
         {
@@ -604,6 +643,7 @@
           },
           "genre": "SOUL",
           "id": 7,
+          "pack": "",
           "title": "\u3053\u3063\u3061\u3092\u5411\u3044\u3066\u3088"
         },
         {
@@ -618,6 +658,7 @@
           },
           "genre": "NU-NRG",
           "id": 8,
+          "pack": "",
           "title": "\u96fb\u4eba\u30a4\u30a7\u30fc\u30ac\u30fc\u306e\u30c6\u30fc\u30de(Theme of DENJIN J)"
         }
       ],
@@ -639,6 +680,7 @@
           },
           "genre": "RENAISSANCE",
           "id": 0,
+          "pack": "",
           "title": "A"
         },
         {
@@ -653,6 +695,7 @@
           },
           "genre": "ALTERNATIVE HOUSE",
           "id": 1,
+          "pack": "",
           "title": "AVE DE RAPINA"
         },
         {
@@ -667,6 +710,7 @@
           },
           "genre": "HIP HOP&SOUL",
           "id": 2,
+          "pack": "",
           "title": "Glorious Days"
         },
         {
@@ -681,6 +725,7 @@
           },
           "genre": "AMBIENT POP",
           "id": 3,
+          "pack": "",
           "title": "Let the Snow Paint Me"
         },
         {
@@ -695,6 +740,7 @@
           },
           "genre": "NEW WAVE",
           "id": 4,
+          "pack": "",
           "title": "Love Me Do"
         },
         {
@@ -709,6 +755,7 @@
           },
           "genre": "HARDCORE TECHNO",
           "id": 5,
+          "pack": "",
           "title": "MAX 300"
         },
         {
@@ -723,7 +770,8 @@
           },
           "genre": "YEYE",
           "id": 6,
-          "title": "\u25bcMarmalade Reverie"
+          "pack": "",
+          "title": "Marmalade Reverie"
         },
         {
           "artist": "D.JW",
@@ -737,6 +785,7 @@
           },
           "genre": "HOUSE",
           "id": 7,
+          "pack": "",
           "title": "Spica"
         },
         {
@@ -751,6 +800,7 @@
           },
           "genre": "ORCHESTRAL",
           "id": 8,
+          "pack": "",
           "title": "\u9769\u547d"
         }
       ],
@@ -772,6 +822,7 @@
           },
           "genre": "INSTRUMENTAL",
           "id": 0,
+          "pack": "",
           "title": "airflow"
         },
         {
@@ -786,6 +837,7 @@
           },
           "genre": "DRUM'N'BASS",
           "id": 1,
+          "pack": "",
           "title": "ALL RIGHT"
         },
         {
@@ -800,6 +852,7 @@
           },
           "genre": "\u30c6\u30af\u30ce\u6b4c\u8b21",
           "id": 2,
+          "pack": "",
           "title": "bit mania"
         },
         {
@@ -814,6 +867,7 @@
           },
           "genre": "HARD CHANSON",
           "id": 3,
+          "pack": "",
           "title": "LOVE IS ORANGE"
         },
         {
@@ -828,6 +882,7 @@
           },
           "genre": "HOUSE",
           "id": 4,
+          "pack": "",
           "title": "thunder"
         },
         {
@@ -842,6 +897,7 @@
           },
           "genre": "HIP HOP",
           "id": 5,
+          "pack": "",
           "title": "WAR GAME"
         },
         {
@@ -856,6 +912,7 @@
           },
           "genre": "POPS",
           "id": 6,
+          "pack": "",
           "title": "World Wide Love"
         },
         {
@@ -870,6 +927,7 @@
           },
           "genre": "ELECTROSHOCK",
           "id": 7,
+          "pack": "",
           "title": "xenon"
         },
         {
@@ -884,6 +942,7 @@
           },
           "genre": "SPIRITUAL",
           "id": 8,
+          "pack": "",
           "title": "\u685c"
         }
       ],
@@ -905,7 +964,8 @@
           },
           "genre": "ULTRA ROCK BEAT",
           "id": 0,
-          "title": "\u25bcBe Rock U (1998 burst style)"
+          "pack": "",
+          "title": "Be Rock U (1998 burst style)"
         },
         {
           "artist": "SPARKER",
@@ -919,6 +979,7 @@
           },
           "genre": "ROCOCO TEK",
           "id": 1,
+          "pack": "",
           "title": "BRIGHTNESS DARKNESS"
         },
         {
@@ -933,6 +994,7 @@
           },
           "genre": "POST ROCK",
           "id": 2,
+          "pack": "",
           "title": "moon_child"
         },
         {
@@ -947,6 +1009,7 @@
           },
           "genre": "PSYCHEDELIC",
           "id": 3,
+          "pack": "",
           "title": "Quickening"
         },
         {
@@ -961,6 +1024,7 @@
           },
           "genre": "GABBA",
           "id": 4,
+          "pack": "",
           "title": "rottel-the-Mercury"
         },
         {
@@ -975,6 +1039,7 @@
           },
           "genre": "DRUM'N'BASS",
           "id": 5,
+          "pack": "",
           "title": "SNOW"
         },
         {
@@ -989,6 +1054,7 @@
           },
           "genre": "\u30dc\u30c7\u30fc",
           "id": 6,
+          "pack": "",
           "title": "\u30e9\u30a4\u30aa\u30f3\u597d\u304d"
         }
       ],
@@ -1010,6 +1076,7 @@
           },
           "genre": "DREAM TECHNO",
           "id": 0,
+          "pack": "",
           "title": "ASTRAL VOYAGE"
         },
         {
@@ -1024,6 +1091,7 @@
           },
           "genre": "2STEP POP TRANCE",
           "id": 1,
+          "pack": "",
           "title": "Back Into The Light"
         },
         {
@@ -1038,6 +1106,7 @@
           },
           "genre": "PIANO BALLADE",
           "id": 2,
+          "pack": "",
           "title": "desolation"
         },
         {
@@ -1052,6 +1121,7 @@
           },
           "genre": "HYPER J-POP FOUR",
           "id": 3,
+          "pack": "",
           "title": "DoLL"
         },
         {
@@ -1066,6 +1136,7 @@
           },
           "genre": "GOA TRANCE",
           "id": 4,
+          "pack": "",
           "title": "GHOST REVIVAL"
         },
         {
@@ -1080,6 +1151,7 @@
           },
           "genre": "GAME MUSIC",
           "id": 5,
+          "pack": "",
           "title": "GRADIUS -FULL SPEED-"
         },
         {
@@ -1094,6 +1166,7 @@
           },
           "genre": "TRANCE",
           "id": 6,
+          "pack": "",
           "title": "Love Is Eternity"
         },
         {
@@ -1108,6 +1181,7 @@
           },
           "genre": "ARTCORE",
           "id": 7,
+          "pack": "",
           "title": "Narcissus At Oasis"
         },
         {
@@ -1122,6 +1196,7 @@
           },
           "genre": "PROGRESSIVE BAROQUE",
           "id": 8,
+          "pack": "",
           "title": "No.13"
         },
         {
@@ -1136,6 +1211,7 @@
           },
           "genre": "TRANCE",
           "id": 9,
+          "pack": "",
           "title": "pandora"
         },
         {
@@ -1150,6 +1226,7 @@
           },
           "genre": "HAPPY HARDCORE",
           "id": 10,
+          "pack": "",
           "title": "rainbow rainbow"
         },
         {
@@ -1164,6 +1241,7 @@
           },
           "genre": "TRANCE",
           "id": 11,
+          "pack": "",
           "title": "Rise'n Beauty"
         },
         {
@@ -1178,6 +1256,7 @@
           },
           "genre": "J-POP",
           "id": 12,
+          "pack": "",
           "title": "SHOOTING STAR"
         },
         {
@@ -1192,6 +1271,7 @@
           },
           "genre": "\u6226\u8266\u30c6\u30af\u30ce",
           "id": 13,
+          "pack": "",
           "title": "SPACE FIGHT"
         },
         {
@@ -1206,6 +1286,7 @@
           },
           "genre": "HARD HOUSE",
           "id": 14,
+          "pack": "",
           "title": "\u96ea\u6708\u82b1"
         }
       ],
@@ -1227,6 +1308,7 @@
           },
           "genre": "RENAISSANCE",
           "id": 0,
+          "pack": "",
           "title": "AA"
         },
         {
@@ -1241,6 +1323,7 @@
           },
           "genre": "HAPPY HARDCORE",
           "id": 1,
+          "pack": "",
           "title": "AGEHA"
         },
         {
@@ -1255,6 +1338,7 @@
           },
           "genre": "PSYCHEDELICGOA TRANCE",
           "id": 2,
+          "pack": "",
           "title": "ANDROMEDA"
         },
         {
@@ -1269,6 +1353,7 @@
           },
           "genre": "TRANCE",
           "id": 3,
+          "pack": "",
           "title": "awakening"
         },
         {
@@ -1283,6 +1368,7 @@
           },
           "genre": "AMERICA",
           "id": 4,
+          "pack": "",
           "title": "Close my Eyes for Me"
         },
         {
@@ -1297,6 +1383,7 @@
           },
           "genre": "J-POP",
           "id": 5,
+          "pack": "",
           "title": "D.A.N.C.E.!"
         },
         {
@@ -1311,6 +1398,7 @@
           },
           "genre": "PIANO BALLAD",
           "id": 6,
+          "pack": "",
           "title": "earth scape"
         },
         {
@@ -1325,6 +1413,7 @@
           },
           "genre": "NUSTYLE GABBA",
           "id": 7,
+          "pack": "",
           "title": "gigadelic"
         },
         {
@@ -1339,7 +1428,8 @@
           },
           "genre": "ELECTRIC CABARET",
           "id": 8,
-          "title": "\u25bcINJECTION OF LOVE"
+          "pack": "",
+          "title": "INJECTION OF LOVE"
         },
         {
           "artist": "Tatsh&NAOKI",
@@ -1353,6 +1443,7 @@
           },
           "genre": "SPEED RAVE",
           "id": 9,
+          "pack": "",
           "title": "RED ZONE"
         },
         {
@@ -1367,6 +1458,7 @@
           },
           "genre": "MEDIEVAL CHOIR",
           "id": 10,
+          "pack": "",
           "title": "Sphere"
         },
         {
@@ -1381,6 +1473,7 @@
           },
           "genre": "PSYCHEDELIC TECHNO",
           "id": 11,
+          "pack": "",
           "title": "spiral galaxy"
         },
         {
@@ -1395,6 +1488,7 @@
           },
           "genre": "CYBORG TRANCE",
           "id": 12,
+          "pack": "",
           "title": "The Hope of Tomorrow"
         },
         {
@@ -1409,6 +1503,7 @@
           },
           "genre": "HYPER J-POP FIVE",
           "id": 13,
+          "pack": "",
           "title": "ULTiM\u2227TE"
         },
         {
@@ -1423,6 +1518,7 @@
           },
           "genre": "DIRGE",
           "id": 14,
+          "pack": "",
           "title": "\u30d4\u30a2\u30ce\u5354\u594f\u66f2\u7b2c1\u756a\"\u880d\u706b\""
         },
         {
@@ -1437,6 +1533,7 @@
           },
           "genre": "CYBER J-EURO",
           "id": 15,
+          "pack": "",
           "title": "\u592a\u967d\u301cT\u30fbA\u30fbI\u30fbY\u30fbO\u301c"
         }
       ],
@@ -1458,6 +1555,7 @@
           },
           "genre": "GOTHIC METAL",
           "id": 0,
+          "pack": "",
           "title": "Agnus Dei"
         },
         {
@@ -1472,6 +1570,7 @@
           },
           "genre": "TRANCE CORE",
           "id": 1,
+          "pack": "",
           "title": "Aurora"
         },
         {
@@ -1486,6 +1585,7 @@
           },
           "genre": "NOSTALISH REQUIEM",
           "id": 2,
+          "pack": "",
           "title": "CaptivAte\u301c\u6d44\u5316\u301c"
         },
         {
@@ -1500,6 +1600,7 @@
           },
           "genre": "ACID JAZZ",
           "id": 3,
+          "pack": "",
           "title": "Catch Me"
         },
         {
@@ -1514,6 +1615,7 @@
           },
           "genre": "HYPER J-POP SIX",
           "id": 4,
+          "pack": "",
           "title": "EDEN"
         },
         {
@@ -1528,6 +1630,7 @@
           },
           "genre": "E-ROCK",
           "id": 5,
+          "pack": "",
           "title": "EMPTY OF THE SKY"
         },
         {
@@ -1542,6 +1645,7 @@
           },
           "genre": "HAPPY HARDCORE",
           "id": 6,
+          "pack": "",
           "title": "HAPPY\u2606ANGEL"
         },
         {
@@ -1556,6 +1660,7 @@
           },
           "genre": "TRANCE",
           "id": 7,
+          "pack": "",
           "title": "INAZUMA"
         },
         {
@@ -1570,6 +1675,7 @@
           },
           "genre": "HAPPY EXTREME",
           "id": 8,
+          "pack": "",
           "title": "LESSON 5"
         },
         {
@@ -1584,6 +1690,7 @@
           },
           "genre": "PUNK OPERA",
           "id": 9,
+          "pack": "",
           "title": "Little Little Princess"
         },
         {
@@ -1598,6 +1705,7 @@
           },
           "genre": "SYNTHESIZED TECHNO",
           "id": 10,
+          "pack": "",
           "title": "PLASMA"
         },
         {
@@ -1612,6 +1720,7 @@
           },
           "genre": "MAKINA",
           "id": 11,
+          "pack": "",
           "title": "SigSig"
         },
         {
@@ -1626,6 +1735,7 @@
           },
           "genre": "MPB",
           "id": 12,
+          "pack": "",
           "title": "Tizona d'El Cid"
         },
         {
@@ -1640,6 +1750,7 @@
           },
           "genre": "J-EUROTRANCE",
           "id": 13,
+          "pack": "",
           "title": "Under the Sky"
         },
         {
@@ -1654,6 +1765,7 @@
           },
           "genre": "MEDIEVAL CHOIR",
           "id": 14,
+          "pack": "",
           "title": "Xepher"
         },
         {
@@ -1668,6 +1780,7 @@
           },
           "genre": "SYNTHETIC PROGRESSIVE ROCK",
           "id": 15,
+          "pack": "",
           "title": "100% minimoo-G"
         },
         {
@@ -1682,6 +1795,7 @@
           },
           "genre": "J-EUROBEAT",
           "id": 16,
+          "pack": "",
           "title": "\u6708\u5149"
         },
         {
@@ -1696,6 +1810,7 @@
           },
           "genre": "HUMAN SEQUENCER",
           "id": 17,
+          "pack": "",
           "title": "\u51a5"
         },
         {
@@ -1710,6 +1825,7 @@
           },
           "genre": "HARD DANCE",
           "id": 18,
+          "pack": "",
           "title": "\u5408\u4f53\u305b\u3088\uff01\u30b9\u30c8\u30ed\u30f3\u30b0\u30a4\u30a7\u30fc\u30ac\u30fc\uff01\uff01 (Ryu\u2606 remix)"
         },
         {
@@ -1724,7 +1840,8 @@
           },
           "genre": "K-GROOVE",
           "id": 19,
-          "title": "\u25bc\u30ad\u30e3\u30c3\u30b7\u30e5\u30ec\u30b9\u306f\u611b\u60c5\u6d88\u3059\u30c6\u30a3\u30c3\u30b7\u30e5"
+          "pack": "",
+          "title": "\u30ad\u30e3\u30c3\u30b7\u30e5\u30ec\u30b9\u306f\u611b\u60c5\u6d88\u3059\u30c6\u30a3\u30c3\u30b7\u30e5"
         }
       ],
       "version": "beatmania IIDX 12 HAPPY SKY",
@@ -1745,6 +1862,7 @@
           },
           "genre": "ORATORIO",
           "id": 0,
+          "pack": "",
           "title": "Apocalypse \u301cdirge of swans\u301c"
         },
         {
@@ -1759,6 +1877,7 @@
           },
           "genre": "HARD RENAISSANCE",
           "id": 1,
+          "pack": "",
           "title": "Bloody Tears(IIDX EDITION)"
         },
         {
@@ -1773,7 +1892,8 @@
           },
           "genre": "LATIN HORNS GROOVE",
           "id": 2,
-          "title": "\u25bcbluemoon"
+          "pack": "",
+          "title": "bluemoon"
         },
         {
           "artist": "\u4f50\u3005\u6728\u535a\u53f2",
@@ -1787,6 +1907,7 @@
           },
           "genre": "PROGRESSIVE",
           "id": 3,
+          "pack": "",
           "title": "Concertino in Blue"
         },
         {
@@ -1801,6 +1922,7 @@
           },
           "genre": "TECHNO",
           "id": 4,
+          "pack": "",
           "title": "D.C.fish"
         },
         {
@@ -1815,6 +1937,7 @@
           },
           "genre": "ESOTERIC SLOWCORE",
           "id": 5,
+          "pack": "",
           "title": "Ganymede"
         },
         {
@@ -1829,6 +1952,7 @@
           },
           "genre": "PROGRESSIVE HOUSE",
           "id": 6,
+          "pack": "",
           "title": "Harmony and Lovely"
         },
         {
@@ -1843,6 +1967,7 @@
           },
           "genre": "TRANCE",
           "id": 7,
+          "pack": "",
           "title": "Heavenly Sun (IIDX VERSION)"
         },
         {
@@ -1857,6 +1982,7 @@
           },
           "genre": "BRAZILIAN HOUSE",
           "id": 8,
+          "pack": "",
           "title": "INFERNO"
         },
         {
@@ -1871,6 +1997,7 @@
           },
           "genre": "SYMPHONIC EURO",
           "id": 9,
+          "pack": "",
           "title": "Leaving..."
         },
         {
@@ -1885,6 +2012,7 @@
           },
           "genre": "\u54c0\u6101\u30e6\u30fc\u30ed",
           "id": 10,
+          "pack": "",
           "title": "MOON"
         },
         {
@@ -1899,6 +2027,7 @@
           },
           "genre": "2 STEP",
           "id": 11,
+          "pack": "",
           "title": "Power of Love"
         },
         {
@@ -1913,6 +2042,7 @@
           },
           "genre": "FREEFORM",
           "id": 12,
+          "pack": "",
           "title": "tripping contact"
         },
         {
@@ -1927,6 +2057,7 @@
           },
           "genre": "PSYCHEDELIC TRANCE",
           "id": 13,
+          "pack": "",
           "title": "TYPE MARS(G-Style Mix)"
         },
         {
@@ -1941,6 +2072,7 @@
           },
           "genre": "DANCE SPEED",
           "id": 14,
+          "pack": "",
           "title": "waxing and wanding"
         },
         {
@@ -1955,7 +2087,8 @@
           },
           "genre": "NU BIGBEAT BREAKS",
           "id": 15,
-          "title": "\u25bcWinning Eleven9 Theme(IIDX EDITION)"
+          "pack": "",
+          "title": "Winning Eleven9 Theme(IIDX EDITION)"
         },
         {
           "artist": "Sota Fujimori",
@@ -1969,6 +2102,7 @@
           },
           "genre": "FUNK\u00b4N JAZZ HOUSE",
           "id": 16,
+          "pack": "",
           "title": "with you\u2026"
         },
         {
@@ -1983,6 +2117,7 @@
           },
           "genre": "CYBER OPUS",
           "id": 17,
+          "pack": "",
           "title": "Zenius -I- vanisher"
         },
         {
@@ -1997,6 +2132,7 @@
           },
           "genre": "ASIAN MIXTURE",
           "id": 18,
+          "pack": "",
           "title": "\u83ef\u8776\u98a8\u96ea"
         },
         {
@@ -2011,6 +2147,7 @@
           },
           "genre": "CONTEMPORARY",
           "id": 19,
+          "pack": "",
           "title": "\u5606\u304d\u306e\u6a39"
         },
         {
@@ -2025,6 +2162,7 @@
           },
           "genre": "LOVELY TRANS POP",
           "id": 20,
+          "pack": "",
           "title": "\u8679\u8272"
         },
         {
@@ -2039,6 +2177,7 @@
           },
           "genre": "POPROCK",
           "id": 21,
+          "pack": "",
           "title": "\u30bf\u30b7\u30ab\u30ca\u30e2\u30ce"
         }
       ],
@@ -2060,6 +2199,7 @@
           },
           "genre": "PSYCHEDELIC SYNTH TRANCE",
           "id": 0,
+          "pack": "",
           "title": "ANDROMEDA II"
         },
         {
@@ -2074,6 +2214,7 @@
           },
           "genre": "NOSTALISH REQUIEM",
           "id": 1,
+          "pack": "",
           "title": "CaptivAte\u301c\u8a93\u3044\u301c"
         },
         {
@@ -2088,6 +2229,7 @@
           },
           "genre": "CYBORG TRANCE",
           "id": 2,
+          "pack": "",
           "title": "Cyber Force"
         },
         {
@@ -2102,6 +2244,7 @@
           },
           "genre": "SuperNOVA BEAT",
           "id": 3,
+          "pack": "",
           "title": "Fascination MAXX"
         },
         {
@@ -2116,6 +2259,7 @@
           },
           "genre": "ROCK",
           "id": 4,
+          "pack": "",
           "title": "four-leaf"
         },
         {
@@ -2130,6 +2274,7 @@
           },
           "genre": "RECKLESS RAVE",
           "id": 5,
+          "pack": "",
           "title": "GOLD RUSH"
         },
         {
@@ -2144,6 +2289,7 @@
           },
           "genre": "ELECTRONICA",
           "id": 6,
+          "pack": "",
           "title": "GRID KNIGHT"
         },
         {
@@ -2158,7 +2304,8 @@
           },
           "genre": "PROGRESSIVE",
           "id": 7,
-          "title": "\u25bcHALF MOON"
+          "pack": "",
+          "title": "HALF MOON"
         },
         {
           "artist": "kors k",
@@ -2172,6 +2319,7 @@
           },
           "genre": "FILTER HOUSE",
           "id": 8,
+          "pack": "",
           "title": "heaven above"
         },
         {
@@ -2186,6 +2334,7 @@
           },
           "genre": "HIGH SPEED LOVE SONG",
           "id": 9,
+          "pack": "",
           "title": "High School Love"
         },
         {
@@ -2200,6 +2349,7 @@
           },
           "genre": "FREEFORM HARDCORE",
           "id": 10,
+          "pack": "",
           "title": "KAMAITACHI"
         },
         {
@@ -2214,6 +2364,7 @@
           },
           "genre": "NU-SKOOL BREAKS",
           "id": 11,
+          "pack": "",
           "title": "LASER CRUSTER"
         },
         {
@@ -2228,6 +2379,7 @@
           },
           "genre": "HANDZ UP",
           "id": 12,
+          "pack": "",
           "title": "Second Heaven"
         },
         {
@@ -2242,6 +2394,7 @@
           },
           "genre": "TRANCE",
           "id": 13,
+          "pack": "",
           "title": "snow storm"
         },
         {
@@ -2256,6 +2409,7 @@
           },
           "genre": "DECEPTIVE GABBA",
           "id": 14,
+          "pack": "",
           "title": "VANESSA"
         },
         {
@@ -2270,6 +2424,7 @@
           },
           "genre": "FUTURE POP",
           "id": 15,
+          "pack": "",
           "title": "\u30af\u30eb\u30af\u30eb\u2606\u30e9\u30d6\u301cOpioid Peptide MIX\u301c"
         },
         {
@@ -2284,6 +2439,7 @@
           },
           "genre": "JAPANESE ALTERATION",
           "id": 16,
+          "pack": "",
           "title": "\u82b1\u5439\u96ea \u301c IIDX LIMITED \u301c"
         },
         {
@@ -2298,7 +2454,8 @@
           },
           "genre": "INDUSTRIAL REVIEW",
           "id": 17,
-          "title": "\u25bc\u9b3c\u8a00\u96c6"
+          "pack": "",
+          "title": "\u9b3c\u8a00\u96c6"
         },
         {
           "artist": "DJ YOSHITAKA feat.\u661f\u91ce\u594f\u5b50",
@@ -2312,6 +2469,7 @@
           },
           "genre": "J-POP",
           "id": 18,
+          "pack": "",
           "title": "\u661f\u3092\u3053\u306e\u624b\u306b"
         },
         {
@@ -2326,6 +2484,7 @@
           },
           "genre": "EURO TRANCE",
           "id": 19,
+          "pack": "",
           "title": "\u30ea\u30b0\u30ec\u30c3\u30c8"
         },
         {
@@ -2340,6 +2499,7 @@
           },
           "genre": "TECHNO",
           "id": 20,
+          "pack": "",
           "title": "\u30e8\u30b7\u30c0\u3055\u3093"
         },
         {
@@ -2354,6 +2514,7 @@
           },
           "genre": "HYPER J-POP ZERO",
           "id": 21,
+          "pack": "",
           "title": "\u96f6 - ZERO -"
         }
       ],
@@ -2375,6 +2536,7 @@
           },
           "genre": "HARD RENAISSANCE",
           "id": 0,
+          "pack": "",
           "title": "Anisakis -somatic mutation type\"Forza\"-"
         },
         {
@@ -2389,6 +2551,7 @@
           },
           "genre": "J-R&B",
           "id": 1,
+          "pack": "",
           "title": "Darling my LUV"
         },
         {
@@ -2403,6 +2566,7 @@
           },
           "genre": "FRENZY HOUSE",
           "id": 2,
+          "pack": "",
           "title": "end of world"
         },
         {
@@ -2417,6 +2581,7 @@
           },
           "genre": "PROG",
           "id": 3,
+          "pack": "",
           "title": "evergreen"
         },
         {
@@ -2431,6 +2596,7 @@
           },
           "genre": "JUNGLE",
           "id": 4,
+          "pack": "",
           "title": "four pieces of heaven"
         },
         {
@@ -2445,6 +2611,7 @@
           },
           "genre": "TRANCE",
           "id": 5,
+          "pack": "",
           "title": "Freeway Shuffle"
         },
         {
@@ -2459,6 +2626,7 @@
           },
           "genre": "HAPPY HARDCORE",
           "id": 6,
+          "pack": "",
           "title": "in the Sky"
         },
         {
@@ -2473,6 +2641,7 @@
           },
           "genre": "HAPPY HARDCORE",
           "id": 7,
+          "pack": "",
           "title": "LOVELY STORM"
         },
         {
@@ -2487,6 +2656,7 @@
           },
           "genre": "LOVELY BUCHIAGE POP",
           "id": 8,
+          "pack": "",
           "title": "MAX LOVE"
         },
         {
@@ -2501,6 +2671,7 @@
           },
           "genre": "IRREGULAR HI-BREAK",
           "id": 9,
+          "pack": "",
           "title": "MENDES"
         },
         {
@@ -2515,6 +2686,7 @@
           },
           "genre": "ONLY ONE EURO BEAT",
           "id": 10,
+          "pack": "",
           "title": "NEW GENERATION -\u3082\u3046\u3001\u304a\u524d\u3057\u304b\u898b\u3048\u306a\u3044-"
         },
         {
@@ -2529,6 +2701,7 @@
           },
           "genre": "BALLAD",
           "id": 11,
+          "pack": "",
           "title": "PROMISE FOR LIFE"
         },
         {
@@ -2543,6 +2716,7 @@
           },
           "genre": "OUVERT\u00dcRE",
           "id": 12,
+          "pack": "",
           "title": "Ristaccia"
         },
         {
@@ -2557,6 +2731,7 @@
           },
           "genre": "HARD HOUSE",
           "id": 13,
+          "pack": "",
           "title": "satellite020712 from \"CODED ARMS\""
         },
         {
@@ -2571,6 +2746,7 @@
           },
           "genre": "WORLD/ELECTRONICA",
           "id": 14,
+          "pack": "",
           "title": "scar in the earth"
         },
         {
@@ -2585,7 +2761,8 @@
           },
           "genre": "TECHNO",
           "id": 15,
-          "title": "\u25bcSHIFT"
+          "pack": "",
+          "title": "SHIFT"
         },
         {
           "artist": "L.E.D.-G",
@@ -2599,6 +2776,7 @@
           },
           "genre": "NU STYLE GABBA",
           "id": 16,
+          "pack": "",
           "title": "THE DEEP STRIKER"
         },
         {
@@ -2613,6 +2791,7 @@
           },
           "genre": "ETHNOTRONICA",
           "id": 17,
+          "pack": "",
           "title": "the trigger of innocence"
         },
         {
@@ -2627,6 +2806,7 @@
           },
           "genre": "DANCE SPEED",
           "id": 18,
+          "pack": "",
           "title": "Time to Air"
         },
         {
@@ -2641,6 +2821,7 @@
           },
           "genre": "POST RENAISSANCE",
           "id": 19,
+          "pack": "",
           "title": "\u5c11\u5e74A"
         },
         {
@@ -2655,7 +2836,8 @@
           },
           "genre": "SYMPHONIC TECHNO",
           "id": 20,
-          "title": "\u25bc\u9ad8\u9ad8\u5ea6\u964d\u4e0b\u4f4e\u9ad8\u5ea6\u958b\u5098"
+          "pack": "",
+          "title": "\u9ad8\u9ad8\u5ea6\u964d\u4e0b\u4f4e\u9ad8\u5ea6\u958b\u5098"
         },
         {
           "artist": "Jimmy Weckl",
@@ -2669,6 +2851,7 @@
           },
           "genre": "FUSION",
           "id": 21,
+          "pack": "",
           "title": "\u30df\u30e9\u30fc\u30b8\u30e5\u30fb\u30ec\u30b8\u30c7\u30f3\u30b9"
         },
         {
@@ -2683,6 +2866,7 @@
           },
           "genre": "EDUCATION",
           "id": 22,
+          "pack": "",
           "title": "\u30de\u30c1\u5b50\u306e\u5504"
         },
         {
@@ -2697,6 +2881,7 @@
           },
           "genre": "SOLDIER\u00b4S BALLAD",
           "id": 23,
+          "pack": "",
           "title": "\u8d70\u99ac\u706f -The Last Song-"
         }
       ],
@@ -2718,6 +2903,7 @@
           },
           "genre": "ONLY ONE EURO BEAT",
           "id": 0,
+          "pack": "",
           "title": "ALL MY TURN -\u3053\u306e\u30bf\u30fc\u30f3\u306b\u3001\u30aa\u30ec\u306e\u5168\u3066\u3092\u8ced\u3051\u308b-"
         },
         {
@@ -2732,6 +2918,7 @@
           },
           "genre": "ARABIC HARDCORE",
           "id": 1,
+          "pack": "",
           "title": "Arabian Rave Night"
         },
         {
@@ -2746,6 +2933,7 @@
           },
           "genre": "HOUSE",
           "id": 2,
+          "pack": "",
           "title": "Bahram Attack-\u732b\u53c9Master Remix-"
         },
         {
@@ -2760,6 +2948,7 @@
           },
           "genre": "JUMPSTYLE",
           "id": 3,
+          "pack": "",
           "title": "BITTER CHOCOLATE STRIKER"
         },
         {
@@ -2774,6 +2963,7 @@
           },
           "genre": "NOSTALISH REQUIEM",
           "id": 4,
+          "pack": "",
           "title": "CaptivAte2\u301c\u899a\u9192\u301c"
         },
         {
@@ -2788,6 +2978,7 @@
           },
           "genre": "MEGA MIX",
           "id": 5,
+          "pack": "",
           "title": "Flash Back 90's"
         },
         {
@@ -2802,6 +2993,7 @@
           },
           "genre": "DREAM TRANCE",
           "id": 6,
+          "pack": "",
           "title": "Fly Above"
         },
         {
@@ -2816,6 +3008,7 @@
           },
           "genre": "TRANCE CORE",
           "id": 7,
+          "pack": "",
           "title": "Go Beyond!!"
         },
         {
@@ -2830,6 +3023,7 @@
           },
           "genre": "ASIAN JANGLE",
           "id": 8,
+          "pack": "",
           "title": "Kung-fu Empire"
         },
         {
@@ -2844,6 +3038,7 @@
           },
           "genre": "PSY TRANCE(FULL ON)",
           "id": 9,
+          "pack": "",
           "title": "Programmed World"
         },
         {
@@ -2858,6 +3053,7 @@
           },
           "genre": "BIGBEAT",
           "id": 10,
+          "pack": "",
           "title": "Queen's Tragedy"
         },
         {
@@ -2872,6 +3068,7 @@
           },
           "genre": "CANDY RAVE",
           "id": 11,
+          "pack": "",
           "title": "smooooch\u30fb\u2200\u30fb"
         },
         {
@@ -2886,6 +3083,7 @@
           },
           "genre": "TECHNO",
           "id": 12,
+          "pack": "",
           "title": "SOLITON BEAM"
         },
         {
@@ -2900,6 +3098,7 @@
           },
           "genre": "ONLY ONE EPILOGUE",
           "id": 13,
+          "pack": "",
           "title": "THANK YOU FOR PLAYING"
         },
         {
@@ -2914,6 +3113,7 @@
           },
           "genre": "ELEMENTAL CHANT",
           "id": 14,
+          "pack": "",
           "title": "Turii \u301cPanta rhei\u301c"
         },
         {
@@ -2928,6 +3128,7 @@
           },
           "genre": "PROGRESSIVE",
           "id": 15,
+          "pack": "",
           "title": "V2"
         },
         {
@@ -2942,6 +3143,7 @@
           },
           "genre": "DANCE SPEED",
           "id": 16,
+          "pack": "",
           "title": "3y3s"
         },
         {
@@ -2956,6 +3158,7 @@
           },
           "genre": "\u30dd\u30c3\u30d7\u30b9",
           "id": 17,
+          "pack": "",
           "title": "\u5c71\u5ca1\u6643\u306e\u300c\u30af\u30a4\u30ba\uff01\u5bb6\u4e8b\u90fd\u5408\uff01\u300d"
         },
         {
@@ -2970,6 +3173,7 @@
           },
           "genre": "HARDCORE",
           "id": 18,
+          "pack": "",
           "title": "\u4e0d\u6c88\u8266CANDY"
         },
         {
@@ -2984,6 +3188,7 @@
           },
           "genre": "HOU-ROCK",
           "id": 19,
+          "pack": "",
           "title": "\u30cf\u30ea\u30c4\u30e4\u30e9\u30f3\u30c7\u30f4\u30fc"
         },
         {
@@ -2998,6 +3203,7 @@
           },
           "genre": "ESOTERIC SPEEDCORE",
           "id": 20,
+          "pack": "",
           "title": "\u5351\u5f25\u547c"
         },
         {
@@ -3012,6 +3218,7 @@
           },
           "genre": "J-DANCE POP",
           "id": 21,
+          "pack": "",
           "title": "\u307e\u307b\u308d\u3070"
         },
         {
@@ -3026,6 +3233,7 @@
           },
           "genre": "TRENDY TECHNO",
           "id": 22,
+          "pack": "",
           "title": "\u30df\u30c3\u30c9\u30ca\u30a4\u30c8\u5815\u5929\u4f7f"
         },
         {
@@ -3040,6 +3248,7 @@
           },
           "genre": "\u64ab\u5b50\u30ed\u30c3\u30af",
           "id": 23,
+          "pack": "",
           "title": "\u51db\u3068\u3057\u3066\u54b2\u304f\u82b1\u306e\u5982\u304f"
         },
         {
@@ -3054,6 +3263,7 @@
           },
           "genre": "IRON CONCERTO",
           "id": 24,
+          "pack": "",
           "title": "\u9244\u7532\u4e59\u5973-under the steel-"
         },
         {
@@ -3068,6 +3278,7 @@
           },
           "genre": "J-TRANCE",
           "id": 25,
+          "pack": "",
           "title": "\u7ffc"
         }
       ],
@@ -3089,6 +3300,7 @@
           },
           "genre": "SPEEDCORE",
           "id": 0,
+          "pack": "",
           "title": "AIR RAID FROM THA UNDAGROUND"
         },
         {
@@ -3103,6 +3315,7 @@
           },
           "genre": "AKASHIC RECORDS",
           "id": 1,
+          "pack": "",
           "title": "Almagest"
         },
         {
@@ -3117,6 +3330,7 @@
           },
           "genre": "INDUSTRIAL",
           "id": 2,
+          "pack": "",
           "title": "Bad Maniacs"
         },
         {
@@ -3131,6 +3345,7 @@
           },
           "genre": "BUBBLEGUM DANCE",
           "id": 3,
+          "pack": "",
           "title": "bass 2 bass"
         },
         {
@@ -3145,6 +3360,7 @@
           },
           "genre": "ELECTRO POP",
           "id": 4,
+          "pack": "",
           "title": "being torn the sky"
         },
         {
@@ -3159,6 +3375,7 @@
           },
           "genre": "HAPPY HARDCORE",
           "id": 5,
+          "pack": "",
           "title": "bloomin' feeling"
         },
         {
@@ -3173,7 +3390,8 @@
           },
           "genre": "LATIN HOUSE",
           "id": 6,
-          "title": "\u25bcBrazilian Fire"
+          "pack": "",
+          "title": "Brazilian Fire"
         },
         {
           "artist": "Remixed by DJ YOSHITAKA",
@@ -3187,6 +3405,7 @@
           },
           "genre": "SUBLIME TECHNO",
           "id": 7,
+          "pack": "",
           "title": "CaptivAte\u301c\u88c1\u304d\u301c(SUBLIME TECHNO MIX)"
         },
         {
@@ -3201,7 +3420,8 @@
           },
           "genre": "TRIP-POP",
           "id": 8,
-          "title": "\u25bcChocolate Dancing"
+          "pack": "",
+          "title": "Chocolate Dancing"
         },
         {
           "artist": "Eagle",
@@ -3215,6 +3435,7 @@
           },
           "genre": "NEXT SKOOLBREAKBEATS HARDCORE",
           "id": 9,
+          "pack": "",
           "title": "D"
         },
         {
@@ -3229,6 +3450,7 @@
           },
           "genre": "EUROBEAT",
           "id": 10,
+          "pack": "",
           "title": "Dazzlin' Darlin-\u79cb\u8449\u5de5\u623fmix-"
         },
         {
@@ -3243,7 +3465,8 @@
           },
           "genre": "PSYCHE TRANCE",
           "id": 11,
-          "title": "\u25bcDENJIN AKATSUKINI TAORERU -SF PureAnalogSynth Mix-"
+          "pack": "",
+          "title": "DENJIN AKATSUKINI TAORERU -SF PureAnalogSynth Mix-"
         },
         {
           "artist": "M-Project fw. GUHROOVY",
@@ -3257,6 +3480,7 @@
           },
           "genre": "UK HARDCORE",
           "id": 12,
+          "pack": "",
           "title": "DESIRE"
         },
         {
@@ -3271,6 +3495,7 @@
           },
           "genre": "HARDCORE",
           "id": 13,
+          "pack": "",
           "title": "DOMINION"
         },
         {
@@ -3285,6 +3510,7 @@
           },
           "genre": "WHITE SEQUENCE",
           "id": 14,
+          "pack": "",
           "title": "DROP"
         },
         {
@@ -3299,6 +3525,7 @@
           },
           "genre": "TRANCE CORE",
           "id": 15,
+          "pack": "",
           "title": "Elisha"
         },
         {
@@ -3313,6 +3540,7 @@
           },
           "genre": "CYBERPUNK",
           "id": 16,
+          "pack": "",
           "title": "Empire State Glory"
         },
         {
@@ -3327,6 +3555,7 @@
           },
           "genre": "HARDCORE",
           "id": 17,
+          "pack": "",
           "title": "eRAseRmOToRpHAntOM"
         },
         {
@@ -3341,6 +3570,7 @@
           },
           "genre": "HARD RENAISSANCE",
           "id": 18,
+          "pack": "",
           "title": "Evans"
         },
         {
@@ -3355,6 +3585,7 @@
           },
           "genre": "HARDCORE",
           "id": 19,
+          "pack": "",
           "title": "EXUSIA"
         },
         {
@@ -3369,6 +3600,7 @@
           },
           "genre": "EXPERIMENTAL MUSIC",
           "id": 20,
+          "pack": "",
           "title": "G59"
         },
         {
@@ -3383,6 +3615,7 @@
           },
           "genre": "HARDCORE TECHNO",
           "id": 21,
+          "pack": "",
           "title": "GALGALIM"
         },
         {
@@ -3397,6 +3630,7 @@
           },
           "genre": "TECH DANCE",
           "id": 22,
+          "pack": "",
           "title": "Hydrogen Blueback"
         },
         {
@@ -3411,6 +3645,7 @@
           },
           "genre": "EUROBEAT",
           "id": 23,
+          "pack": "",
           "title": "Keep it-\u79cb\u8449\u5de5\u623fmix-"
         },
         {
@@ -3425,6 +3660,7 @@
           },
           "genre": "ELECTRO",
           "id": 24,
+          "pack": "",
           "title": "Last Burning"
         },
         {
@@ -3439,6 +3675,7 @@
           },
           "genre": "BUBBLEGUM DANCE",
           "id": 25,
+          "pack": "",
           "title": "Light Shine"
         },
         {
@@ -3453,7 +3690,8 @@
           },
           "genre": "SERIOUS STEP",
           "id": 26,
-          "title": "\u25bcLondon Affairs Beckoned With Money Loved By Yellow Papers."
+          "pack": "",
+          "title": "London Affairs Beckoned With Money Loved By Yellow Papers."
         },
         {
           "artist": "Lucky Vacuum",
@@ -3467,6 +3705,7 @@
           },
           "genre": "BUCHIAGE TRANCE",
           "id": 27,
+          "pack": "",
           "title": "MIRACLE MEETS"
         },
         {
@@ -3481,6 +3720,7 @@
           },
           "genre": "TECHNO POP SPEED",
           "id": 28,
+          "pack": "",
           "title": "mosaic"
         },
         {
@@ -3495,6 +3735,7 @@
           },
           "genre": "ONLY ONE IDOL SONG",
           "id": 29,
+          "pack": "",
           "title": "NEW SENSATION -\u3082\u3046\u3001\u3042\u306a\u305f\u3057\u304b\u898b\u3048\u306a\u3044-"
         },
         {
@@ -3509,6 +3750,7 @@
           },
           "genre": "TECHNO POP",
           "id": 30,
+          "pack": "",
           "title": "NoN-Fiction Story!"
         },
         {
@@ -3523,7 +3765,8 @@
           },
           "genre": "TECHNO/DANCE",
           "id": 31,
-          "title": "\u25bcOne of A Kind"
+          "pack": "",
+          "title": "One of A Kind"
         },
         {
           "artist": "kors k",
@@ -3537,6 +3780,7 @@
           },
           "genre": "PSY TRANCE(MORNING)",
           "id": 32,
+          "pack": "",
           "title": "Programmed Sun"
         },
         {
@@ -3551,6 +3795,7 @@
           },
           "genre": "TRANCE",
           "id": 33,
+          "pack": "",
           "title": "quell\u301cthe seventh slave\u301c"
         },
         {
@@ -3565,6 +3810,7 @@
           },
           "genre": "ASTRAL CHOIR",
           "id": 34,
+          "pack": "",
           "title": "Raison d'\u00eatre\u301c\u4ea4\u5dee\u3059\u308b\u5bbf\u547d\u301c"
         },
         {
@@ -3579,6 +3825,7 @@
           },
           "genre": "TECH-BREAKBEATS",
           "id": 35,
+          "pack": "",
           "title": "Red. by Full Metal Jacket"
         },
         {
@@ -3593,6 +3840,7 @@
           },
           "genre": "ACTRESS",
           "id": 36,
+          "pack": "",
           "title": "Roots of my way!"
         },
         {
@@ -3607,6 +3855,7 @@
           },
           "genre": "ONLY ONE BALLAD",
           "id": 37,
+          "pack": "",
           "title": "She is my wife"
         },
         {
@@ -3621,6 +3870,7 @@
           },
           "genre": "HARDSTYLE",
           "id": 38,
+          "pack": "",
           "title": "SOLID STATE SQUAD"
         },
         {
@@ -3635,6 +3885,7 @@
           },
           "genre": "EMO",
           "id": 39,
+          "pack": "",
           "title": "Sorrows"
         },
         {
@@ -3649,6 +3900,7 @@
           },
           "genre": "J-HOUSE",
           "id": 40,
+          "pack": "",
           "title": "Special One"
         },
         {
@@ -3663,7 +3915,8 @@
           },
           "genre": "PSYCHEDELIC TRANCE",
           "id": 41,
-          "title": "\u25bcspiral galaxy -L.E.D. STYLE SPREADING PARTICLE BEAM MIX-"
+          "pack": "",
+          "title": "spiral galaxy -L.E.D. STYLE SPREADING PARTICLE BEAM MIX-"
         },
         {
           "artist": "L.E.D.",
@@ -3677,6 +3930,7 @@
           },
           "genre": "DRUM & BASS",
           "id": 42,
+          "pack": "",
           "title": "THE LAST STRIKER"
         },
         {
@@ -3691,6 +3945,7 @@
           },
           "genre": "EPIC TRANCE",
           "id": 43,
+          "pack": "",
           "title": "The Story Begins"
         },
         {
@@ -3705,7 +3960,8 @@
           },
           "genre": "CLUB' 80s",
           "id": 44,
-          "title": "\u25bcTo the Future"
+          "pack": "",
+          "title": "To the Future"
         },
         {
           "artist": "Sota Fujimori feat.Kemy",
@@ -3719,7 +3975,8 @@
           },
           "genre": "ELECTRO",
           "id": 45,
-          "title": "\u25bcwith me..."
+          "pack": "",
+          "title": "with me..."
         },
         {
           "artist": "\u5287\u56e3\u30ec\u30b3\u30fc\u30c9",
@@ -3733,6 +3990,7 @@
           },
           "genre": "DISTORTED NEW AGE",
           "id": 46,
+          "pack": "",
           "title": "\u30d0\u30d3\u30ed\u30cb\u30a2"
         },
         {
@@ -3747,6 +4005,7 @@
           },
           "genre": "J-POP",
           "id": 47,
+          "pack": "",
           "title": "\u30b3\u30b9\u30e2\u30b9"
         },
         {
@@ -3761,7 +4020,8 @@
           },
           "genre": "\u30e2\u30c3\u30b7\u30e5",
           "id": 48,
-          "title": "\u25bc\u30d5\u30a7\u30c6\u30a3\u30c3\u30b7\u30e5\u30da\u30a4\u30d1\u30fc \u301c\u8107\u306e\u6c57\u56de\u8ee2\u30ac\u30fc\u30eb\u301c"
+          "pack": "",
+          "title": "\u30d5\u30a7\u30c6\u30a3\u30c3\u30b7\u30e5\u30da\u30a4\u30d1\u30fc \u301c\u8107\u306e\u6c57\u56de\u8ee2\u30ac\u30fc\u30eb\u301c"
         },
         {
           "artist": "CULTVOICE by S.S.D.PRODUCTS",
@@ -3775,6 +4035,7 @@
           },
           "genre": "INSANIO",
           "id": 49,
+          "pack": "",
           "title": "\u304b\u305a\u3042\u305d\u3073"
         },
         {
@@ -3789,6 +4050,7 @@
           },
           "genre": "STAR POP",
           "id": 50,
+          "pack": "",
           "title": "\u672a\u6765\u306e\u30d7\u30ea\u30ba\u30e0"
         },
         {
@@ -3803,6 +4065,7 @@
           },
           "genre": "WORLD/ELECTRONICA",
           "id": 51,
+          "pack": "",
           "title": "\u30b5\u30e8\u30ca\u30e9\u30fb\u30d8\u30f4\u30f3"
         },
         {
@@ -3817,6 +4080,7 @@
           },
           "genre": "WORLD/ELECTRONICA",
           "id": 52,
+          "pack": "",
           "title": "\u6c34\u4e0a\u306e\u63d0\u7763(Short mix from \"\u5e7b\u60f3\u6c34\u6ef8\u4f1dV\")"
         },
         {
@@ -3831,6 +4095,7 @@
           },
           "genre": "VALSE",
           "id": 53,
+          "pack": "",
           "title": "\u30ef\u30eb\u30c4\u7b2c17\u756a \u30c8\u77ed\u8abf\"\u5927\u72ac\u306e\u30ef\u30eb\u30c4\""
         }
       ],
@@ -3852,6 +4117,7 @@
           },
           "genre": "TECHNO",
           "id": 0,
+          "pack": "",
           "title": "Aegis"
         },
         {
@@ -3866,6 +4132,7 @@
           },
           "genre": "HARD RENAISSANCE",
           "id": 1,
+          "pack": "",
           "title": "ALBIDA"
         },
         {
@@ -3880,6 +4147,7 @@
           },
           "genre": "STARPOP",
           "id": 2,
+          "pack": "",
           "title": "Answer"
         },
         {
@@ -3894,6 +4162,7 @@
           },
           "genre": "LATIN TEK",
           "id": 3,
+          "pack": "",
           "title": "ANTHEM LANDING"
         },
         {
@@ -3908,6 +4177,7 @@
           },
           "genre": "DANCEHALL",
           "id": 4,
+          "pack": "",
           "title": "Bounce Bounce Bounce"
         },
         {
@@ -3922,6 +4192,7 @@
           },
           "genre": "TRANCE",
           "id": 5,
+          "pack": "",
           "title": "Broken"
         },
         {
@@ -3936,6 +4207,7 @@
           },
           "genre": "SYMPHONIC-TEK",
           "id": 6,
+          "pack": "",
           "title": "BROKEN EDEN"
         },
         {
@@ -3950,6 +4222,7 @@
           },
           "genre": "\u30c8\u30ec\u30f3\u30c7\u30a3\u30fc\u30c8\u30e9\u30f3\u30b9",
           "id": 7,
+          "pack": "",
           "title": "Dances with Snow Fairies"
         },
         {
@@ -3964,6 +4237,7 @@
           },
           "genre": "SPEED RAVE",
           "id": 8,
+          "pack": "",
           "title": "DM STAR\u301c\u95a2\u897f energy style\u301c"
         },
         {
@@ -3978,6 +4252,7 @@
           },
           "genre": "GABBA",
           "id": 9,
+          "pack": "",
           "title": "ELECTRIC MASSIVE DIVER"
         },
         {
@@ -3992,6 +4267,7 @@
           },
           "genre": "ONLY ONE ANTHEM",
           "id": 10,
+          "pack": "",
           "title": "Everlasting Resort"
         },
         {
@@ -4006,6 +4282,7 @@
           },
           "genre": "HYPER FANTASIA",
           "id": 11,
+          "pack": "",
           "title": "Fantasia"
         },
         {
@@ -4020,6 +4297,7 @@
           },
           "genre": "NU DISCO",
           "id": 12,
+          "pack": "",
           "title": "Golden Palms"
         },
         {
@@ -4034,7 +4312,8 @@
           },
           "genre": "HARDCORE",
           "id": 13,
-          "title": "\u25bcHardcore Mania"
+          "pack": "",
+          "title": "Hardcore Mania"
         },
         {
           "artist": "kobo feat. Marsha",
@@ -4048,6 +4327,7 @@
           },
           "genre": "DRUM & BASS",
           "id": 14,
+          "pack": "",
           "title": "I FIGHT ME"
         },
         {
@@ -4062,6 +4342,7 @@
           },
           "genre": "ENERGETICHAWAIIAN TRANCE",
           "id": 15,
+          "pack": "",
           "title": "Kailua"
         },
         {
@@ -4076,6 +4357,7 @@
           },
           "genre": "HAPPY CORE",
           "id": 16,
+          "pack": "",
           "title": "Love\u2661km"
         },
         {
@@ -4090,6 +4372,7 @@
           },
           "genre": "MAGICAL POP",
           "id": 17,
+          "pack": "",
           "title": "Medicine of love"
         },
         {
@@ -4104,6 +4387,7 @@
           },
           "genre": "BUBBLEGUM DANCE",
           "id": 18,
+          "pack": "",
           "title": "Mermaid girl"
         },
         {
@@ -4118,6 +4402,7 @@
           },
           "genre": "IIDX HANDZ UP!!",
           "id": 19,
+          "pack": "",
           "title": "Never Fade Away"
         },
         {
@@ -4132,6 +4417,7 @@
           },
           "genre": "TRANCE CORE",
           "id": 20,
+          "pack": "",
           "title": "PARADISE LOST"
         },
         {
@@ -4146,6 +4432,7 @@
           },
           "genre": "ANTHEM CORE",
           "id": 21,
+          "pack": "",
           "title": "perditus\u2020paradisus"
         },
         {
@@ -4160,6 +4447,7 @@
           },
           "genre": "CYBER WALTZ",
           "id": 22,
+          "pack": "",
           "title": "reunion"
         },
         {
@@ -4174,6 +4462,7 @@
           },
           "genre": "UK HARDCORE",
           "id": 23,
+          "pack": "",
           "title": "Rock Da House"
         },
         {
@@ -4188,6 +4477,7 @@
           },
           "genre": "SHOOTING WALTZ",
           "id": 24,
+          "pack": "",
           "title": "SABER WING"
         },
         {
@@ -4202,6 +4492,7 @@
           },
           "genre": "HAPPY HARDCORE",
           "id": 25,
+          "pack": "",
           "title": "Sakura Reflection"
         },
         {
@@ -4216,6 +4507,7 @@
           },
           "genre": "HAPPY HARDCORE",
           "id": 26,
+          "pack": "",
           "title": "sakura storm"
         },
         {
@@ -4230,6 +4522,7 @@
           },
           "genre": "BUCHIAGE TRANCE",
           "id": 27,
+          "pack": "",
           "title": "SPECIAL SUMMER CAMPAIGN!"
         },
         {
@@ -4244,6 +4537,7 @@
           },
           "genre": "R&B",
           "id": 28,
+          "pack": "",
           "title": "Stay my side"
         },
         {
@@ -4258,7 +4552,8 @@
           },
           "genre": "90's ELECTRIC POP",
           "id": 29,
-          "title": "\u25bcSurvival Games"
+          "pack": "",
+          "title": "Survival Games"
         },
         {
           "artist": "L.E.D.",
@@ -4272,6 +4567,7 @@
           },
           "genre": "GOA TRANCE",
           "id": 30,
+          "pack": "",
           "title": "THE BLACK KNIGHT"
         },
         {
@@ -4286,6 +4582,7 @@
           },
           "genre": "TRANCE",
           "id": 31,
+          "pack": "",
           "title": "THE DOOR INTO RAINBOW"
         },
         {
@@ -4300,6 +4597,7 @@
           },
           "genre": "GOTH NU-STYLE GABBA",
           "id": 32,
+          "pack": "",
           "title": "THE FALLEN"
         },
         {
@@ -4314,6 +4612,7 @@
           },
           "genre": "PSYCHE FUSION",
           "id": 33,
+          "pack": "",
           "title": "Vermillion"
         },
         {
@@ -4328,6 +4627,7 @@
           },
           "genre": "SURF\uff06DUB",
           "id": 34,
+          "pack": "",
           "title": "WE LOVE SHONAN"
         },
         {
@@ -4342,6 +4642,7 @@
           },
           "genre": "CANDY RAVE",
           "id": 35,
+          "pack": "",
           "title": "Wuv U"
         },
         {
@@ -4356,6 +4657,7 @@
           },
           "genre": "IDM",
           "id": 36,
+          "pack": "",
           "title": "ZETA\u301c\u7d20\u6570\u306e\u4e16\u754c\u3068\u8d85\u8d8a\u8005\u301c"
         },
         {
@@ -4370,6 +4672,7 @@
           },
           "genre": "HAPPY HARDCORE",
           "id": 37,
+          "pack": "",
           "title": "\u4e2d\u83ef\u6025\u884c"
         },
         {
@@ -4384,6 +4687,7 @@
           },
           "genre": "NATSU MATSURI",
           "id": 38,
+          "pack": "",
           "title": "\u304b\u3052\u306c\u3044 \u301c Ver.BENIBOTAN \u301c"
         },
         {
@@ -4398,6 +4702,7 @@
           },
           "genre": "\u64ab\u5b50\u30e1\u30bf\u30eb",
           "id": 39,
+          "pack": "",
           "title": "\u9ed2\u9aea\u4e71\u308c\u3057\u4fee\u7f85\u3068\u306a\u308a\u3066"
         },
         {
@@ -4412,6 +4717,7 @@
           },
           "genre": "WORLD/POPS",
           "id": 40,
+          "pack": "",
           "title": "\u304a\u304a\u304d\u306a\u3053\u3048\u3067"
         },
         {
@@ -4426,7 +4732,8 @@
           },
           "genre": "TECHY FREEFORM",
           "id": 41,
-          "title": "\u25bc\u30e9\u30af\u30a8\u30f3 Feat.Chiharu Chonan -JAKA respect for K.S.K. Remix"
+          "pack": "",
+          "title": "\u30e9\u30af\u30a8\u30f3 Feat.Chiharu Chonan -JAKA respect for K.S.K. Remix"
         },
         {
           "artist": "DJ Mass MAD Izm*",
@@ -4440,6 +4747,7 @@
           },
           "genre": "BROKEN SAMBA BREAK",
           "id": 42,
+          "pack": "",
           "title": "\u707c\u71b1Beach Side Bunny"
         },
         {
@@ -4454,6 +4762,7 @@
           },
           "genre": "ELECLORE",
           "id": 43,
+          "pack": "",
           "title": "\u65c5\u4eba\u30ea\u30e9\u30f3"
         },
         {
@@ -4468,6 +4777,7 @@
           },
           "genre": "AURAL ADRENALINE",
           "id": 44,
+          "pack": "",
           "title": "\u5915\u713c\u3051 \u301cFading Day\u301c"
         }
       ],
@@ -4489,6 +4799,7 @@
           },
           "genre": "TECHNO",
           "id": 0,
+          "pack": "PK2",
           "title": "Almace"
         },
         {
@@ -4503,6 +4814,7 @@
           },
           "genre": "DANCE POP",
           "id": 1,
+          "pack": "PK1",
           "title": "ANAGRAMS I to Y"
         },
         {
@@ -4517,6 +4829,7 @@
           },
           "genre": "TECH-BREAKBEATS",
           "id": 2,
+          "pack": "PK2",
           "title": "BLACK.by X-Cross Fade"
         },
         {
@@ -4531,6 +4844,7 @@
           },
           "genre": "WORLD/ELECTRONICA",
           "id": 3,
+          "pack": "",
           "title": "CALL"
         },
         {
@@ -4545,6 +4859,7 @@
           },
           "genre": "DANCE SPEED",
           "id": 4,
+          "pack": "PK1",
           "title": "Castle on the Moon"
         },
         {
@@ -4559,6 +4874,7 @@
           },
           "genre": "SPEED POP",
           "id": 5,
+          "pack": "PK1",
           "title": "Change the World"
         },
         {
@@ -4573,6 +4889,7 @@
           },
           "genre": "TRANSCENDENTAL ETUDES",
           "id": 6,
+          "pack": "PK2",
           "title": "DIAVOLO"
         },
         {
@@ -4587,6 +4904,7 @@
           },
           "genre": "AKIBA RAVE",
           "id": 7,
+          "pack": "PK2",
           "title": "Drive Me Crazy"
         },
         {
@@ -4601,6 +4919,7 @@
           },
           "genre": "J-CORE",
           "id": 8,
+          "pack": "PK2",
           "title": "Express Emotion"
         },
         {
@@ -4615,6 +4934,7 @@
           },
           "genre": "RENAISSANCE",
           "id": 9,
+          "pack": "PK1",
           "title": "F"
         },
         {
@@ -4629,6 +4949,7 @@
           },
           "genre": "DRUM'N'BASS",
           "id": 10,
+          "pack": "PK1",
           "title": "Far east nightbird"
         },
         {
@@ -4643,6 +4964,7 @@
           },
           "genre": "HARD Pf",
           "id": 11,
+          "pack": "PK2",
           "title": "\u0192\u0192\u0192\u0192\u0192"
         },
         {
@@ -4657,6 +4979,7 @@
           },
           "genre": "CANDY HANDZ UP",
           "id": 12,
+          "pack": "PK1",
           "title": "Flip Flap"
         },
         {
@@ -4671,6 +4994,7 @@
           },
           "genre": "J-DANCE POP",
           "id": 13,
+          "pack": "PK1",
           "title": "Follow Tomorrow"
         },
         {
@@ -4685,6 +5009,7 @@
           },
           "genre": "ECCENTRIC",
           "id": 14,
+          "pack": "PK2",
           "title": "HAERETICUS"
         },
         {
@@ -4699,6 +5024,7 @@
           },
           "genre": "HAPPY HARDCORE",
           "id": 15,
+          "pack": "PK2",
           "title": "I'm so Happy"
         },
         {
@@ -4713,7 +5039,8 @@
           },
           "genre": "MARCHING ROCK",
           "id": 16,
-          "title": "\u25bcGIGANT"
+          "pack": "PK1",
+          "title": "GIGANT"
         },
         {
           "artist": "\u732b\u53c9Master+",
@@ -4727,6 +5054,7 @@
           },
           "genre": "DRUM'N'BASS",
           "id": 17,
+          "pack": "",
           "title": "Infinite cave"
         },
         {
@@ -4741,6 +5069,7 @@
           },
           "genre": "PROGRESSIVE ROCK",
           "id": 18,
+          "pack": "PK2",
           "title": "In the Blackest Den"
         },
         {
@@ -4755,7 +5084,8 @@
           },
           "genre": "DRUM & BASS",
           "id": 19,
-          "title": "\u25bcInto The Sunlight"
+          "pack": "PK1",
+          "title": "Into The Sunlight"
         },
         {
           "artist": "Dr.Honda feat. Moe",
@@ -4769,7 +5099,8 @@
           },
           "genre": "\u30c8\u30ec\u30f3\u30c7\u30a3\u30fc\u30dd\u30c3\u30d7\u30b9",
           "id": 20,
-          "title": "\u25bcKYAMISAMA ONEGAI!"
+          "pack": "PK1",
+          "title": "KYAMISAMA ONEGAI!"
         },
         {
           "artist": "Katana Sounds",
@@ -4783,6 +5114,7 @@
           },
           "genre": "LOUD TECH",
           "id": 21,
+          "pack": "PK2",
           "title": "LAX5 feat.Ryota Yoshinari"
         },
         {
@@ -4797,6 +5129,7 @@
           },
           "genre": "PLATINUM J-POP ONE",
           "id": 22,
+          "pack": "PK2",
           "title": "LETHEBOLG \u301c\u53cc\u795e\u5a01\u306b\u65ac\u308a\u54b2\u3051\u308a\u301c"
         },
         {
@@ -4811,6 +5144,7 @@
           },
           "genre": "DREAM TRANCE",
           "id": 23,
+          "pack": "PK2",
           "title": "Lucky Days"
         },
         {
@@ -4825,6 +5159,7 @@
           },
           "genre": "80's ELECTRO HOUSE",
           "id": 24,
+          "pack": "PK1",
           "title": "Miami Sunset Drive"
         },
         {
@@ -4839,6 +5174,7 @@
           },
           "genre": "ELECTRO GOTHIC",
           "id": 25,
+          "pack": "PK1",
           "title": "NNRT"
         },
         {
@@ -4853,7 +5189,8 @@
           },
           "genre": "ALTERNATIVE ETHNO POP",
           "id": 26,
-          "title": "\u25bcPentaCube Gt.(RX-Ver.S.P.L.)"
+          "pack": "PK2",
+          "title": "PentaCube Gt.(RX-Ver.S.P.L.)"
         },
         {
           "artist": "Hommarju",
@@ -4867,6 +5204,7 @@
           },
           "genre": "HARD NRG",
           "id": 27,
+          "pack": "PK2",
           "title": "Phoenix"
         },
         {
@@ -4881,6 +5219,7 @@
           },
           "genre": "NU PROGRESSIVE",
           "id": 28,
+          "pack": "PK2",
           "title": "prompt"
         },
         {
@@ -4895,6 +5234,7 @@
           },
           "genre": "TECHNO",
           "id": 29,
+          "pack": "PK1",
           "title": "QUANTUM TELEPORTATION"
         },
         {
@@ -4909,6 +5249,7 @@
           },
           "genre": "HAPPY",
           "id": 30,
+          "pack": "PK2",
           "title": "quaver\u266a"
         },
         {
@@ -4923,6 +5264,7 @@
           },
           "genre": "RAVE FUSION",
           "id": 31,
+          "pack": "PK2",
           "title": "Quick Silver"
         },
         {
@@ -4937,6 +5279,7 @@
           },
           "genre": "TECH DANCE",
           "id": 32,
+          "pack": "PK2",
           "title": "Release The Music"
         },
         {
@@ -4951,6 +5294,7 @@
           },
           "genre": "MYSTERIOUS ROCK",
           "id": 33,
+          "pack": "PK2",
           "title": "RESISTANCE"
         },
         {
@@ -4965,6 +5309,7 @@
           },
           "genre": "HYPER ELECTRO",
           "id": 34,
+          "pack": "PK2",
           "title": "Round and Round"
         },
         {
@@ -4979,6 +5324,7 @@
           },
           "genre": "ONLY ONE FINALE",
           "id": 35,
+          "pack": "",
           "title": "SA.YO.NA.RA. SUPER STAR"
         },
         {
@@ -4993,6 +5339,7 @@
           },
           "genre": "HARD ROCK",
           "id": 36,
+          "pack": "PK1",
           "title": "Scharfrichter"
         },
         {
@@ -5007,6 +5354,7 @@
           },
           "genre": "VALIANT BEAT",
           "id": 37,
+          "pack": "PK1",
           "title": "Several Words"
         },
         {
@@ -5021,6 +5369,7 @@
           },
           "genre": "TECHNO",
           "id": 38,
+          "pack": "PK1",
           "title": "SHADE"
         },
         {
@@ -5035,6 +5384,7 @@
           },
           "genre": "TECH-BREAKBEATS",
           "id": 39,
+          "pack": "",
           "title": "Snake Stick"
         },
         {
@@ -5049,6 +5399,7 @@
           },
           "genre": "TRANCE",
           "id": 40,
+          "pack": "PK1",
           "title": "Star Trail"
         },
         {
@@ -5063,6 +5414,7 @@
           },
           "genre": "CYBER PUNK",
           "id": 41,
+          "pack": "PK1",
           "title": "The Limbo"
         },
         {
@@ -5077,6 +5429,7 @@
           },
           "genre": "HARD TRANCE",
           "id": 42,
+          "pack": "PK1",
           "title": "The Sampling Paradise"
         },
         {
@@ -5091,6 +5444,7 @@
           },
           "genre": "RAVERS DANCE SPEED",
           "id": 43,
+          "pack": "",
           "title": "Thunderbolt"
         },
         {
@@ -5105,6 +5459,7 @@
           },
           "genre": "DRUMSTEP",
           "id": 44,
+          "pack": "",
           "title": "TITANS RETURN"
         },
         {
@@ -5119,6 +5474,7 @@
           },
           "genre": "SACRED TRANCE",
           "id": 45,
+          "pack": "PK1",
           "title": "Todestrieb"
         },
         {
@@ -5133,6 +5489,7 @@
           },
           "genre": "HARD TRANCE",
           "id": 46,
+          "pack": "PK2",
           "title": "WONDER WALKER"
         },
         {
@@ -5147,6 +5504,7 @@
           },
           "genre": "TERROR CORE",
           "id": 47,
+          "pack": "PK2",
           "title": "YAKSHA"
         },
         {
@@ -5161,6 +5519,7 @@
           },
           "genre": "TEK-TRANCE",
           "id": 48,
+          "pack": "PK2",
           "title": "yellow head joe"
         },
         {
@@ -5175,6 +5534,7 @@
           },
           "genre": "DRUM'N'BASS",
           "id": 49,
+          "pack": "PK1",
           "title": "Yellow Sunrise"
         },
         {
@@ -5189,6 +5549,7 @@
           },
           "genre": "EURO RAVE",
           "id": 50,
+          "pack": "",
           "title": "24th Century BOY"
         },
         {
@@ -5203,6 +5564,7 @@
           },
           "genre": "HARDCORE",
           "id": 51,
+          "pack": "",
           "title": "532nm"
         },
         {
@@ -5217,6 +5579,7 @@
           },
           "genre": "HAPPY HARDCORE",
           "id": 52,
+          "pack": "PK2",
           "title": "\u30d3\u30e5\u30fc\u30c6\u30a3\u30d5\u30eb\u30ec\u30b7\u30fc\u30c8"
         },
         {
@@ -5231,6 +5594,7 @@
           },
           "genre": "PROGRESSIVE",
           "id": 53,
+          "pack": "PK1",
           "title": "\u5b50\u4f9b\u306e\u843d\u66f8\u304d\u5e33"
         },
         {
@@ -5245,6 +5609,7 @@
           },
           "genre": "ORIENTAL MYTHOLOGY",
           "id": 54,
+          "pack": "",
           "title": "\u86c7\u795e"
         },
         {
@@ -5259,6 +5624,7 @@
           },
           "genre": "POP",
           "id": 55,
+          "pack": "PK2",
           "title": "\u967d\u708e"
         },
         {
@@ -5273,6 +5639,7 @@
           },
           "genre": "\u30c8\u30ec\u30f3\u30c7\u30a3\u30fc\u30d5\u30e5\u30fc\u30b8\u30e7\u30f3",
           "id": 56,
+          "pack": "PK2",
           "title": "\u541b\u306e\u30cf\u30fc\u30c8\u306b\u30ed\u30c3\u30af\u30aa\u30f3"
         },
         {
@@ -5287,6 +5654,7 @@
           },
           "genre": "Hi-BLEEP",
           "id": 57,
+          "pack": "",
           "title": "\u604b\u3059\u308b\u2606\u5b87\u5b99\u6226\u4e89\u3063!!"
         },
         {
@@ -5301,6 +5669,7 @@
           },
           "genre": "\u96fb\u6ce2",
           "id": 58,
+          "pack": "",
           "title": "\u7a81\u6483!\u30ac\u30e9\u30b9\u306e\u30cb\u30fc\u30bd\u59eb!"
         },
         {
@@ -5315,6 +5684,7 @@
           },
           "genre": "NEO CLASSICAL DANCE",
           "id": 59,
+          "pack": "PK1",
           "title": "\u8870\u8272\u5c0f\u753a\u30e1\u30e9\u30f3\u30b3\u30ea\u30a2"
         },
         {
@@ -5329,6 +5699,7 @@
           },
           "genre": "ANTHEM",
           "id": 60,
+          "pack": "PK1",
           "title": "\u5929\u7a7a\u306e\u591c\u660e\u3051"
         },
         {
@@ -5343,6 +5714,7 @@
           },
           "genre": "SYMPHONIC-TEK",
           "id": 61,
+          "pack": "PK1",
           "title": "\u30e6\u30df\u30eb"
         }
       ],
@@ -5364,6 +5736,7 @@
           },
           "genre": "TRANCE CORE",
           "id": 0,
+          "pack": "",
           "title": "FLOWER"
         },
         {
@@ -5378,11 +5751,18 @@
           },
           "genre": "NIENTE",
           "id": 1,
+          "pack": "PK2",
           "title": "neu"
         }
       ],
       "version": "beatmania IIDX 20 tricoro",
       "version_id": 20
+    },
+    {
+      "count": 0,
+      "songs": [],
+      "version": "beatmania IIDX 21 SPADA",
+      "version_id": 21
     },
     {
       "count": 1,
@@ -5399,11 +5779,12 @@
           },
           "genre": "MUSIC GAME TRADITIONAL",
           "id": 0,
+          "pack": "PK2",
           "title": "Shooting Fireball"
         }
       ],
       "version": "beatmania IIDX 22 PENDUAL",
-      "version_id": 21
+      "version_id": 22
     },
     {
       "count": 1,
@@ -5420,11 +5801,18 @@
           },
           "genre": "ROCKIN\u00b4 DRUM&BASS",
           "id": 0,
+          "pack": "",
           "title": "SHELTER OF THE MIND"
         }
       ],
       "version": "beatmania IIDX 23 copula",
-      "version_id": 22
+      "version_id": 23
+    },
+    {
+      "count": 0,
+      "songs": [],
+      "version": "beatmania IIDX 24 SINOBUZ",
+      "version_id": 24
     },
     {
       "count": 2,
@@ -5441,6 +5829,7 @@
           },
           "genre": "DIGITAL THRASH PUNK",
           "id": 0,
+          "pack": "PK2",
           "title": "Be a Hero!"
         },
         {
@@ -5455,11 +5844,12 @@
           },
           "genre": "Hi-MYTH",
           "id": 1,
+          "pack": "PK2",
           "title": "\u795e\u8b33 -RESONANCE-"
         }
       ],
       "version": "beatmania IIDX 25 CANNON BALLERS",
-      "version_id": 23
+      "version_id": 25
     },
     {
       "count": 1,
@@ -5476,11 +5866,12 @@
           },
           "genre": "DANCE SPEED",
           "id": 0,
+          "pack": "",
           "title": "3y3s(Long ver.)"
         }
       ],
       "version": "beatmania IIDX INFINITAS",
-      "version_id": 24
+      "version_id": 100
     }
   ]
 }

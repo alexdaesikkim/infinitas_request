@@ -25,6 +25,11 @@ class UserPage extends React.Component {
         object["n_disabled"] = false;
         object["h_disabled"] = false;
         object["a_disabled"] = false;
+        object["b_locked"] = !song.default;
+        object["n_locked"] = !song.default;
+        object["h_locked"] = !song.default;
+        object["a_locked"] = !song.default;
+        object["locked"] = !song.default;
         object["version"] = version;
         object["version_id"] = version_id;
         object["raw_id"] = song_count;
@@ -40,7 +45,6 @@ class UserPage extends React.Component {
       }
       return return_obj
     })
-    console.log(songs)
     var version_lengths = song_list["songs"].map(function(obj){
       return obj["count"]
     })
@@ -57,7 +61,6 @@ class UserPage extends React.Component {
       orig_song_list: songs,
       search_term: '',
       level_field: '',
-      raw_queue: [],
       version_lengths: version_lengths,
       filtered_songs: songs,
       diff_constraints: [false, false, false, false],
@@ -65,9 +68,6 @@ class UserPage extends React.Component {
       message: false,
       requests: []
     }
-
-    console.log(songs)
-    console.log(raw_songs)
     //figure out a way to remove raw_songs as it creates technical debt
     //use version_lengths?
     this.removeAllSongs = this.removeAllSongs.bind(this);
@@ -162,6 +162,9 @@ class UserPage extends React.Component {
         var version_id = version_song.substring(0,underscore_index);
         var song_id = version_song.slice(underscore_index+1);
         //pending on where underscore is, splice there
+        if(version_id === 100){
+          version_id = this.state.raw_songs.length-1;
+        }
         var obj={
           id: song_id,
           version_id: version_id,
@@ -181,9 +184,8 @@ class UserPage extends React.Component {
         return (song_name + " [" + obj.difficulty.toUpperCase() + "] "+ level)
       })
       var updated_list = this.updated_list(data.queue)
-      console.log(updated_list)
       var that = this;
-      var queued_songs = queue.map(function(obj){
+      /*var queued_songs = queue.map(function(obj){
         var x = 0;
         var version_id = 0;
         var id = obj.id
@@ -193,7 +195,7 @@ class UserPage extends React.Component {
         }
         var song = updated_list
 
-      })
+      })*/
       this.setState({
         raw_queue: data.queue,
         version_songs: updated_list,
@@ -230,6 +232,34 @@ class UserPage extends React.Component {
         version_songs: updated_list
       }, this.songsFilter(this.state.search_term, this.state.level_field))
     })
+
+    socket.on("update_unlock_status", data => {
+      var unlock_ids = data["unlock_list"];
+      var updated_list = this.state.version_songs.map(function(obj){
+        var version_songs = obj["songs"].map(function(song){
+          var object = song;
+          var beginner = "b"+song.version_id.toString()+"_"+song.id.toString();
+          var normal = "n"+song.version_id.toString()+"_"+song.id.toString();
+          var hyper = "h"+song.version_id.toString()+"_"+song.id.toString();
+          var another =  "a"+song.version_id.toString()+"_"+song.id.toString();
+          object.b_locked = (unlock_ids.includes(beginner) ? false : !song.default)
+          object.n_locked = (unlock_ids.includes(normal) ? false : !song.default)
+          object.h_locked = (unlock_ids.includes(hyper) ? false : !song.default)
+          object.a_locked = (unlock_ids.includes(another) ? false : !song.default)
+          object.locked = object.b_locked && object.n_locked && object.n_locked && object.a_locked
+          return object;
+        })
+        var version_obj = {
+          version: obj["version"],
+          version_id: obj["version_id"],
+          songs: version_songs
+        }
+        return version_obj
+      })
+      this.setState({
+        version_songs: updated_list
+      }, this.songsFilter(this.state.search_term, this.state.level_field))
+    })
   }
 
   removeAllSongs(){
@@ -244,31 +274,34 @@ class UserPage extends React.Component {
     var x = 0;
     var orig_song_list = (this.state.search_term === '' && this.state.level_field === '') ? this.state.version_songs : this.state.filtered_songs;
     var orig_songs_rendered = orig_song_list.map(function(obj){
-      var version_songs = obj["songs"]
-      //console.log(obj);
-      if(obj.songs.length > 0){
-        var version = obj["version"]
-        var version_songs_rendered = version_songs.map(function(song){
+      if(obj.songs.length === 0) return null;
+      else{
+        var reduce_value = obj.songs.reduce(function(obj1, obj2){
+          return obj1 && obj2.locked
+        }, true)
+        console.log(obj.version)
+        console.log(reduce_value)
+        if(reduce_value) return null;
+        else{
+          console.log(reduce_value)
+          var version_songs = obj["songs"]
+          var version = obj["version"]
+          var version_songs_rendered = version_songs.map(function(song){
+            if(song.b_locked && song.n_locked && song.h_locked && song.a_locked) return null
+            else return(
+              <OrigSongList song={song} key={"original_"+song["id"]+"_"+version} />
+            )
+          })
           return(
-            <OrigSongList song={song} key={"original_"+song["id"]+"_"+version} />
+            <tbody>
+              <tr className="d-flex">
+                <th scope="col" className="col-12">{version}</th>
+              </tr>
+              {version_songs_rendered}
+            </tbody>
           )
-        })
-        return(
-          <tbody>
-            <tr className="d-flex">
-              <th scope="col" className="col-12">{version}</th>
-            </tr>
-            {version_songs_rendered}
-          </tbody>
-        )
+        }
       }
-      else return(
-        <tbody>
-          <tr className="d-flex">
-            <th scope="col" className="col-12">{version} HA</th>
-          </tr>
-        </tbody>
-      )
     })
 
     var str_diffs = ["Beginner", "Normal", "Hyper", "Another"];
@@ -296,6 +329,8 @@ class UserPage extends React.Component {
             Allowed Difficulties:
             <br/>
             {diffs}
+            <br/>
+            <br/>
             Allowed Levels:
             <br/>
             {lvls}
@@ -351,54 +386,74 @@ class OrigSongList extends React.Component{
         <td className="col-3">{this.props.song.title}</td>
         <td className="col-3">{this.props.song.artist}</td>
         <td className="col-2">{this.props.song.genre}</td>
-        <td className={"col-1" + (this.props.song.b_disabled ? " disabled" : " green")}>
-          {this.props.song.difficulty[0] === -1 ? "" : (
-            this.props.song.b_queue || this.props.song.b_disabled ? this.props.song.difficulty[0] : (
-              <div className="bt-active">
-                {this.props.song.difficulty[0]}&nbsp;
-                <button style={button_style} type="button" onClick={() => this.sendSongRequest("b")}>
-                  +
-                </button>
-              </div>
-            )
-          )}
-        </td>
-        <td className={"col-1" + (this.props.song.n_disabled ? " disabled" : " blue")}>
-          {this.props.song.difficulty[1] === -1 ? "" : (
-            this.props.song.n_queue || this.props.song.n_disabled ?  this.props.song.difficulty[1] : (
-              <div className="bt-active">
-                {this.props.song.difficulty[1]}&nbsp;
-                <button style={button_style} type="button" onClick={() => this.sendSongRequest("n")}>
-                  +
-                </button>
-              </div>
-            )
-          )}
-        </td>
-        <td className={"col-1" + (this.props.song.h_disabled ? " disabled" : " yellow")}>
-          {this.props.song.difficulty[2] === -1 ? "" : (
-            this.props.song.h_queue || this.props.song.h_disabled ? this.props.song.difficulty[2] : (
-              <div className="bt-active">
-                {this.props.song.difficulty[2]}&nbsp;
-                <button style={button_style} type="button" onClick={() => this.sendSongRequest("h")}>
-                  +
-                </button>
-              </div>
-            )
-          )}
-        </td>
-        <td className={"col-1" + (this.props.song.a_disabled ? " disabled" : " red")}>
-          {this.props.song.difficulty[3] === -1 ? "" : (
-            this.props.song.a_queue || this.props.song.a_disabled ? this.props.song.difficulty[3] : (
-              <div className="bt-active">
-                {this.props.song.difficulty[3]}&nbsp;
-                <button style={button_style} type="button" onClick={() => this.sendSongRequest("a")}>
-                  +
-                </button>
-              </div>
-            )
-          )}
-        </td>
+        {this.props.song.b_locked ? (
+          <td className={"col-1"}>
+          </td>
+        ) : (
+          <td className={"col-1" + (this.props.song.b_disabled ? " disabled" : " green")}>
+            {this.props.song.difficulty[0] === -1 ? "" : (
+              this.props.song.b_queue || this.props.song.b_disabled ? this.props.song.difficulty[0] : (
+                <div className="bt-active">
+                  {this.props.song.difficulty[0]}&nbsp;
+                  <button style={button_style} type="button" onClick={() => this.sendSongRequest("b")}>
+                    +
+                  </button>
+                </div>
+              )
+            )}
+          </td>
+        )}
+        {this.props.song.n_locked ? (
+          <td className={"col-1"}>
+          </td>
+        ) : (
+          <td className={"col-1" + (this.props.song.n_disabled ? " disabled" : " blue")}>
+            {this.props.song.difficulty[1] === -1 ? "" : (
+              this.props.song.n_queue || this.props.song.n_disabled ?  this.props.song.difficulty[1] : (
+                <div className="bt-active">
+                  {this.props.song.difficulty[1]}&nbsp;
+                  <button style={button_style} type="button" onClick={() => this.sendSongRequest("n")}>
+                    +
+                  </button>
+                </div>
+              )
+            )}
+          </td>
+        )}
+        {this.props.song.h_locked ? (
+          <td className={"col-1"}>
+          </td>
+        ) : (
+          <td className={"col-1" + (this.props.song.h_disabled ? " disabled" : " yellow")}>
+            {this.props.song.difficulty[2] === -1 ? "" : (
+              this.props.song.h_queue || this.props.song.h_disabled ? this.props.song.difficulty[2] : (
+                <div className="bt-active">
+                  {this.props.song.difficulty[2]}&nbsp;
+                  <button style={button_style} type="button" onClick={() => this.sendSongRequest("h")}>
+                    +
+                  </button>
+                </div>
+              )
+            )}
+          </td>
+        )}
+        {this.props.song.a_locked ? (
+          <td className={"col-1"}>
+          </td>
+        ) : (
+          <td className={"col-1" + (this.props.song.a_disabled ? " disabled" : " red")}>
+            {this.props.song.difficulty[3] === -1 ? "" : (
+              this.props.song.a_queue || this.props.song.a_disabled ? this.props.song.difficulty[3] : (
+                <div className="bt-active">
+                  {this.props.song.difficulty[3]}&nbsp;
+                  <button style={button_style} type="button" onClick={() => this.sendSongRequest("a")}>
+                    +
+                  </button>
+                </div>
+              )
+            )}
+          </td>
+        )}
       </tr>
     )
   }

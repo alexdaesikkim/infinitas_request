@@ -7,14 +7,18 @@ const socket = socketIOClient();
 class UnlockPanel extends React.Component {
   constructor(props){
     super(props);
-    var raw_songs = [];
     var song_count = 0;
+    var packs = ["PK1", "PK2"]
+    var pack_bool = [false, false]
     var songs = song_list["songs"].map(function(obj){
       var version = obj["version"];
       var orig_songs = obj["songs"];
       var version_id = obj["version_id"];
       var version_list = [];
 
+      //this part is poorly designed because it has NOTHING to do with non-pack songs
+      //for now, it works. refactor later
+      //end section. exit hamlet
       var version_songs = orig_songs.map(function(song){
         var object = song;
         object["b_locked"] = !song.default;
@@ -28,7 +32,6 @@ class UnlockPanel extends React.Component {
         version_list.push(object);
         return object
       })
-      raw_songs.push(version_list);
       var return_obj = {
         version: version,
         version_id: version_id,
@@ -36,23 +39,45 @@ class UnlockPanel extends React.Component {
       }
       return return_obj
     })
-    var version_lengths = song_list["songs"].map(function(obj){
-      return obj["count"]
+    var pack_song_ids = []
+    for(var i = 0; i < packs.length; i++){
+      pack_song_ids.push([])
+    }
+    var bit_songs = songs.map(function(v){
+      var non_pack_songs = v["songs"].filter(function(song){
+        if(song.pack !== "") return false;
+        return true;
+      })
+      var pack_songs = v["songs"].filter(function(song){
+        if(song.pack !== "") return true;
+        return false;
+      })
+      for(var x = 0; x < packs.length; x++){
+        var pack_name = packs[x];
+        var ids = pack_song_ids[x];
+        for(var y = 0; y < pack_songs.length; y++){
+          if(pack_songs[y].pack === pack_name){
+              var id_string = pack_songs[y].version_id.toString() + "_" + pack_songs[y].id.toString();
+              if(pack_songs[y].difficulty[0] !== -1) ids.push("b"+id_string)
+              if(pack_songs[y].difficulty[1] !== -1) ids.push("n"+id_string)
+              if(pack_songs[y].difficulty[2] !== -1) ids.push("h"+id_string)
+              if(pack_songs[y].difficulty[3] !== -1) ids.push("a"+id_string)
+          }
+        }
+      }
+      var object = v;
+      object["songs"] = non_pack_songs;
+      return object;
     })
-    //remember: filtered songs is SEARCH filter
-    //with queue_id, need to update filtered songs AND regular list as well
 
-    //todo:
-    //1. make sure the songs is prepared like the old version
-    //2. when queue updates in componentdidmount, update both RAW_SONGS and SONGS
-    //3. limited_song_list is for when admin filters songs based on what they want to be requested (i.e. dont request normal/hyper, dont request anything below/above level)
     this.state = {
-      raw_songs: raw_songs,
-      version_songs: songs,
-      orig_song_list: songs,
+      packs: packs,
+      pack_bool: pack_bool,
+      pack_songs: pack_song_ids,
+      version_songs: bit_songs,
+      orig_song_list: bit_songs,
       search_term: '',
       level_field: '',
-      version_lengths: version_lengths,
       filtered_songs: songs,
       diff_constraints: [false, false, false, false],
       level_constraints: [false, false, false, false, false, false, false, false, false, false, false, false],
@@ -60,13 +85,30 @@ class UnlockPanel extends React.Component {
     }
 
     this.titleFilter = this.titleFilter.bind(this);
-    this.levelFilter = this.levelFilter.bind(this);
+    this.levelFilter = this.levelFilter.bind(this)
   }
 
   componentDidMount(){
+    socket.on("update_pack_status", data => {
+      var packs = data["pack_list"];
+      var pack_boolean = this.state.pack_bool;
+      for(var x = 0; x < pack_boolean.length; x++){
+        pack_boolean[x] = false;
+        //why do this?
+        //whats the point???
+        //THIS SEEMS SO STUPID ARGH
+      }
+      for(var y = 0; y < packs.length; y++){
+        var index = this.state.packs.indexOf(packs[y]);
+        pack_boolean[index] = true;
+      }
+      this.setState({
+        pack_bool: pack_boolean
+      })
+    })
+
     socket.on("update_unlock_status", data => {
       var unlock_ids = data["unlock_list"];
-      console.log(unlock_ids)
       var updated_list = this.state.version_songs.map(function(obj){
         var version_songs = obj["songs"].map(function(song){
           var object = song;
@@ -74,7 +116,6 @@ class UnlockPanel extends React.Component {
           var normal = "n"+song.version_id.toString()+"_"+song.id.toString()
           var hyper = "h"+song.version_id.toString()+"_"+song.id.toString()
           var another =  "a"+song.version_id.toString()+"_"+song.id.toString()
-          console.log(another);
           object.b_locked = (unlock_ids.includes(beginner) ? false : !song.default)
           object.n_locked = (unlock_ids.includes(normal) ? false : !song.default)
           object.h_locked = (unlock_ids.includes(hyper) ? false : !song.default)
@@ -91,7 +132,6 @@ class UnlockPanel extends React.Component {
       this.setState({
         version_songs: updated_list
       }, this.songsFilter(this.state.search_term, this.state.level_field))
-      console.log(updated_list)
     })
   }
 
@@ -164,17 +204,29 @@ class UnlockPanel extends React.Component {
           </tbody>
         )
       }
-      else return(
-        <tbody>
-          <tr className="d-flex">
-            <th scope="col" className="col-12">{version} HA</th>
-          </tr>
-        </tbody>
+      else return null
+    })
+    var that = this;
+    var packs = this.state.packs.map(function(pack){
+      var index = that.state.packs.indexOf(pack);
+      var pack_songs = that.state.pack_songs[index]
+      return(
+        <PackList pack={pack} songs={pack_songs} packbool={that.state.pack_bool} index={index} key={pack} />
       )
     })
+
     return(
       <div className="container">
           <div className="col-12">
+            <div className="row">
+              <div className="col-12">
+                Add Packs
+              </div>
+            </div>
+            <div className="row">
+              {packs}
+            </div>
+            <br/>
             <div className="row">
               <div className="col-8">
                 <input type="text" className="form-control" placeholder="Search for Songs" onChange={this.titleFilter}></input>
@@ -199,6 +251,48 @@ class UnlockPanel extends React.Component {
               {orig_songs_rendered}
             </table>
           </div>
+      </div>
+    )
+  }
+}
+
+class PackList extends React.Component{
+  constructor(props){
+    super(props);
+    this.songPackRequest = this.songPackRequest.bind(this);
+  }
+
+  songPackRequest(pack_name){
+    var index = this.props.index;
+    var songs = this.props.songs;
+    if(this.props.packbool[index]){
+      socket.emit("remove_pack", pack_name)
+      for(var x = 0; x < songs.length; x++){
+        socket.emit("remove_from_unlocked", songs[x])
+      }
+    }
+    else{
+      socket.emit("add_pack", pack_name)
+      for(var x = 0; x < songs.length; x++){
+        socket.emit("add_to_unlocked", songs[x])
+      }
+    }
+  }
+
+  render(){
+    var songs = this.props.songs;
+    var pack_name = this.props.pack;
+    var button_style = {
+      float: "right"
+    }
+    var pack_bool = this.props.packbool;
+    var index = this.props.index;
+    return(
+      <div className="col-2">
+        Add {pack_name}
+        <button style={button_style} type="button" onClick={() => this.songPackRequest(pack_name)}>
+          {pack_bool[index] ? "-" : "+"}
+        </button>
       </div>
     )
   }

@@ -7,18 +7,29 @@ const socket = socketIOClient();
 class StreamPage extends React.Component {
   constructor(props){
     super(props);
-    var songs = []
-    song_list["songs"].map(function(obj){
+    var raw_songs = []
+    var songs = song_list["songs"].map(function(obj){
       var version = obj["version"]
-      var version_songs = obj["songs"];
-      version_songs.map(function(song){
+      var version_id = obj["version_id"]
+      var orig_songs = obj["songs"];
+      var version_list = [];
+      var version_songs = orig_songs.map(function(song){
         var object = song;
         object["version"] = version;
-        songs.push(object);
+        object["version_id"] = version_id;
+        version_list.push(object);
+        return object;
       })
+      raw_songs.push(version_list);
+      var return_obj = {
+        version: version,
+        version_id: version_id,
+        songs: version_songs
+      }
+      return return_obj
     })
     this.state = {
-      raw_songs: songs,
+      raw_songs: raw_songs,
       message: false,
       requests: []
     }
@@ -30,14 +41,17 @@ class StreamPage extends React.Component {
       var queue = data.queue;
       console.log(queue);
       var queue_list = data.queue.map(id => {
+        var difficulty = id.charAt(0);
         var version_song = id.slice(1);
         var underscore_index = version_song.indexOf('_');
         var version_id = version_song.substring(0,underscore_index);
         var song_id = version_song.slice(underscore_index+1);
-        var difficulty = "[" + id.charAt(0).toUpperCase() + "]";
-        var queue_song = this.state.raw_songs[song_id];
+        console.log(this.state.raw_songs)
+        console.log(version_id)
+        var queue_song = this.state.raw_songs[version_id][song_id];
         var diff = (difficulty === 'b' ? 0 : (difficulty === 'n' ? 1 : (difficulty === 'h' ? 2 : 3)));
-        return (queue_song.title + " " + difficulty + " " + queue_song.difficulty[diff])
+        console.log(queue_song)
+        return (queue_song.title + " [" + difficulty.toUpperCase() + "] " + queue_song.difficulty[diff])
       })
       this.setState({
         requests: queue_list

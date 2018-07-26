@@ -41,6 +41,18 @@ io.on('connection', function(socket){ //this is when new user connects
     socket.emit('update_unlock_status', lock_object)
   })
 
+  client.lrange('packs', 0, -1, function(err, reply){
+    var init_pack_arr = reply;
+    console.log("received packs");
+    var pack_object= {
+      "pack_list": init_pack_arr,
+      "success": true,
+      "message": ""
+    }
+    console.log("packs loaded")
+    socket.emit('update_pack_status', pack_object)
+  })
+
   client.lrange('constraints', 0, -1, function(err, reply){
     var constraint_obj = {}
     if(reply.length === 0){
@@ -68,6 +80,34 @@ io.on('connection', function(socket){ //this is when new user connects
     socket.emit('constraint_update', constraint_obj)
   })
 
+  socket.on('add_pack', function(pack_name){
+    client.rpush('packs', pack_name, function(err, reply){
+      client.lrange('packs', 0, -1, function(err, reply){
+        var obj = {
+          "pack_list": reply,
+          "success": true,
+          "message": ""
+        }
+        console.log("added_pack"),
+        io.sockets.emit('update_pack_status', obj);
+      })
+    })
+  })
+
+  socket.on('remove_pack', function(pack_name){
+    client.lrem('packs', 1, pack_name, function(err, reply){
+      client.lrange('packs', 0, -1, function(err, reply){
+        var obj = {
+          "pack_list": reply,
+          "success": true,
+          "message": ""
+        }
+        console.log("removed pack");
+        io.sockets.emit('update_pack_status', obj)
+      })
+    })
+  })
+
   socket.on('add_to_unlocked', function(id){
     client.rpush('unlocks', id, function(err, reply){
       client.lrange('unlocks', 0, -1, function(err, reply){
@@ -92,6 +132,7 @@ io.on('connection', function(socket){ //this is when new user connects
           "success": true,
           "message": ""
         }
+        console.log(reply)
         io.sockets.emit('update_unlock_status', obj);
       })
     })
@@ -183,18 +224,6 @@ app.use(express.static(path.join(__dirname, 'src/client/public')));
 
 app.get('/', function(req, res){
   res.sendFile(path.resolve(__dirname, 'src/client/public', 'index.html'))
-})
-
-app.get('/admin_panel_supernovamaniac', function(req, res){
-  res.sendFile(path.resolve(__dirname, 'src/client/public', 'QnjLjeP9XV.html'))
-})
-
-app.get('/request_list', function(req, res){
-  res.sendFile(path.resolve(__dirname, 'src/client/public', 'Uhvq9YjGlS.html'))
-})
-
-app.get('/unlock_panel', function(req, res){
-  res.sendFile(path.resolve(__dirname, 'src/client/public', 'unlock_panel.html'))
 })
 
 app.get('*', function(req,res){
