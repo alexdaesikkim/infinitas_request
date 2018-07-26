@@ -171,6 +171,9 @@ def parse_raw(rows):
                 "2": get_level(cols[3]),
                 "3": get_level(cols[4])
             }
+            if title.startswith('[N]'):
+                difficulty["3"] = 12
+                print(title)
             default = True
             print(version)
             if(cols[0].text != ''):
