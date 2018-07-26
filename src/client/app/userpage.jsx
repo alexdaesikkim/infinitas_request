@@ -391,16 +391,16 @@ class OrigSongList extends React.Component{
           </td>
         ) : (
           <td className={"col-1" + (this.props.song.b_disabled ? " disabled" : " green")}>
-            {this.props.song.difficulty[0] === -1 ? "" : (
-              this.props.song.b_queue || this.props.song.b_disabled ? this.props.song.difficulty[0] : (
-                <div className="bt-active">
-                  {this.props.song.difficulty[0]}&nbsp;
-                  <button style={button_style} type="button" onClick={() => this.sendSongRequest("b")}>
-                    +
-                  </button>
-                </div>
-              )
-            )}
+          {
+            this.props.song.b_queue || this.props.song.b_disabled ? this.props.song.difficulty[0] : (
+              <div className="bt-active">
+                {this.props.song.difficulty[0]}&nbsp;
+                <button style={button_style} type="button" onClick={() => this.sendSongRequest("b")}>
+                  +
+                </button>
+              </div>
+            )
+          }
           </td>
         )}
         {this.props.song.n_locked || this.props.song.difficulty[1] === -1 ? (
@@ -408,16 +408,16 @@ class OrigSongList extends React.Component{
           </td>
         ) : (
           <td className={"col-1" + (this.props.song.n_disabled ? " disabled" : " blue")}>
-            {this.props.song.difficulty[1] === -1 ? "" : (
-              this.props.song.n_queue || this.props.song.n_disabled ?  this.props.song.difficulty[1] : (
-                <div className="bt-active">
-                  {this.props.song.difficulty[1]}&nbsp;
-                  <button style={button_style} type="button" onClick={() => this.sendSongRequest("n")}>
-                    +
-                  </button>
-                </div>
-              )
-            )}
+          {
+            this.props.song.n_queue || this.props.song.n_disabled ?  this.props.song.difficulty[1] : (
+              <div className="bt-active">
+                {this.props.song.difficulty[1]}&nbsp;
+                <button style={button_style} type="button" onClick={() => this.sendSongRequest("n")}>
+                  +
+                </button>
+              </div>
+            )
+          }
           </td>
         )}
         {this.props.song.h_locked || this.props.song.difficulty[2] === -1 ? (
@@ -425,6 +425,7 @@ class OrigSongList extends React.Component{
           </td>
         ) : (
           <td className={"col-1" + (this.props.song.h_disabled ? " disabled" : " yellow")}>
+          {
             this.props.song.h_queue || this.props.song.h_disabled ? this.props.song.difficulty[2] : (
               <div className="bt-active">
                 {this.props.song.difficulty[2]}&nbsp;
@@ -433,6 +434,7 @@ class OrigSongList extends React.Component{
                 </button>
               </div>
             )
+          }
           </td>
         )}
         {this.props.song.a_locked || this.props.song.difficulty[3] === -1 ? (
@@ -440,6 +442,7 @@ class OrigSongList extends React.Component{
           </td>
         ) : (
           <td className={"col-1" + (this.props.song.a_disabled ? " disabled" : " red")}>
+          {
             this.props.song.a_queue || this.props.song.a_disabled ? this.props.song.difficulty[3] : (
               <div className="bt-active">
                 {this.props.song.difficulty[3]}&nbsp;
@@ -448,6 +451,7 @@ class OrigSongList extends React.Component{
                 </button>
               </div>
             )
+          }
           </td>
         )}
       </tr>
