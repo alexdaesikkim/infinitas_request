@@ -29,6 +29,17 @@ io.on('connection', function(socket){ //this is when new user connects
     socket.emit('request_update', initial_object);
   })
 
+  client.get('power', function(err, reply){
+    var power_obj = {
+      active: reply
+    }
+    if(typeof reply === 'undefined'){
+      power_obj.active = 'true'
+    }
+    socket.emit('update_stream_status', power_obj)
+    console.log(power_obj.active)
+  })
+
   client.lrange('unlocks', 0, -1, function(err, reply){
     var init_unlocks = reply;
     console.log("unlocked songs");
@@ -135,6 +146,30 @@ io.on('connection', function(socket){ //this is when new user connects
         console.log(reply)
         io.sockets.emit('update_unlock_status', obj);
       })
+    })
+  })
+
+  socket.on('turnon', function(){
+    client.set('power', 'true')
+    console.log('turnon')
+    client.get('power', function(err, reply){
+      var reply_obj={
+        active: reply
+      }
+      console.log(reply_obj)
+      io.sockets.emit('update_stream_status', reply_obj)
+    })
+  })
+
+  socket.on('turnoff', function(){
+    client.set('power', 'false')
+    console.log('turnoff')
+    client.get('power', function(err, reply){
+      var reply_obj={
+        active: reply
+      }
+      console.log(reply_obj)
+      io.sockets.emit('update_stream_status', reply_obj)
     })
   })
 

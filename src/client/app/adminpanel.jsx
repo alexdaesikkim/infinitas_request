@@ -36,6 +36,7 @@ class AdminPanel extends React.Component {
       diff_constraints: diff_array,
       level_constraints: levels,
       message: false,
+      active: true,
       requests: []
     }
     this.removeAllSongs = this.removeAllSongs.bind(this);
@@ -43,6 +44,13 @@ class AdminPanel extends React.Component {
   }
 
   componentDidMount(){
+    socket.on("update_stream_status", data =>{
+      var active_bool = data.active;
+      this.setState({
+        active: (active_bool === 'true')
+      })
+    })
+
     socket.on("constraint_update", data => {
       var difficulty = data.diff_constraints;
       var levels = data.level_constraints;
@@ -96,6 +104,14 @@ class AdminPanel extends React.Component {
     socket.emit("constraints", obj)
   }
 
+  turnOnRequest(){
+    socket.emit("turnon");
+  }
+
+  turnOffRequest(){
+    socket.emit("turnoff");
+  }
+
   removeAllSongs(){
     socket.emit("clear");
   }
@@ -115,6 +131,13 @@ class AdminPanel extends React.Component {
             {song_requests}
           </div>
           <div className="col-4">
+            Power:
+            <br/>
+            <div className="btn-group" role="group" aria-label="Active Panel">
+              <button type="button" onClick={() => this.turnOnRequest()} className={"btn " + (this.state.active? "btn-active" : "btn-inactive")}>ON</button>
+              <button type="button" onClick={() => this.turnOffRequest()} className={"btn " + (this.state.active? "btn-inactive" : "btn-active")}>OFF</button>
+            </div>
+            <br/>
             Difficulties:
             <br/>
             <div className="btn-group" role="group" aria-label="Basic example">

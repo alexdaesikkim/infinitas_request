@@ -66,6 +66,7 @@ class UserPage extends React.Component {
       diff_constraints: [false, false, false, false],
       level_constraints: [false, false, false, false, false, false, false, false, false, false, false, false],
       message: false,
+      active: true,
       requests: []
     }
     //figure out a way to remove raw_songs as it creates technical debt
@@ -152,6 +153,15 @@ class UserPage extends React.Component {
   }
 
   componentDidMount(){
+
+    socket.on("update_stream_status", data => {
+      var active_bool = data.active;
+      console.log(data.active)
+      this.setState({
+        active: (active_bool === 'true')
+      })
+    })
+
     socket.on("request_update", data => {
       var queue = data.queue.map(id =>{
         var difficulty = id.charAt(0)
@@ -279,11 +289,8 @@ class UserPage extends React.Component {
         var reduce_value = obj.songs.reduce(function(obj1, obj2){
           return obj1 && obj2.locked
         }, true)
-        console.log(obj.version)
-        console.log(reduce_value)
         if(reduce_value) return null;
         else{
-          console.log(reduce_value)
           var version_songs = obj["songs"]
           var version = obj["version"]
           var version_songs_rendered = version_songs.map(function(song){
@@ -318,7 +325,16 @@ class UserPage extends React.Component {
     var lvls = str_lvls.reduce(function(str1, str2){
       return str1 + " " + str2;
     })
-    return(
+    if(!this.state.active) return(
+      <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <h5>Requesting is currently disabled</h5>
+          </div>
+        </div>
+      </div>
+    )
+    else return(
       <div className="container">
         <div className="row">
           <div className="col-3">
