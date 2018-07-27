@@ -121,7 +121,6 @@ def parse_raw(rows):
         "beatmania IIDX 25 CANNON BALLERS",
         "beatmania IIDX INFINITAS",
     ]
-    count = 0
     version_id = 0
     version_songs = []
     version = ""
@@ -157,7 +156,6 @@ def parse_raw(rows):
                     version_id += 1
                 version_songs = []
         if len(cols) == 12:
-            count += 1
             #basic
             #if it ends in leggendaria, there's only another difficulty
             #if it ends with hcn just nope
@@ -215,11 +213,13 @@ if os.path.isfile("src/client/app/infinitas.json"):
     # huge chance new list might have more versions
     old_index = 0
     for new_index in range(len(songs)):
-        if(data_songs[old_index]["version"] != songs[new_index]["version"]):
+        if not (data_songs[old_index]["version"] == songs[new_index]["version"]):
+            print("hit")
             for n in range(len(songs[new_index]["songs"])):
                 songs[new_index]["songs"][n]["id"] = n
             new_index += 1
         elif(data_songs[old_index]["count"] != songs[new_index]["count"]):
+            print("hit2")
             new_id = data_songs[old_index]["count"]
             o = 0
             for n in range(songs[new_index]["count"]):
@@ -230,8 +230,13 @@ if os.path.isfile("src/client/app/infinitas.json"):
                     songs[new_index]["songs"][n]["id"] = data_songs[old_index]["songs"][o]["id"]
                     o += 1
             old_index += 1
+        else:
+            for index in range(songs[new_index]["count"]):
+                songs[new_index]["songs"][index]["id"] = data_songs[old_index]["songs"][index]["id"]
+            old_index += 1
 else:
     for version in range(len(songs)):
+        print(version)
         for index in range(songs[version]["count"]):
             songs[version]["songs"][index]["id"] = index
 

@@ -30,7 +30,7 @@
             "3": 7
           },
           "genre": "DIGI-ROCK",
-          "id": 0,
+          "id": 1,
           "pack": "",
           "title": "GRADIUSIC CYBER"
         },
@@ -45,7 +45,7 @@
             "3": 6
           },
           "genre": "RAVE",
-          "id": 0,
+          "id": 2,
           "pack": "",
           "title": "R3"
         },
@@ -60,7 +60,7 @@
             "3": 5
           },
           "genre": "TECHNO",
-          "id": 0,
+          "id": 3,
           "pack": "",
           "title": "22DUNK"
         },
@@ -75,7 +75,7 @@
             "3": 10
           },
           "genre": "PIANO AMBIENT",
-          "id": 0,
+          "id": 4,
           "pack": "",
           "title": "5.1.1."
         }
