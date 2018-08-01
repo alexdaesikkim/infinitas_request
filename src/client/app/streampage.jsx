@@ -48,6 +48,7 @@ class StreamPage extends React.Component {
         var song_id = version_song.slice(underscore_index+1);
         console.log(this.state.raw_songs)
         console.log(version_id)
+        version_id = (version_id === "100") ? this.state.raw_songs.length-1 : version_id
         var queue_song = this.state.raw_songs[version_id][song_id];
         var diff = (difficulty === 'b' ? 0 : (difficulty === 'n' ? 1 : (difficulty === 'h' ? 2 : 3)));
         console.log(queue_song)

@@ -66,16 +66,17 @@ class AdminPanel extends React.Component {
         var difficulty = id.charAt(0);
         var version_song = id.slice(1);
         var underscore_index = version_song.indexOf('_');
-        var version_id = version_song.substring(0,underscore_index);
+        var orig_version_id = version_song.substring(0,underscore_index);
         var song_id = version_song.slice(underscore_index+1);
         console.log(this.state.raw_songs)
         console.log(version_id)
+        var version_id = (orig_version_id === "100") ? this.state.raw_songs.length-1 : orig_version_id
         var queue_song = this.state.raw_songs[version_id][song_id];
         var diff = (difficulty === 'b' ? 0 : (difficulty === 'n' ? 1 : (difficulty === 'h' ? 2 : 3)));
         console.log(queue_song)
         var obj = {
           id: song_id,
-          version_id: version_id,
+          version_id: orig_version_id,
           title: queue_song.title,
           artist: queue_song.artist,
           version: queue_song.version,

@@ -184,8 +184,9 @@ class UserPage extends React.Component {
       })
       var queue_list = queue.map(obj =>{
         var diff = (obj.difficulty === "b" ? 0 : (obj.difficulty === "n" ? 1 : (obj.difficulty === "h" ? 2 : 3)))
-        var song_name = this.state.raw_songs[obj.version_id][obj.id]["title"]
-        var level = this.state.raw_songs[obj.version_id][obj.id]["difficulty"][diff]
+        var version_id = (obj.version_id === "100") ? this.state.raw_songs.length-1 : obj.version_id
+        var song_name = this.state.raw_songs[version_id][obj.id]["title"]
+        var level = this.state.raw_songs[version_id][obj.id]["difficulty"][diff]
         var return_obj = {
           name: song_name,
           diff: "["+ obj.difficulty.toUpperCase() + "]",
