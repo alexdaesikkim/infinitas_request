@@ -46,3 +46,11 @@ td.no_match {
     text-align: center;
     vertical-align: middle;
 }
+
+.btn-active {
+  background-color: #333333
+}
+
+.btn-inactive{
+  background-color: #DDDDDD
+}

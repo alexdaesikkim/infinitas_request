@@ -8,6 +8,7 @@ class UserPage extends React.Component {
   constructor(props){
     super(props);
     var raw_songs = [];
+    var random_songs = [[],[],[],[],[],[],[],[],[],[],[],[]];
     var song_count = 0;
     var songs = song_list["songs"].map(function(obj){
       var version = obj["version"];
@@ -17,6 +18,7 @@ class UserPage extends React.Component {
 
       var version_songs = orig_songs.map(function(song){
         var object = song;
+        var song_id = "";
         object["b_queue"] = false;
         object["n_queue"] = false;
         object["h_queue"] = false;
@@ -34,6 +36,22 @@ class UserPage extends React.Component {
         object["version_id"] = version_id;
         object["raw_id"] = song_count;
         song_count++;
+        if(song.difficulty[0] !== -1){
+          song_id = "b" + version_id + "_" + song.id
+          random_songs[song.difficulty[0]-1].push(song_id)
+        }
+        if(song.difficulty[1] !== -1){
+          song_id = "n" + version_id + "_" + song.id
+          random_songs[song.difficulty[1]-1].push(song_id)
+        }
+        if(song.difficulty[2] !== -1){
+          song_id = "h" + version_id + "_" + song.id
+          random_songs[song.difficulty[2]-1].push(song_id)
+        }
+        if(song.difficulty[3] !== -1){
+          song_id = "a" + version_id + "_" + song.id
+          random_songs[song.difficulty[3]-1].push(song_id)
+        }
         version_list.push(object);
         return object
       })
@@ -59,6 +77,7 @@ class UserPage extends React.Component {
       raw_songs: raw_songs,
       version_songs: songs,
       orig_song_list: songs,
+      random_songs: random_songs,
       search_term: '',
       level_field: '',
       version_lengths: version_lengths,
@@ -74,6 +93,7 @@ class UserPage extends React.Component {
     this.removeAllSongs = this.removeAllSongs.bind(this);
     this.titleFilter = this.titleFilter.bind(this);
     this.levelFilter = this.levelFilter.bind(this);
+    this.randomSong = this.randomSong.bind(this);
   }
 
   songsFilter(search_term, level_field){
@@ -172,7 +192,7 @@ class UserPage extends React.Component {
         var version_id = version_song.substring(0,underscore_index);
         var song_id = version_song.slice(underscore_index+1);
         //pending on where underscore is, splice there
-        if(version_id === 100){
+        if(version_id === "100"){
           version_id = this.state.raw_songs.length-1;
         }
         var obj={
@@ -184,9 +204,8 @@ class UserPage extends React.Component {
       })
       var queue_list = queue.map(obj =>{
         var diff = (obj.difficulty === "b" ? 0 : (obj.difficulty === "n" ? 1 : (obj.difficulty === "h" ? 2 : 3)))
-        var version_id = (obj.version_id === "100") ? this.state.raw_songs.length-1 : obj.version_id
-        var song_name = this.state.raw_songs[version_id][obj.id]["title"]
-        var level = this.state.raw_songs[version_id][obj.id]["difficulty"][diff]
+        var song_name = this.state.raw_songs[obj.version_id][obj.id]["title"]
+        var level = this.state.raw_songs[obj.version_id][obj.id]["difficulty"][diff]
         var return_obj = {
           name: song_name,
           diff: "["+ obj.difficulty.toUpperCase() + "]",
@@ -277,11 +296,62 @@ class UserPage extends React.Component {
     socket.emit("clear");
   }
 
+  checkIfValid(id){
+    var difficulty = id.charAt(0);
+    var version_song = id.slice(1);
+    var underscore_index = version_song.indexOf('_');
+    var version_id = version_song.substring(0,underscore_index);
+    var song_id = version_song.slice(underscore_index+1);
+    if(version_id === "100"){
+      version_id = this.state.raw_songs.length-1;
+    }
+    var song = (this.state.version_songs[version_id]["songs"][song_id]);
+    var diff_id = (difficulty === "b" ? 0 : (difficulty === "n" ? 1 : (difficulty === "h" ? 2 : 3)))
+    var request_string = song["title"] + " [" + difficulty.toUpperCase() + "] " + song["difficulty"][diff_id]
+    console.log(this.state.requests)
+    console.log(request_string)
+    return !song[difficulty+"_locked"] && !this.state.requests.includes(request_string)
+  }
+
+  shuffle(array, size){
+    for(var i = 0; i < size; i++){
+      var j = Math.floor((Math.random() * (size-i)) + i);
+      var temp = array[i];
+      array[i] = array[j];
+      array[j] = temp;
+    }
+    return array;
+  }
+
+  randomSong(level){
+    var songs = this.shuffle(this.state.random_songs[level-1], this.state.random_songs[level-1].length);
+    var i = 0;
+    var check = true;
+    while(check && i < songs.length){
+      if(this.checkIfValid(songs[i])){
+        check = false;
+      }
+      else{
+        i += 1
+      }
+    }
+    if(i !== songs.length){
+      socket.emit("song_request", songs[i])
+    }
+  }
+
   render (){
     //this.state.requests now holds fully parsed string. no need to do manual stuff here
-    var current_song_requests = (this.state.requests.length === 0 ? "" : this.state.requests.reduce(function(str1, str2){
-      return str1 + ", " + str2
-    }))
+    var current_song_requests = this.state.requests.length === 0 ? null : (
+      this.state.requests.map(function(str){
+        return(
+          <div>
+            {str}
+            <br/>
+          </div>
+        )
+      })
+    )
     var x = 0;
     var orig_song_list = (this.state.search_term === '' && this.state.level_field === '') ? this.state.version_songs : this.state.filtered_songs;
     var orig_songs_rendered = orig_song_list.map(function(obj){
@@ -339,18 +409,44 @@ class UserPage extends React.Component {
       <div className="container">
         <div className="row">
           <div className="col-3">
-            <h5>Current Requests:</h5>
-            {current_song_requests}
-            <br/>
             <h5>Current Request Constraints:</h5>
-            Allowed Difficulties:
+            Difficulties:
             <br/>
             {diffs}
             <br/>
             <br/>
-            Allowed Levels:
+            Levels:
             <br/>
             {lvls}
+            <br/>
+            <br/>
+            Random Song:
+            <br/>
+            <div className="btn-group" role="group" aria-label="Basic example">
+              <button type="button" onClick={this.state.level_constraints[0] ? "" : () => this.randomSong(1)} className={"btn " + (this.state.level_constraints[0]? "btn-active" : "btn-inactive")}>1</button>
+              <button type="button" onClick={this.state.level_constraints[1] ? "" : () => this.randomSong(2)} className={"btn " + (this.state.level_constraints[1]? "btn-active" : "btn-inactive")}>2</button>
+              <button type="button" onClick={this.state.level_constraints[2] ? "" : () => this.randomSong(3)} className={"btn " + (this.state.level_constraints[2]? "btn-active" : "btn-inactive")}>3</button>
+              <button type="button" onClick={this.state.level_constraints[3] ? "" : () => this.randomSong(4)} className={"btn " + (this.state.level_constraints[3]? "btn-active" : "btn-inactive")}>4</button>
+            </div>
+            <br/>
+            <div className="btn-group" role="group" aria-label="Basic example">
+              <button type="button" onClick={this.state.level_constraints[4] ? "" : () => this.randomSong(5)} className={"btn " + (this.state.level_constraints[4]? "btn-active" : "btn-inactive")}>5</button>
+              <button type="button" onClick={this.state.level_constraints[5] ? "" : () => this.randomSong(6)} className={"btn " + (this.state.level_constraints[5]? "btn-active" : "btn-inactive")}>6</button>
+              <button type="button" onClick={this.state.level_constraints[6] ? "" : () => this.randomSong(7)} className={"btn " + (this.state.level_constraints[6]? "btn-active" : "btn-inactive")}>7</button>
+              <button type="button" onClick={this.state.level_constraints[7] ? "" : () => this.randomSong(8)} className={"btn " + (this.state.level_constraints[7]? "btn-active" : "btn-inactive")}>8</button>
+            </div>
+            <br/>
+            <div className="btn-group" role="group" aria-label="Basic example">
+              <button type="button" onClick={this.state.level_constraints[8] ? "" : () => this.randomSong(9)} className={"btn " + (this.state.level_constraints[8]? "btn-active" : "btn-inactive")}>9</button>
+              <button type="button" onClick={this.state.level_constraints[9] ? "" : () => this.randomSong(10)} className={"btn " + (this.state.level_constraints[9]? "btn-active" : "btn-inactive")}>10</button>
+              <button type="button" onClick={this.state.level_constraints[10] ? "" : () => this.randomSong(11)} className={"btn " + (this.state.level_constraints[10]? "btn-active" : "btn-inactive")}>11</button>
+              <button type="button" onClick={this.state.level_constraints[11] ? "" : () => this.randomSong(12)} className={"btn " + (this.state.level_constraints[11]? "btn-active" : "btn-inactive")}>12</button>
+            </div>
+            <br/>
+            <br/>
+            <h5>Current Requests:</h5>
+              {current_song_requests}
+            <br/>
           </div>
           <div className="col-9">
             <div className="row">
